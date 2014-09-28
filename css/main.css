@@ -13,8 +13,9 @@ fieldset{border:0;margin:0;padding:0}
 textarea{resize:vertical}
 .browsehappy{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0}
 body{font-family:sans-serif;font-size:4em;color:#143f62;color:rgba(20,63,98,0.4);overflow:hidden}
-#layer0,#layer1,#layer2,#layer3{background-color:transparent}
+#layer0,#layer1,#layer2,#layer3,#layer4{background-color:transparent}
 #layer0{position:absolute;color:#3dd0fc;color:rgba(61,208,252,0.6);font-size:2.25em}
 #layer1{position:absolute;color:#2fbeff;color:rgba(47,190,255,0.3);font-size:3.25em}
 #layer2{position:absolute;color:#1aa0e9;color:rgba(26,160,223,0.5);font-size:1.25em}
 #layer3{position:absolute;color:#0da4fd;color:rgba(13,164,253,0.8);font-size:.75em}
+#layer4{position:absolute;color:#00d0ff;color:rgba(0,208,255,0.7);font-size:4em}
