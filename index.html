@@ -69,11 +69,11 @@
 		  var button = document.getElementById('button');
 		  var audio = document.getElementById('audio');
 
-		  var onClick = function() {
+		  var onTouch = function() {
 		    audio.play();
 		  };
 
-		  button.addEventListener('click', onClick, false);
+		  button.addEventListener('ontouchstart', onTouch, false);
 		</script>
 		</body>
 </html>
