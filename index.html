@@ -38,7 +38,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
+    <body id="button">
 		B̖̣͍͚̼͍̮̈͋ͪ̐ͤ̐̊͑ͭͯ͂̄̚Ṟ̣̮͚͖̘̥̦̹̖̓ͨͦͦͫͧ̾̚ͅI͓͈̗̻̮͔͕̠̯͉͇̦̘̪̦͎̩̲͋̑̍ͧ͑̓͑͒ͅA͙̙̻̭̦͇͉̣͈̺̤͔̣͎̲͖͆̔ͧ̀ͮ͊Ṉ͖̮̮̤̲̲̻͓̺̣̰͉ͫ̽̈́͋̆͊̊̔̉̉ͨ͗͌͋̋̀ ̺̗̞̭̫̖̝̯̬̩̝̲̻͎̟̜͉̊̈́̑͊̆̾̑̇̅ͯ͆̇̏ͅͅS͙̬͖͍͚̳͕̝͔̳͆͊̃ͭͫ͛̈́̋ͬ̐H̲̣̳̱̬̙̐ͭ̈́ͭ̈́̾̊̂̒́̌͌̐ͣ̃̊̔ͅU̳͚͈̲̼̯̺͈͙̙̇̆̈́ͨ̋M̜͔̪̭̥͔̣̯̩̟̞̲̖͖̬̄ͪͥ̉̏̂̽͐̓͌́͛̒ͣͫ͒̚̚A͈̬̟̟͚̻̓̈́̈́͛ͬͫ̿̓T̳͍̲̲͍̼̩͚͍͍̲͕̹̲̉͐ͪͭ̎̄̂̎̂̈̓͐̌Ẽ̤̹͚͓̇͆̎̒̓̎̉̽ͦͭ̄̔͛̈́
 			<div id="layer0">
 			S̤͙͙͖̙̼͇̖̯͔̜̹͈͈̉ͯ̔͂̽̓ͦ̔ͬ͌ͨ̂ͭ̅ͣ̿ͣṫ̠̼͓̘̎ͫ͒̾ͭ́̍ͥ̓̃̑̄̽̚ă͇̦͍̯͈̦̗̗͓̭̰̭̥̘̣̻̱̓ͣ̒̽ͅr̜̥̫̣̤ͤ̈́̅̉̉̄̈̍ͯ͋̊ͦ͛̀͒ͩͅs̘̱̯̗̩̲̠̱͉̖̮̹̫̙͚ͫ̏ͦ̃̄̃͛̓͋ͣ̾̅̈̿ͫ̎̎̍ͅ ̪̭̺̪͒͑ͤ͂̏ͭͬͧ̍̓͆ͧ̅̆̚̚s̠̦̮͍ͬ̌ͩ͑͂̂͊ͩ̔̓͊̚̚m͉͖̘͕͍̦̺͓͙͙̪̣͎̺̤̫̬ͭ͑̽̌͐̈͐̋̈͒ͩ̇̈̈́͋̌ͣi̠̟͈̺͚̞̪̺̳̥̰̻̼̦̝̯̇̽ͣͯ̈́ͪ͑͌l͚̼͎̯̼̯̟͔̲̺ͥͥ̃̏̏ͩ̈̐͗̎̒̉ͤ̚e̤̞͇̖̭ͬ͊͐͂̏̋̏̅̚d͍̰̺̬̪̣̜̈̑ͤ̓ ̤̖̜͓̰̤̥͎̬̫̝̘̱͙̅̄̇͛̈̎̄͒ͨͯ̏͐u̥̖͔͓͔͉͕͎̻͇̒̈͂͛͂ͩ̀̂p͎͚͓̳̜͆ͫͬͤ̓͒ͨ̃ͬͤo̹͔̱̭̱̬̺̳̥̜̿̒͆͌n̳̠̠͉̯̲̳̺̭͓͈̰̤̻̒͌͋ͧ͗ͤͅͅ ̣͉͔̲̭̣ͤ͊ͭ͌̎ͦ̿̈̈́̓m͓͖̜̘̯̥̥̘̈́̽̍ͧͩͤ͑̀͐̂͆͑͊̉ͬě͖͙͚̰̪̗̘̣̹̯̼̜̟̻ͫ̽̀͌ͦ̔̿ͨ̄̿̉ͪ̑ͅ ̗̲̙͎̩̭͕͚͍͈͇̤̤̝̯̽ͨͤ͒ͭ̑̑
@@ -64,6 +64,16 @@
     <div id="layer4">
 		  ᏣᎳᎩ
 		</div>
-		<audio src="snd/snl_message.mp3" preload="auto" autoplay></audio>
+		<audio id="audio" src="snd/snl_message.mp3" preload="auto" autoplay></audio>
+		<script type="text/javascript">
+		  var button = document.getElementById('button');
+		  var audio = document.getElementById('audio');
+
+		  var onClick = function() {
+		    audio.play();
+		  };
+
+		  button.addEventListener('click', onClick, false);
+		</script>
 		</body>
 </html>
