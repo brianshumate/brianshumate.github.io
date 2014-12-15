@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J. Brian Shumate</title>
+    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://localhost:8080</link>
+    <description>Personal journal of art &amp; nerdery</description>
+    <pubDate>Sat, 13 Dec 2014 19:00:00 -0500</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Playing with Fire</title>
+      <link>http://localhost:8080/articles/playing-with-fire/</link>
+      <pubDate>Sat, 13 Dec 2014 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/playing-with-fire/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;em&gt;For CHARGAUX&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Chill
+    is how calmly grooving
+    contentment on all faces
+    around the square can
+    best be described in words
+
+Fire
+    shaped like two young and
+    beautiful black women who
+    delicately and expertly
+    shred notes immortal out
+    of strings in their hands
+Four
+    wondrous human souls who
+    lit this fire then tend to
+    the heart-churning burning
+    with casual determination
+    and grace of immersion
+Fire
+    gently burns the center of
+    space and casts auditory
+    warmth to all who will
+    receive its flickering flow
+Vibe
+    swaddles my heart like
+    a mother&amp;#39;s warm arms and
+    kisses my face with glowing
+    soothing sunshine sounds
+Peace
+    ringing strings and earthen
+    rumbling drums sound out
+    a rhythm of tranquility—
+    joy delivered through music
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>voxel.js</title>
+      <link>http://localhost:8080/articles/voxel-js/</link>
+      <pubDate>Wed, 28  Aug 2013 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/voxel-js/</guid>
+      <author></author>
+      <description>&lt;p&gt;In the last several months, I’ve been playing around with
+&lt;a href=&quot;http://voxeljs.com/&quot;&gt;voxel.js&lt;/a&gt;. It’s been great fun with my kids, and useful
+for helping to teach my daughter programming with JavaScript.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/voxel-js/voxeljs.jpg&quot; alt=&quot;Voxel.js&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Both kids love it for its similarities to Minecraft, and I appreciate
+its open source nature and the ability to do things in the browser by default.&lt;/p&gt;
+&lt;p&gt;If you haven’t yet checked out voxel.js, I highly encourage you to do so; it
+was built and is maintained by some really cool people, and is a ton of fun
+to play with.&lt;/p&gt;
+&lt;p&gt;The project was built with the &lt;a href=&quot;http://nodejs.org/&quot;&gt;Node.js&lt;/a&gt; JavaScript
+platform, is heavily reliant on &lt;a href=&quot;http://threejs.org/&quot;&gt;three.js&lt;/a&gt;, and is
+relatively simple to get up and running on your own computer or on a server
+near you.&lt;/p&gt;
+&lt;p&gt;Moving around in the voxel.js world relies on web browser support for mouse
+lock (also called &lt;em&gt;pointer lock&lt;/em&gt;) which is supported in contemporary versions
+of Chrome and Firefox at least. I have not personally it tried with other web
+browsers.&lt;/p&gt;
+&lt;p&gt;There are numerous modules which can be used to extend the basic functionality
+supplied with voxel.js so that you can introduce characters (&lt;em&gt;critters&lt;/em&gt;),
+change physics, play audio, interact with objects, and much more.&lt;/p&gt;
+&lt;p&gt;There’s even a Voxel Critter Creator, which you can use to design different
+critters for use with voxel.js, and it is pretty simple to import existing
+Minecraft skins as well.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/voxel-js/voxel_critter.jpg&quot; alt=&quot;A voxel critter&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;A neat little red couch voxel “critter”, ready to be used in
+  a voxel world or NoSQL database use case near you ;)&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;All in all, voxel.js is probably one of the coolest JavaScript and game
+focused projects going for introducing novice programmers to more advanced
+concepts while having a fun time.&lt;/p&gt;
+&lt;p&gt;Check it out and don’t forget to marvel at the sheer magnificence that is
+Max Ogden’s beard!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Vegan Life</title>
+      <link>http://localhost:8080/articles/vegan-life/</link>
+      <pubDate>Sun, 21 Apr 2013 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/vegan-life/</guid>
+      <author></author>
+      <description>&lt;p&gt;I was made aware of a fun website called &lt;a href=&quot;http://thugkitchen.com/&quot;&gt;Thug Kitchen&lt;/a&gt; full of great recipes and knowledge aimed
+at helping one “Eat like you give a fuck”.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/vegan-life/vegan_life.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Stay stacking dat produce, playa!&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Since the &lt;a href=&quot;https://twitter.com/caseyrosenthal&quot;&gt;fine fellow&lt;/a&gt; who shared the link on Twitter often advocates a vegan
+diet, which I think is pretty cool (&lt;em&gt;working on it&lt;/em&gt;), I made the quick little
+tattoo style thing you see above as a thank you to him for his inspiration.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Surviving San Francisco</title>
+      <link>http://localhost:8080/articles/surviving-san-francisco/</link>
+      <pubDate>Fri, 22 Mar 2013 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/surviving-san-francisco/</guid>
+      <author></author>
+      <description>&lt;p&gt;I just got back from San Francisco. It was great to see and meet some of the
+folks I’d not seen in a long time or even met yet, and for that I am thankful
+to have been to the conference I attended there.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/surviving-san-francisco/three_wise_mushrooms.jpg&quot; alt=&quot;pipe caps painted to look like mushrooms&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Three Wise Mushrooms&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;I might or might not have also learned a great deal there too, but the jury
+is still out on that. (&lt;em&gt;insert nervous laughter here&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;Surviving the trip and returning to &lt;em&gt;the south&lt;/em&gt; is also a rewarding
+feeling as I am developing a severe dislike of the American travel by airline
+experience as I age, and am prone to shutting down during the worst of times
+while enduring said travel.&lt;/p&gt;
+&lt;p&gt;All that out of the way, this post is about art and photographs. I took
+far fewer photographs with my trusty smart phone this time around than ever,
+which is both liberating from the perspective of just being in the moment,
+but also kind of a bummer in hindsight now that I look over what I was
+actually able to capture.&lt;/p&gt;
+&lt;p&gt;Here then are a few different shots that I think represent my mindset in
+taking in the particularly nasty, brutish, and short experience of that
+area known as &lt;em&gt;Union Square&lt;/em&gt;. While there is filth everywhere in sight,
+sound, and smell, there is a also a &lt;em&gt;beauty of the struggle&lt;/em&gt; and in the simple
+artistic expression hidden all around the area as typified by the first
+photograph above.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/surviving-san-francisco/stay_warm.jpg&quot; alt=&quot;homeless person under blanket&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Stay Warm&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Amidst the everyday consumption and tunnel visioned quests for greater
+prosperity going on in the city are of course, the numerous homeless people.
+They’re essentially lamp posts, hydrants, or excrement to most area “natives”
+and are to be stepped around or over as such.&lt;/p&gt;
+&lt;p&gt;They’re to be tuned out like so many advertisements and graffiti. Never mind
+that they too are human beings; they are &lt;em&gt;different human beings&lt;/em&gt;, a
+sub-species unlike the rest of us upwardly mobile and privileged who fight
+to keep our shit together within the system so that we might have loved ones
+and a place to come home to at the end of each day.&lt;/p&gt;
+&lt;p&gt;The streets are cold and unforgiving, so a good drunken stupor and warm
+blanket are the coping mechanism needed by most at the end of the night.&lt;/p&gt;
+&lt;p&gt;If you do not share the above cold and inhumane view of these persons, and
+on the contrary have even half a conscience, you can’t help but know a taste
+of Siddartha’s painful conflicted state by gazing upon those less fortunate in
+their most vulnerable condition.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/surviving-san-francisco/castro_trolley.jpg&quot; alt=&quot;The F line&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;The F Line&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Here is a more typical capture one expects to see from San Francisco; the
+famous F Line trolley that runs from The Embarcadero all the way to The
+Castro. Everyone who’s studied or been to San Francisco knows these iconic and
+charmingly antiquated modes of transportation.&lt;/p&gt;
+&lt;p&gt;They’re simultaneously bold and comforting in that they stand out from all
+the surrounding modernity while providing a perpetual shout out to how it
+used to be.&lt;/p&gt;
+&lt;p&gt;The early morning light present when I spotted her slowly creaking by on
+Market Street was nothing short of spectacular and this photograph barely
+even begins to convey what I saw that day.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/surviving-san-francisco/stacks.jpg&quot; alt=&quot;A distant building and some sort of stack&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Silent Stacks&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;The city’s collection of weight never fails to impress upon me; be it
+skyscrapers or smokestacks. One can be doing the most mundane of things, such
+as fetching a morning coffee and in turning around to face another direction,
+the city will reveal her various juxtaposed collections of mass.&lt;/p&gt;
+&lt;p&gt;Sheer size and weight counterpoised against our small selves and little lives
+is both disturbing and exciting. We built this spectacular city and in turn,
+the city builds into us an awe at every moment where the unexpected looms
+over any scene it seems to not belong in.&lt;/p&gt;
+&lt;p&gt;That’s the name of the game here, a paradox of plenty and of nothing &amp;mdash; a balance of extremes that is constantly in motion and always on the horizon.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/surviving-san-francisco/yellow.jpg&quot; alt=&quot;homeless shoeless man wearing yellow&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Yellow was Van Gogh’s Favorite Color&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;A homeless man stands out like an anti-ghost of the streets; not panhandling,
+not scrounging the sidewalk for cigarette butts, and not really interacting
+with anyone in particular.&lt;/p&gt;
+&lt;p&gt;He exists there in bold and blazing yellow, like a confused captain whose
+ship has recently run aground, appraising the situation of a new day and contemplating his survival. Or is he merely pondering on where he can
+score a new pair of shoes?&lt;/p&gt;
+&lt;p&gt;Seeing his bare feet, I could not help but be reminded that there was a pair
+of shoes lying on the sidewalk presumably without an owner just blocks away…&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Alpacawhal</title>
+      <link>http://localhost:8080/articles/alpacawhal/</link>
+      <pubDate>Tue, 26 Feb 2013 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/alpacawhal/</guid>
+      <author></author>
+      <description>&lt;p&gt;A mythical beast of supremely pointy compassion…&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/alpacawhal/alpacawhal.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;the-mighty-alpacawhal&quot;&gt;The Mighty Alpacawhal&lt;/h2&gt;
+&lt;p&gt;I wanted my own hybrid mythical creature because unicorns and gummy bears can
+only take the imagination so far. I pondered on this for a few days and came
+to the conclusion that combining a couple actual creatures from land and sea
+would have the effect I wanted.&lt;/p&gt;
+&lt;p&gt;Alpacawhal is the result of my pondering and subsequent rendering and I
+couldn’t be more pleased with it. In my imagination, Alpacawhal is a kind
+and compassionate creature, and it can often be aloof or even goofy, but if
+you fuck with it, it will throw down, lower its head, and gore your ass away.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Capacitor Cowgirl</title>
+      <link>http://localhost:8080/articles/capacitor-cowgirl/</link>
+      <pubDate>Sat, 23 Feb 2013 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/capacitor-cowgirl/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;strong&gt;This is not official Banksy anything.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/capacitor-cowgirl/bankruptsy_capacitor_cowgirl.png&quot; alt=&quot;The Capacitor Cowgirl&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This is just a mashup of original Banksy imagery with my own ideas.&lt;/p&gt;
+&lt;p&gt;I’m simply using the Banksy imagery for personal reasons, reasons which I
+will henceforth refer to as &lt;em&gt;Bankruptsy&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;With some degree of seriouness, I am free to use this imagery per the
+&lt;a href=&quot;http://www.banksy.co.uk/shop/shop21.html&quot;&gt;Banksy website shop&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You’re welcome to download whatever you wish from this site for personal
+use. However, making your own art or merchandise and passing it off as
+‘official’ or authentic Banksy artwork is bad and very wrong.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    <item>
+      <title>The Evolution of Mang</title>
+      <link>http://localhost:8080/articles/evolution-of-mang/</link>
+      <pubDate>Sat, 23 Feb 2013 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/evolution-of-mang/</guid>
+      <author></author>
+      <description>&lt;p&gt;This is where mang has arrived; stooped over and walking into hazards
+while actively communicating via technologies to people in ways they might
+not necessarily even do face-to-face on a daily basis any longer.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/evolution-of-mang/evolution_of_mang.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Fear not however, as the worlds largest advertising company is racing to
+save the day with a set of glasses which will complete the evolution of
+mang into a costly biological sensor network.&lt;/p&gt;
+&lt;p&gt;Now that’s progress!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Head Swap</title>
+      <link>http://localhost:8080/articles/head-swap/</link>
+      <pubDate>Sat, 23 Feb 2013 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/head-swap/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;strong&gt;This is not official Banksy anything.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/head-swap/bankruptsy_head_swap.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This is just a mashup of original Banksy imagery with my own ideas.&lt;/p&gt;
+&lt;p&gt;I’m simply using the Banksy imagery for personal reasons, reasons which I
+will henceforth refer to as &lt;em&gt;Bankruptsy&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;With some degree of seriouness, I am free to use this imagery per the
+&lt;a href=&quot;http://www.banksy.co.uk/shop/shop21.html&quot;&gt;Banksy website shop&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You’re welcome to download whatever you wish from this site for personal
+use. However, making your own art or merchandise and passing it off as
+‘official’ or authentic Banksy artwork is bad and very wrong.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    <item>
+      <title>Riak on FreeBSD ZFS Jails</title>
+      <link>http://localhost:8080/articles/riak-freebsd-jails-zfs/</link>
+      <pubDate>Tue, 22 May 2012 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/riak-freebsd-jails-zfs/</guid>
+      <author></author>
+      <description>&lt;p&gt;This is a ramshackle and slipshod introduction to establishing a specific
+flavor of FreeBSD environment under which to &lt;em&gt;evaluate&lt;/em&gt;, &lt;em&gt;test&lt;/em&gt;, or &lt;em&gt;play&lt;/em&gt;
+with &lt;a href=&quot;http://basho.com/products/riak-overview/&quot;&gt;Riak&lt;/a&gt;, the fantastic
+distributed database by Basho Technologies, Inc.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PLEASE NOTE: This content contains outdated and possibly irrelevant information.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The configuration and processes described in this guide &lt;strong&gt;should not&lt;/strong&gt;
+be construed as advice for use in production environments. Providing
+such information is beyond the scope of this guide as well.&lt;/p&gt;
+&lt;h2 id=&quot;goals-for-this-guide&quot;&gt;Goals For This Guide&lt;/h2&gt;
+&lt;p&gt;Let’s get a clear understanding of what I’m going to be describing to you in
+this guide out of the way before we roll up our sleeves and commence to hasty
+typing, bug smashing, and eventual triumphant success with accompanying
+celebratory beverages.&lt;/p&gt;
+&lt;p&gt;The point of this guide is do something closely resembling the following on
+my modest bare metal quad-core machine with only 16GB RAM, and approximately 200GB of SAS 10k rotational storage:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install FreeBSD (I am using 8.3 for my example system) on suitable hardware for running a small &lt;strong&gt;test&lt;/strong&gt; Riak cluster.&lt;/li&gt;
+&lt;li&gt;Configure the system to function as a jail environment host and allocate some of the available storage for a ZFS zpool for jail environments.&lt;/li&gt;
+&lt;li&gt;Use ezjail with ZFS specific functionality to create a base jail environment plus a flavor of jail which will comprise each Riak node&lt;/li&gt;
+&lt;li&gt;Creation and minimal configuration of each Riak node&lt;/li&gt;
+&lt;li&gt;Launch nodes, join nodes, and test our cluster in various ways&lt;/li&gt;
+&lt;li&gt;Discuss minimal system tuning for best use in certain scenarios&lt;/li&gt;
+&lt;li&gt;Discuss tools for operational and performance testing and monitoring of the cluster (ex: Basho Bench, Riaknostic, Riemann)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;the-host-machine&quot;&gt;The Host Machine&lt;/h2&gt;
+&lt;p&gt;The following notes pertain to work done on the physical server for establishing a jails environment.&lt;/p&gt;
+&lt;h2 id=&quot;savor-the-riak-jail-flavor&quot;&gt;Savor The Riak Jail Flavor&lt;/h2&gt;
+&lt;p&gt;We will first build and lightly configure a Riak jail flavor, so that
+spinning up subsequent Riak nodes will take much less time. The goal here is
+to build a Riak node, and do initial common software package installation,
+but without any unique configuration.&lt;/p&gt;
+&lt;h3 id=&quot;riak-dependencies-supporting-software&quot;&gt;Riak, Dependencies &amp;amp; Supporting Software&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Riak 1.1.2&lt;/li&gt;
+&lt;li&gt;Erlang R14B04&lt;/li&gt;
+&lt;li&gt;Curl&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Screen&lt;/li&gt;
+&lt;li&gt;Sudo&lt;/li&gt;
+&lt;li&gt;Vim&lt;/li&gt;
+&lt;li&gt;Bash&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After the jail is booted, we can install Riak dependencies and supporting software. As of this writing and with FreeBSD 8.3-RELEASE, the ports tree offers Erlang R14B04, which is compatible with the Riak version 1.1.2 we’ll be using.&lt;/p&gt;
+&lt;p&gt;Use your preferred options/discretion for particular builds of the software ports listed below:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/ports/lang/erlang &amp;amp;&amp;amp; make install distclean
+&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/ports/ftp/curl &amp;amp;&amp;amp; make install distclean
+&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/ports/devel/git &amp;amp;&amp;amp; make install distclean
+&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/ports/sysutils/screen &amp;amp;&amp;amp; make install distclean
+&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/ports/security/&lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; &amp;amp;&amp;amp; make install distclean
+&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/ports/editors/vim-lite &amp;amp;&amp;amp; make install distclean
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Alternatively, you can install package versions of the above like so:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;pkg_add -r curl erlang git screen &lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; vim-lite
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;notes-for-building-riak-on-freebsd-8-3-release&quot;&gt;Notes for Building Riak on FreeBSD 8.3-RELEASE&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;The BSD make(1) dance&lt;/em&gt;: BSD has its own build toolchain in addition to some
+GNU build tools, such as &lt;code&gt;gmake&lt;/code&gt;. This  can pose an issue when building Riak,
+so we can perform a small, rather inelegant, but temporary workaround:&lt;/p&gt;
+&lt;p&gt;From within the jail host:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; /usr/local/jails/basejail/usr/bin
+mv make bsd-make
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;From within the jail being used to build the Riak flavor:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;ln -sf /usr/local/bin/gmake /usr/local/bin/make
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we can download the Riak 1.1.2 source, and compile a &lt;code&gt;rel&lt;/code&gt; release on the initial node:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;curl -O downloads.basho.com.s3-website-us-east-&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;.amazonaws.com/riak/&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;/&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;.&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;/riak-&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;.&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;.tar.gz
+tar zxf riak-&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;.&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;.tar.gz
+&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; riak-&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;.&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;
+gmake rel
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Provided the build was successful, you now have a complete Riak node
+contained in &lt;code&gt;rel/riak&lt;/code&gt;. Check out the official Basho documentation on
+&lt;a href=&quot;http://docs.basho.com/riak/latest/cookbooks/Basic-Cluster-Setup/&quot;&gt;Basic Cluster Setup&lt;/a&gt; to learn about configuring a Riak cluster.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: Don’t forget to undo the hackity &lt;code&gt;gmake&lt;/code&gt;/&lt;code&gt;make&lt;/code&gt; jigglings so that
+you’ll be able to build ports, etc. later.&lt;/p&gt;
+&lt;p&gt;Wash hands, dry on pants and so forth.&lt;/p&gt;
+&lt;p&gt;At this point, one can also use &lt;code&gt;git&lt;/code&gt; to pull in custom environment
+settings, dotfiles, etc. to ease operation and administration of the nodes.&lt;/p&gt;
+&lt;h2 id=&quot;system-tuning-notes&quot;&gt;System Tuning Notes&lt;/h2&gt;
+&lt;p&gt;Here are some minimal system tuning notes. If you want more detailed
+information, see Basho’s &lt;a href=&quot;http://docs.basho.com/riak/latest/cookbooks/Linux-Performance-Tuning/&quot;&gt;system tuning documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;open-files-limit&quot;&gt;Open Files Limit&lt;/h3&gt;
+&lt;p&gt;Riak opens many files during operation; ensure that the open files limit is
+set to an adequate level for operation. The default minimum value is &lt;code&gt;4906&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;mounting-with-noatime&quot;&gt;Mounting With noatime&lt;/h3&gt;
+&lt;p&gt;Make sure that you use the &lt;code&gt;noatime&lt;/code&gt; option for mounting any volumes
+which will store Riak data.&lt;/p&gt;
+&lt;h2 id=&quot;clustering-notes&quot;&gt;Clustering Notes&lt;/h2&gt;
+&lt;p&gt;After bootstrapping each node, you’ll need to assemble them into a cluster.
+In this example, I’ve got five nodes using a resolvable fully qualified
+domain name scheme like this: &lt;code&gt;riak1.example.com&lt;/code&gt;, &lt;code&gt;riak2.example.com&lt;/code&gt;, …&lt;/p&gt;
+&lt;p&gt;A great start to understanding building a basic cluster is the Basho
+documentation &lt;a href=&quot;http://docs.basho.com/riak/latest/cookbooks/Basic-Cluster-Setup/&quot;&gt;Basic Cluster Setup&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The simplest process for joining the nodes to form a cluster is to issue the
+&lt;code&gt;riak-admin join&lt;/code&gt; command from N-1 nodes instructing them to join the first
+node, like so:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;ssh riak2.example.com riak-admin join riak@riak1.example.com
+Success: sent join request to &lt;span class=&quot;string&quot;&gt;'riak@riak1.example.com'&lt;/span&gt;
+ssh riak3.example.com riak-admin join riak@riak1.example.com
+Success: sent join request to &lt;span class=&quot;string&quot;&gt;'riak@riak1.example.com'&lt;/span&gt;
+ssh riak4.example.com riak-admin join riak@riak1.example.com
+Success: sent join request to &lt;span class=&quot;string&quot;&gt;'riak@riak1.example.com'&lt;/span&gt;
+ssh riak5.example.com riak-admin join riak@riak1.example.com
+Success: sent join request to &lt;span class=&quot;string&quot;&gt;'riak@riak1.example.com'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As shown in the above example, you should expect to see a success message for
+each node’s join attempt. If there are problems, you could see an error
+message instead.&lt;/p&gt;
+&lt;h3 id=&quot;riak-admin-ringready&quot;&gt;riak-admin ringready&lt;/h3&gt;
+&lt;p&gt;After a bit of time and provided you saw success messages for each join
+request, you can verify that the cluster is ready with a command like this
+executed from any of the nodes:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;ssh riak1.example.com riak-admin ringready
+Attempting to restart script through &lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; -H -u riak
+TRUE All nodes agree on the ring [&lt;span class=&quot;string&quot;&gt;'riak@riak1.example.com'&lt;/span&gt;,
+                                  &lt;span class=&quot;string&quot;&gt;'riak@riak2.example.com'&lt;/span&gt;,
+                                  &lt;span class=&quot;string&quot;&gt;'riak@riak3.example.com'&lt;/span&gt;,
+                                  &lt;span class=&quot;string&quot;&gt;'riak@riak4.example.com'&lt;/span&gt;,
+                                  &lt;span class=&quot;string&quot;&gt;'riak@riak5.example.com'&lt;/span&gt;]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Some other initial checks of the cluster you can try are &lt;code&gt;riak-admin test&lt;/code&gt;
+and gathering status through &lt;code&gt;riak-admin status&lt;/code&gt; and the HTTP interface.&lt;/p&gt;
+&lt;h3 id=&quot;riak-admin-test&quot;&gt;riak-admin test&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;ssh riak1.example.com riak-admin test
+Attempting to restart script through &lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; -H -u riak
+Successfully completed &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;read&lt;/span&gt;/write cycle to &lt;span class=&quot;string&quot;&gt;'riak@riak1.example.com'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;riak-admin-status&quot;&gt;riak-admin status&lt;/h3&gt;
+&lt;h3 id=&quot;http-stats&quot;&gt;HTTP stats&lt;/h3&gt;
+&lt;p&gt;Use curl to get stats from the HTTP interface like so:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;curl loadbalancer.example.com/stats
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can run &lt;code&gt;curl&lt;/code&gt; directly against your load balancer IP as in the
+example above or against something like &lt;code&gt;localhost:8098&lt;/code&gt; when on
+the node directly, but you &lt;strong&gt;should not expose Riak directly to any public
+interfaces&lt;/strong&gt;. Always run Riak behind some kind of load balancer or reverse
+proxy arrangement.&lt;/p&gt;
+&lt;h2 id=&quot;diagnose-manage-monitor&quot;&gt;Diagnose, Manage &amp;amp; Monitor&lt;/h2&gt;
+&lt;h3 id=&quot;diagnosing-issues&quot;&gt;Diagnosing Issues&lt;/h3&gt;
+&lt;p&gt;One great utility for performing initial diagnosis of troubles with your
+Riak cluster is &lt;a href=&quot;http://riaknostic.basho.com&quot;&gt;Riaknostic&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Riaknostic ties into the &lt;code&gt;riak-admin&lt;/code&gt; command, providing a &lt;code&gt;diag&lt;/code&gt; subcommand
+that can be run alone for a wealth of diagnostic or with options for specific
+checks.&lt;/p&gt;
+&lt;h3 id=&quot;managing-your-cluster&quot;&gt;Managing Your Cluster&lt;/h3&gt;
+&lt;p&gt;Riak is an operations friendly database and the included command line tools
+provide an excellent management interface. You are strongly encouraged to
+familiarize yourself with the &lt;code&gt;riak&lt;/code&gt; and &lt;code&gt;riak-admin&lt;/code&gt; commands if you will
+be interacting with Riak often via the command line.&lt;/p&gt;
+&lt;p&gt;Additional tools are available for managing Riak with a more user friendly,
+contemporary web user interface. The most popular of such tools is Basho’s own
+&lt;a href=&quot;http://docs.basho.com/riak/latest/references/appendices/Riak-Control/&quot;&gt;Riak Control&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;riak-control&quot;&gt;Riak Control&lt;/h4&gt;
+&lt;p&gt;Riak Control ships with Riak and can be enabled quite easily to provide a
+more visually oriented interface to Riak’s inner workings.&lt;/p&gt;
+&lt;p&gt;Riak Control provides the following functionality out of the box:&lt;/p&gt;
+&lt;p&gt;More functionality is in the works. Check out the &lt;a href=&quot;http://docs.basho.com/riak/latest/references/appendices/Riak-Control/&quot;&gt;official documentation for Riak Control&lt;/a&gt; to learn more.&lt;/p&gt;
+&lt;h3 id=&quot;performance-testing&quot;&gt;Performance Testing&lt;/h3&gt;
+&lt;p&gt;A popular tool for performance testing, bulk loading keys, and other testing
+odds and ends is &lt;a href=&quot;http://localhost:8080/articles/riak-freebsd-jails-zfs/(http://docs.basho.com/riak/latest/cookbooks/Benchmarking/&quot;&gt;Basho Bench&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Basho Bench can performance test various aspects of a system like Riak and
+then generate nice R based graphs as a final output option.&lt;/p&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://freebsd.org&quot;&gt;FreeBSD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.freebsd.org/doc/handbook/jails.html&quot;&gt;FreeBSD Jails&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.basho.com/riak/latest/&quot;&gt;Riak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.basho.com/riak/latest/cookbooks/Basic-Cluster-Setup/&quot;&gt;Basic Cluster Setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.basho.com/riak/latest/cookbooks/Linux-Performance-Tuning/&quot;&gt;Linux Performance Tuning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://riaknostic.basho.com&quot;&gt;Riaknostic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/basho/riaknostic&quot;&gt;Riaknostic Github project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.basho.com/riak/latest/references/appendices/Riak-Control/&quot;&gt;Riak Control&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/basho/riak_control&quot;&gt;Riak Control Github project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.basho.com/riak/latest/cookbooks/Benchmarking/&quot;&gt;Benchmarking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Questlonger</title>
+      <link>http://localhost:8080/articles/questlonger/</link>
+      <pubDate>Mon, 16 Jan 2012 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/questlonger/</guid>
+      <author></author>
+      <description>&lt;p&gt;My humble attempt at punctuation invention&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/questlonger/questlonger.png&quot; alt=&quot;The Questlonger&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Today I invented what I think is an exciting new form of punctuation.&lt;/p&gt;
+&lt;p&gt;Allow me to introduce the &lt;em&gt;Questlonger&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;What exactly &lt;em&gt;is&lt;/em&gt; a Questlonger? It’s a simple bit of punctuation that
+combines all of the unfinished tension of an ellipsis with the
+curiosity a question mark.&lt;/p&gt;
+&lt;p&gt;The intent is to demonstrate an unfinished question or question which will
+not readily be answerable in the text immediately surrounding a Questlonger.&lt;/p&gt;
+&lt;p&gt;Of course, were it not for the wonderful television show
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Futurama&quot;&gt;Futurama&lt;/a&gt;, I could not have so
+easily arrived at the name for such an odd thing.&lt;/p&gt;
+&lt;p&gt;For that, I am very grateful to the awesome Professor Farnsworth and his
+wonderful invention, the &lt;em&gt;Fing-Longer&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Maps with Public Data</title>
+      <link>http://localhost:8080/articles/maps-public-data/</link>
+      <pubDate>Mon, 12 Sep 2011 09:28:00 -0400</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/maps-public-data/</guid>
+      <author></author>
+      <description>&lt;p&gt;Lately, I’ve been having a great time working with public data and maps.
+The main reason that it has been so much fun revolves around the
+specific technology stack I am using to design and present them.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/maps-public-data/Zodiac_research.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE: This information is out of date and the embedded maps which used
+to exist here are now static screenshots.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The above screenshot shows one example of a San Francisco Bay Area map that
+I’ve been gradually working on as part of some map related research into
+providing a geographical context into a specific set of past events which
+occurred in that area (sorry for the vagueness).&lt;/p&gt;
+&lt;p&gt;I’ve been able to quickly create and present some visually interesting
+maps which convey useful data on a range of subjects using technologies
+from &lt;a href=&quot;http://mapbox.com&quot; title=&quot;MapBox&quot;&gt;MapBox&lt;/a&gt; such as
+&lt;a href=&quot;http://mapbox.com/#/tilemill&quot; title=&quot;TileMill&quot;&gt;TileMill&lt;/a&gt;,
+&lt;a href=&quot;http://mapbox.com/#/tilestream&quot; title=&quot;TileStream&quot;&gt;TileStream&lt;/a&gt;, and
+&lt;a href=&quot;http://mapbox.github.com/wax/&quot; title=&quot;Wax&quot;&gt;Wax&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here is a brief overview of the MapBox solution, and some of the maps I
+have recently created with it.&lt;/p&gt;
+&lt;h2 id=&quot;think-globally-map-locally&quot;&gt;Think globally, map locally&lt;/h2&gt;
+&lt;p&gt;As you’ll see, the following maps all center around my local area, and since
+I’m mostly experimenting with the technology right now, these maps are on
+random subjects, though I do strive to ensure they are accurate. Please
+tweet &lt;a href=&quot;http://twitter.com/brianshumate&quot;&gt;@brianshumate&lt;/a&gt; if
+you find any serious flaw, and I’ll do my best to fix it.&lt;/p&gt;
+&lt;h2 id=&quot;longboarding-spots-in-boone-north-carolina&quot;&gt;Longboarding spots in Boone, North Carolina&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/maps-public-data/Boone_longboarding_spots.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I’d previously made some nice maps with longboarding
+spots I frequent in Boone, NC based on
+&lt;a href=&quot;http://www.openstreetmap.org/&quot; title=&quot;OpenStreetMap&quot;&gt;OpenStreetMap&lt;/a&gt;, so I
+thought I’d do something like that with the MapBox tools first.&lt;/p&gt;
+&lt;p&gt;It’s worth noting that what you see in the above map is not just a
+service that I am pointing to and dropping markers on. This map was
+designed using &lt;a href=&quot;http://www.census.gov/geo/www/tiger/tgrshp2009/tgrshp2009.html&quot; title=&quot;2009 TIGER/Line&amp;reg; Shapefiles&quot;&gt;U.S. Census
+Bureau&lt;/a&gt;
+data combined with my own &lt;a href=&quot;http://geojson.org/&quot; title=&quot;GeoJSON&quot;&gt;GeoJSON&lt;/a&gt; data
+and styling rules using TileMill to arrive at the look and feel it has,
+including the styling of land areas, roadways, water bodies, marker
+data, and legends.&lt;/p&gt;
+&lt;p&gt;The TileMill application is available for OS X or Linux. It has a most excellent and intuitive user interface and will quickly feel familiar to web folks.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/maps-public-data/TileMill_user_interface.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The TileMill app (&lt;em&gt;shown in screen shot above&lt;/em&gt;) has an excellent browser
+based user interface where you use the CSS-like language
+&lt;a href=&quot;https://github.com/mapbox/carto&quot; title=&quot;carto styling language&quot;&gt;carto&lt;/a&gt; to
+define the styles for your map’s layers and data. There’s also a very
+handy carto reference built right into TileMill.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Carto&lt;/strong&gt; is an advanced CSS like language with nesting, variables, and
+other cool features similar to CSS meta languages like LESS and SASS.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;MBTiles&lt;/strong&gt; specification is an interesting new way to store map
+tilesets and their associated metadata in an SQLite database.&lt;/p&gt;
+&lt;p&gt;After designing the map in TileMill, I use its export features to
+generate a set of image tiles in a format
+(&lt;a href=&quot;http://mbtiles.org/&quot;&gt;MBTiles&lt;/a&gt; that the
+TileStream tile server can serve up to any kind of web application or
+site imaginable. TileMill can also export your map creations as PNG or
+PDF images, too.&lt;/p&gt;
+&lt;p&gt;Finally, I use the &lt;a href=&quot;http://modestmaps.com/&quot; title=&quot;Modest Maps&quot;&gt;Modest Maps&lt;/a&gt;
+and
+&lt;a href=&quot;https://github.com/mapbox/wax&quot; title=&quot;Wax open source web mapping tools&quot;&gt;Wax&lt;/a&gt;
+libraries to stream the map tilesets from my TileStream server, and
+display them here as embedded interactive maps!&lt;/p&gt;
+&lt;p&gt;That’s also putting it quite modestly, indeed; you can do some seriously
+amazing things with this trio of technologies, and some solid JavaScript
+chops.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://developmentseed.org/&quot; title=&quot;Development Seed&quot;&gt;Development Seed home
+page&lt;/a&gt; is a perfect
+example of the kinds of amazing map visualizations one can create with
+these tools.&lt;/p&gt;
+&lt;h2 id=&quot;terrain-visualization&quot;&gt;Terrain visualization&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/maps-public-data/Boone_shaded_map.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;For creating the terrain visualization in the above map screenshot,
+I consulted MapBox documentation on using GDAL DEM utilities and STRM image
+data: &lt;a href=&quot;http://support.mapbox.com/kb/tilemill/terrain-visualization-with-digital-elevation-models-and-gdal&quot; title=&quot;Terrain visualization with digital elevation models and GDAL&quot;&gt;Terrain visualization with digital elevation models and
+GDAL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This simple map is a proof of concept, and uses only one interactive
+layer, the names of Watauga county communities, which are displayed on
+mouse over.&lt;/p&gt;
+&lt;p&gt;I learned quickly from making maps like this one, that it is a very
+serious craft requiring one work with a blend of design concerns like
+color theory along with more nerdy pursuits, such as command line
+wrangling.&lt;/p&gt;
+&lt;p&gt;Note that I am not a Cartographer and I have a lot to learn about map
+making, but I’m looking forward to making even better and more visually
+interesting maps with these tools in the future.&lt;/p&gt;
+&lt;p&gt;Here are all of the Github repositories for the MapBox projects mentined
+in this post: &lt;a href=&quot;https://github.com/mapbox/carto&quot; title=&quot;Carto&quot;&gt;Carto&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/mapbox/tilemill&quot; title=&quot;TileMill&quot;&gt;TileMill&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/mapbox/tilestream&quot; title=&quot;TileStream&quot;&gt;TileStream&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/mapbox/wax&quot; title=&quot;Wax&quot;&gt;Wax&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As I previously mentioned, the documentation for all of Mapbox’s tools
+is great; it’s well written, and uses good examples. Further, the
+projects are all open source and accessible on
+&lt;a href=&quot;https://github.com/mapbox&quot; title=&quot;MapBox Github&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;watauga-county-food-service-ratings&quot;&gt;Watauga County food service ratings&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/maps-public-data/Wautaga_food_service_ratings.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This map combines public health inspection data which is scraped and
+converted to GeoJSON for restaurants and other food service services
+with the restaurant locations color coded by rating.&lt;/p&gt;
+&lt;p&gt;You can hover over each point for the name of the location and the
+rating, and you can click to get a bit more information for a given
+location.&lt;/p&gt;
+&lt;h2 id=&quot;in-summary&quot;&gt;In summary&lt;/h2&gt;
+&lt;p&gt;The data used for these maps comes from the following sources: &lt;a href=&quot;http://www.census.gov/geo/www/tiger/tgrshp2009/tgrshp2009.html&quot;&gt;2009
+TIGER/Line&amp;reg;
+Shapefiles&lt;/a&gt;,
+&lt;a href=&quot;http://watauga.nc.gegov.com/index.cfm&quot; title=&quot;Watauga County Health Department&quot;&gt;Watauga County Health
+Department&lt;/a&gt;,
+&lt;a href=&quot;http://www2.jpl.nasa.gov/srtm/&quot; title=&quot;Shuttle Radar Topography Mission&quot;&gt;Shuttle Radar Topography
+Mission&lt;/a&gt;,
+and my phone’s GPS. :)&lt;/p&gt;
+&lt;p&gt;The MapBox stack is very well made open source software with great
+attention to detail, and the folks behind it are responsive, helpful,
+and friendly. I’m looking forward to making more awesome maps, and
+seeing where this solution goes.&lt;/p&gt;
+&lt;p&gt;Up next: &lt;strong&gt;fancy maps in mobile apps&lt;/strong&gt;!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Love and Longboards</title>
+      <link>http://localhost:8080/articles/love-and-longboards/</link>
+      <pubDate>Sat, 10 Jul 2010 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/love-and-longboards/</guid>
+      <author></author>
+      <description>&lt;p&gt;Alternative rock band name + longboarding passion&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/love-and-longboards/love-and-longboards.jpg&quot; alt=&quot;Love and Longboards&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Here’s my take on a mashup of the band Love and Rockets logo with a longboard
+obviously replacing the rocket part of the equation.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
