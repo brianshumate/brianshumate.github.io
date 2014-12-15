@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>J. Brian Shumate</title>
-    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <link>http://localhost:8080</link>
+    <atom:link href="http://brianshumate.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://brianshumate.com</link>
     <description>Personal journal of art &amp; nerdery</description>
     <pubDate>Sat, 13 Dec 2014 19:00:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>Playing with Fire</title>
-      <link>http://localhost:8080/articles/playing-with-fire/</link>
+      <link>http://brianshumate.com/articles/playing-with-fire/</link>
       <pubDate>Sat, 13 Dec 2014 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/playing-with-fire/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/playing-with-fire/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;em&gt;For CHARGAUX&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -53,9 +53,9 @@ Peace
     </item>
     <item>
       <title>JS for Cats</title>
-      <link>http://localhost:8080/articles/js-for-cats/</link>
+      <link>http://brianshumate.com/articles/js-for-cats/</link>
       <pubDate>Thu, 11 Dec 2014 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/js-for-cats/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/js-for-cats/</guid>
       <author></author>
       <description>&lt;p&gt;JavaScript For Cats&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -75,9 +75,9 @@ interpretation for the site.&lt;/p&gt;
     </item>
     <item>
       <title>voxel.js</title>
-      <link>http://localhost:8080/articles/voxel-js/</link>
+      <link>http://brianshumate.com/articles/voxel-js/</link>
       <pubDate>Wed, 28  Aug 2013 20:00:00 -0400</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/voxel-js/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/voxel-js/</guid>
       <author></author>
       <description>&lt;p&gt;In the last several months, I’ve been playing around with
 &lt;a href=&quot;http://voxeljs.com/&quot;&gt;voxel.js&lt;/a&gt;. It’s been great fun with my kids, and useful
@@ -114,10 +114,32 @@ Max Ogden’s beard!&lt;/p&gt;
 </description>
     </item>
     <item>
+      <title>MUG</title>
+      <link>http://brianshumate.com/articles/mug/</link>
+      <pubDate>Sun, 09 Jun 2013 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/mug/</guid>
+      <author></author>
+      <description>&lt;p&gt;A sunshine perma-mug!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/mug/basho_mug.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This above is an illustration that I commissioned the most fantastic
+illustrator Mr. &lt;a href=&quot;http://society6.com/artist/bortwein&quot;&gt;Brandon Ortwein&lt;/a&gt; to
+create for me.&lt;/p&gt;
+&lt;p&gt;After seeing all the delightful mugs in his &lt;a href=&quot;https://secure.flickr.com/photos/bortwein/sets/72157625382808754/&quot;&gt;“The Daily Coffee”&lt;/a&gt;
+collection of work on the subject, I knew he was the one to undertake this
+project, and fortunately he agreed to do it!&lt;/p&gt;
+&lt;p&gt;Brandon is a real professional and complete joy to work with; I highly
+recommend him for illustration work if you like his style.&lt;/p&gt;
+&lt;p&gt;I used the completed illustration to make postcards, which I then gave to my
+immediate teammates at Basho as a token of my appreciation for them.&lt;/p&gt;
+&lt;p&gt;It carries the message “MUG” on the back of the postcard version.&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>THE COMPUTER</title>
-      <link>http://localhost:8080/articles/the-computer/</link>
+      <link>http://brianshumate.com/articles/the-computer/</link>
       <pubDate>Mon, 06 May 2013 20:00:00 -0400</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/the-computer/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/the-computer/</guid>
       <author></author>
       <description>&lt;p&gt;How in the hell does it work?&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -126,9 +148,9 @@ Max Ogden’s beard!&lt;/p&gt;
     </item>
     <item>
       <title>Vegan Life</title>
-      <link>http://localhost:8080/articles/vegan-life/</link>
+      <link>http://brianshumate.com/articles/vegan-life/</link>
       <pubDate>Sun, 21 Apr 2013 20:00:00 -0400</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/vegan-life/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/vegan-life/</guid>
       <author></author>
       <description>&lt;p&gt;I was made aware of a fun website called &lt;a href=&quot;http://thugkitchen.com/&quot;&gt;Thug Kitchen&lt;/a&gt; full of great recipes and knowledge aimed
 at helping one “Eat like you give a fuck”.&lt;/p&gt;
@@ -142,9 +164,9 @@ tattoo style thing you see above as a thank you to him for his inspiration.&lt;/
     </item>
     <item>
       <title>Surviving San Francisco</title>
-      <link>http://localhost:8080/articles/surviving-san-francisco/</link>
+      <link>http://brianshumate.com/articles/surviving-san-francisco/</link>
       <pubDate>Fri, 22 Mar 2013 20:00:00 -0400</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/surviving-san-francisco/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/surviving-san-francisco/</guid>
       <author></author>
       <description>&lt;p&gt;I just got back from San Francisco. It was great to see and meet some of the
 folks I’d not seen in a long time or even met yet, and for that I am thankful
@@ -222,10 +244,138 @@ of shoes lying on the sidewalk presumably without an owner just blocks away…&l
 </description>
     </item>
     <item>
+      <title>Google Glass Grievances</title>
+      <link>http://brianshumate.com/articles/google-glass/</link>
+      <pubDate>Wed, 27 Feb 2013 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/google-glass/</guid>
+      <author></author>
+      <description>&lt;p&gt;This is a list of potential problems I’ve thought about with respect Google
+Glass.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://brianshumate.com/articles/google-glass/&quot; alt=&quot;source: United States Patent and Trademark Office&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Image source: United States Patent and Trademark Office&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;This is not a generalized &lt;em&gt;oh, my privacy&lt;/em&gt;! exploration into the
+implications of the technology, rather it is an enumeration of specific
+real-world problems which could result from regularly using Glass. I’d like
+to also stress that I did not put these words down to pour water on the Glass
+flame, but to merely point out some valid concerns that I have as a
+technologist and human being.&lt;/p&gt;
+&lt;p&gt;I use a bit of rough language at times and a tongue-in-cheek attitude for
+some of my points because I’m a just some guy and this is just
+some guy’s website.&lt;/p&gt;
+&lt;p&gt;While much of my thinking on the topic is quite serious, the nature of this
+list is not academic, terribly scientific, or even remotely professional. I
+am just shooting the shit here with you about the technology.&lt;/p&gt;
+&lt;h2 id=&quot;0-made-by-a-large-advertising-machine&quot;&gt;0. Made by a large advertising machine&lt;/h2&gt;
+&lt;p&gt;Google is perhaps now the largest marketing data aggregator and advertising
+machine on Earth. Why would anyone want to wear something on a daily basis
+that has the potential to gather the most detailed demographics a person
+could offer up to such an advertising and marketing machine?&lt;/p&gt;
+&lt;p&gt;All of the promotional videos feature one perceived benefit after another
+for the user. However, just as with search, Gmail, and every other service,
+Google will be the ones who ultimately gain the most benefit from your
+use of Glass and related services.&lt;/p&gt;
+&lt;p&gt;Basically, all substantial data generated by Glass will pass through
+some part of Google to be used by them in the ways they’ve specified in
+those long user agreements that hardly anyone actually reads.&lt;/p&gt;
+&lt;h2 id=&quot;1-an-antenna-and-transceiver-device&quot;&gt;1. An antenna and transceiver device&lt;/h2&gt;
+&lt;p&gt;Do you really want a device containing a transceiver and antenna pushing
+radio frequency (RF) energy from the ultra high frequency (UHF) Bluetooth,
+cellular, and Wi-Fi spectrums in such close proximity to your head?&lt;/p&gt;
+&lt;p&gt;While there is not much in the way of definitive evidence showing dangers
+posed by concentrating UHF RF energy near the human head, I will continue to
+err on the side of caution with respect to this point. There’s only been
+about 15 years of research into this issue and we simply are not yet sure
+about the dangers of prolonged RF energy interaction with the human body.&lt;/p&gt;
+&lt;p&gt;Consider the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Studies thus far have not shown a consistent link between cell phone use
+and cancers of the brain, nerves, or other tissues of the head or neck.
+More research is needed because cell phone technology and how people use
+cell phones have been changing rapidly.&lt;/p&gt;
+&lt;p&gt;&amp;mdash; &lt;a href=&quot;http://www.cancer.gov/cancertopics/factsheet/Risk/cellphones&quot;&gt;National Cancer Institute&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;While RF energy doesn’t ionize particles, large amounts can increase body
+temperatures and cause tissue damage. Two areas of the body, the eyes and
+the testes, are particularly vulnerable to RF heating because there is
+relatively little blood flow in them to carry away excess heat.&lt;/p&gt;
+&lt;p&gt;&amp;mdash; &lt;a href=&quot;http://www.fda.gov/Radiation-EmittingProducts/RadiationEmittingProductsandProcedures/HomeBusinessandEntertainment/CellPhones/ucm116282.htm&quot;&gt;U.S. Food and Drug Administration&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;2-a-potentially-dangerous-battery&quot;&gt;2. A potentially dangerous battery&lt;/h2&gt;
+&lt;p&gt;Granted, not too many people have been &lt;a href=&quot;http://www2.wkrg.com/news/2012/nov/21/woman-hospitalized-after-laptop-burns-her-ar-5020883/&quot;&gt;burned by laptops&lt;/a&gt; or had their
+&lt;a href=&quot;http://news.cnet.com/8301-1009_3-57481932-83/cell-phone-battery-catches-fire-burns-hackers-tail-at-defcon/&quot;&gt;pants singed&lt;/a&gt; by flaming cell phone batteries, or &lt;a href=&quot;http://www.nbcbayarea.com/news/local/Man-Claims-Laptop-Fire-Injured-Lungs-191901251.html&quot;&gt;claimed lung damage&lt;/a&gt; from toxic smoke produced by burning batteries, but these things and
+&lt;a href=&quot;http://www.gazettetimes.com/news/local/laptop-s-battery-blamed-for-apartment-fire/article_94e389ea-65bf-11e2-9314-001a4bcf887a.html&quot;&gt;even worse&lt;/a&gt; have all happened.&lt;/p&gt;
+&lt;p&gt;Current lithium-ion based battery technology poses an almost inherent risk of
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Thermal_runaway&quot;&gt;thermal runaway&lt;/a&gt; and
+subsequent fire. Do you want the battery to be right on your head when
+thermal runaway occurs and it catches fire?&lt;/p&gt;
+&lt;h2 id=&quot;3-heightened-risk-of-physical-conflict-with-others&quot;&gt;3. Heightened risk of physical conflict with others&lt;/h2&gt;
+&lt;p&gt;You are certainly going to enter environments on a daily basis where Google
+Glass will not be welcome. In some cases the severity of unwelcomeness
+could be quite high. Simply wearing them in the wrong place at the wrong
+time could jeopardize your safety and open you up to pain and suffering from
+those who don’t want to be part of your Glass experience.&lt;/p&gt;
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; align=&quot;center&quot; width=&quot;600&quot;&gt;&lt;p&gt;Waiting for the first google glass video of someone punching the camera to hit youtube…&lt;/p&gt;&amp;mdash; Jared (@_jared) &lt;a href=&quot;https://twitter.com/_jared/status/306406689752641538&quot;&gt;February 26, 2013&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Example: punched in the face by an intoxicated bar patron for simply looking
+stupid or threatening while wearing your Glass. Imagine the results of having
+bits of Google Glass punched into your eyeball.&lt;/p&gt;
+&lt;p&gt;It’s certainly just a matter of time before such a YouTube video is posted.&lt;/p&gt;
+&lt;h2 id=&quot;4-reduced-face-to-face-civility&quot;&gt;4. Reduced face to face civility&lt;/h2&gt;
+&lt;p&gt;We are already fast becoming a civilization of screen staring bubble dwellers,
+each in our own little technologically connected worlds and it doesn’t really
+matter how small the screen is or where it is positioned.&lt;/p&gt;
+&lt;p&gt;The rudeness and general degeneration of direct face to face personal
+communication with one another brought about by constant cell phone and smart
+phone usage will be taken to a new level by technologies like Glass.&lt;/p&gt;
+&lt;p&gt;How can I be sure when I am talking to someone with this thing on their face,
+that they’re even paying attention? Not to mention, I couldn’t possibly have
+anything resembling what I would consider a conversation in confidence with
+anyone wearing Glass.&lt;/p&gt;
+&lt;h2 id=&quot;5-humans-can-t-really-multi-task&quot;&gt;5. Humans can’t really multi-task&lt;/h2&gt;
+&lt;p&gt;This doesn’t stop us from trying and inevitably people will try to do too
+many things while also interacting with Glass. We’ve probably all heard about
+or seen videos of people falling &lt;a href=&quot;http://www.youtube.com/watch?v=BGRGCvMVqAU&quot;&gt;off of&lt;/a&gt; and &lt;a href=&quot;http://www.youtube.com/watch?v=ZXYY_ep5Nh0&quot;&gt;into things&lt;/a&gt; while trying to text
+on their phones. Will a heads up display design actually prevent this
+kind of problem for Glass users who insist on trying to do too much at once?&lt;/p&gt;
+&lt;p&gt;Human beings aren’t well equipped to deal with the information density and
+distractions presented by a wearable computer, and this will be made more
+evident with Glass as users who cannot text and walk at the same time enter
+into a whole new dimension of preventable accidents.&lt;/p&gt;
+&lt;h2 id=&quot;6-shit-could-be-snatched-right-off-your-face&quot;&gt;6. Shit could be snatched right off your face&lt;/h2&gt;
+&lt;p&gt;People have iPhones, iPods, and countless other high priced consumer
+electronics snatched from their hands on a regular basis, especially in large
+metropolitan areas.&lt;/p&gt;
+&lt;p&gt;Likewise, someone could sneak up on you and easily jack Glass right off your
+face for fun and profit. What if they miss in the process and yank out your
+hair or poke your eye out?&lt;/p&gt;
+&lt;p&gt;Probably the best you could hope for is that someone else also wearing Glass
+was there to record the future embarrassing YouTube video…&lt;/p&gt;
+&lt;h2 id=&quot;7-the-uhura-factor-&quot;&gt;7. The “Uhura Factor”&lt;/h2&gt;
+&lt;p&gt;We all know how strange people wearing those bluetooth headsets can look.
+They’re in airports, discount stores, schools, driving delivery trucks, and
+more &amp;mdash; that rare breed of technophile who thinks having a plastic
+protuberance stuck in their ear represents the epitome of effortless
+technology powered freedom of expression.&lt;/p&gt;
+&lt;p&gt;Did those things catch on with everyone or what? Of course not, because they
+typically make their wearers look like like something out of a terrible
+sci fi movie. That or when combined with the right attitude, the user just
+ends up coming off as a pompous ass. Glass will likely be met with the same
+kind of reception by everyday folks who don’t have 1500 bucks worth of
+gadget on their heads.&lt;/p&gt;
+&lt;p&gt;Want to have private conversations in a hands free manner using your phone?
+Choose a corded headset with microphone instead. Why? Because it looks fine and helps with point #1 regarding injecting RF energy into your cranium
+because a wired setup doesn’t do that.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That’s the list for now. If I think of other problems, I’ll revise this
+post and add them.&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Alpacawhal</title>
-      <link>http://localhost:8080/articles/alpacawhal/</link>
+      <link>http://brianshumate.com/articles/alpacawhal/</link>
       <pubDate>Tue, 26 Feb 2013 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/alpacawhal/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/alpacawhal/</guid>
       <author></author>
       <description>&lt;p&gt;A mythical beast of supremely pointy compassion…&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -242,10 +392,31 @@ you fuck with it, it will throw down, lower its head, and gore your ass away.&lt
 </description>
     </item>
     <item>
-      <title>Capacitor Cowgirl</title>
-      <link>http://localhost:8080/articles/capacitor-cowgirl/</link>
+      <title>Head Swap</title>
+      <link>http://brianshumate.com/articles/head-swap/</link>
       <pubDate>Sat, 23 Feb 2013 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/capacitor-cowgirl/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/head-swap/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;strong&gt;This is not official Banksy anything.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/head-swap/bankruptsy_head_swap.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;This is just a mashup of original Banksy imagery with my own ideas.&lt;/p&gt;
+&lt;p&gt;I’m simply using the Banksy imagery for personal reasons, reasons which I
+will henceforth refer to as &lt;em&gt;Bankruptsy&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;With some degree of seriouness, I am free to use this imagery per the
+&lt;a href=&quot;http://www.banksy.co.uk/shop/shop21.html&quot;&gt;Banksy website shop&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You’re welcome to download whatever you wish from this site for personal
+use. However, making your own art or merchandise and passing it off as
+‘official’ or authentic Banksy artwork is bad and very wrong.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    <item>
+      <title>Capacitor Cowgirl</title>
+      <link>http://brianshumate.com/articles/capacitor-cowgirl/</link>
+      <pubDate>Sat, 23 Feb 2013 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/capacitor-cowgirl/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;strong&gt;This is not official Banksy anything.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -264,9 +435,9 @@ use. However, making your own art or merchandise and passing it off as
     </item>
     <item>
       <title>The Evolution of Mang</title>
-      <link>http://localhost:8080/articles/evolution-of-mang/</link>
+      <link>http://brianshumate.com/articles/evolution-of-mang/</link>
       <pubDate>Sat, 23 Feb 2013 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/evolution-of-mang/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/evolution-of-mang/</guid>
       <author></author>
       <description>&lt;p&gt;This is where mang has arrived; stooped over and walking into hazards
 while actively communicating via technologies to people in ways they might
@@ -280,31 +451,10 @@ mang into a costly biological sensor network.&lt;/p&gt;
 </description>
     </item>
     <item>
-      <title>Head Swap</title>
-      <link>http://localhost:8080/articles/head-swap/</link>
-      <pubDate>Sat, 23 Feb 2013 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/head-swap/</guid>
-      <author></author>
-      <description>&lt;p&gt;&lt;strong&gt;This is not official Banksy anything.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/articles/head-swap/bankruptsy_head_swap.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;This is just a mashup of original Banksy imagery with my own ideas.&lt;/p&gt;
-&lt;p&gt;I’m simply using the Banksy imagery for personal reasons, reasons which I
-will henceforth refer to as &lt;em&gt;Bankruptsy&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;With some degree of seriouness, I am free to use this imagery per the
-&lt;a href=&quot;http://www.banksy.co.uk/shop/shop21.html&quot;&gt;Banksy website shop&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You’re welcome to download whatever you wish from this site for personal
-use. However, making your own art or merchandise and passing it off as
-‘official’ or authentic Banksy artwork is bad and very wrong.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    <item>
       <title>Riak on FreeBSD ZFS Jails</title>
-      <link>http://localhost:8080/articles/riak-freebsd-jails-zfs/</link>
+      <link>http://brianshumate.com/articles/riak-freebsd-jails-zfs/</link>
       <pubDate>Tue, 22 May 2012 20:00:00 -0400</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/riak-freebsd-jails-zfs/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/riak-freebsd-jails-zfs/</guid>
       <author></author>
       <description>&lt;p&gt;This is a ramshackle and slipshod introduction to establishing a specific
 flavor of FreeBSD environment under which to &lt;em&gt;evaluate&lt;/em&gt;, &lt;em&gt;test&lt;/em&gt;, or &lt;em&gt;play&lt;/em&gt;
@@ -467,7 +617,7 @@ more visually oriented interface to Riak’s inner workings.&lt;/p&gt;
 &lt;p&gt;More functionality is in the works. Check out the &lt;a href=&quot;http://docs.basho.com/riak/latest/references/appendices/Riak-Control/&quot;&gt;official documentation for Riak Control&lt;/a&gt; to learn more.&lt;/p&gt;
 &lt;h3 id=&quot;performance-testing&quot;&gt;Performance Testing&lt;/h3&gt;
 &lt;p&gt;A popular tool for performance testing, bulk loading keys, and other testing
-odds and ends is &lt;a href=&quot;http://localhost:8080/articles/riak-freebsd-jails-zfs/(http://docs.basho.com/riak/latest/cookbooks/Benchmarking/&quot;&gt;Basho Bench&lt;/a&gt;).&lt;/p&gt;
+odds and ends is &lt;a href=&quot;http://brianshumate.com/articles/riak-freebsd-jails-zfs/(http://docs.basho.com/riak/latest/cookbooks/Benchmarking/&quot;&gt;Basho Bench&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;Basho Bench can performance test various aspects of a system like Riak and
 then generate nice R based graphs as a final output option.&lt;/p&gt;
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
@@ -487,9 +637,9 @@ then generate nice R based graphs as a final output option.&lt;/p&gt;
     </item>
     <item>
       <title>Questlonger</title>
-      <link>http://localhost:8080/articles/questlonger/</link>
+      <link>http://brianshumate.com/articles/questlonger/</link>
       <pubDate>Mon, 16 Jan 2012 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/questlonger/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/questlonger/</guid>
       <author></author>
       <description>&lt;p&gt;My humble attempt at punctuation invention&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -509,10 +659,309 @@ wonderful invention, the &lt;em&gt;Fing-Longer&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     <item>
+      <title>Diaspora on FreeBSD</title>
+      <link>http://brianshumate.com/articles/diaspora-on-freebsd/</link>
+      <pubDate>Wed, 04 Jan 2012 14:40:00 -0500</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/diaspora-on-freebsd/</guid>
+      <author></author>
+      <description>&lt;p&gt;This is a small collection of brief notes and specs for installing a &lt;a href=&quot;http://github.com/diaspora/diaspora&quot;&gt;Diaspora*&lt;/a&gt; project pod instance on
+FreeBSD 8.2, which is the setup I &lt;del&gt;am&lt;/del&gt; was using at the create-o-plex pod before I stopped operating it.&lt;/p&gt;
+&lt;p&gt;I refer to these notes along with the Diaspora* &lt;a href=&quot;https://github.com/diaspora/diaspora/wiki/Installing-and-Running-Diaspora&quot;&gt;installation instructions&lt;/a&gt; to get set up and running.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PLEASE NOTE: This content contains outdated and possibly irrelevant information&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;install-prerequisite-ports&quot;&gt;Install prerequisite ports&lt;/h2&gt;
+&lt;p&gt;These are the ports which you should update and install prior to cloning the Diaspora Github repository:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;ImageMagick&lt;/li&gt;
+&lt;li&gt;libxml2&lt;/li&gt;
+&lt;li&gt;mysql51-server&lt;/li&gt;
+&lt;li&gt;www/nginx&lt;/li&gt;
+&lt;li&gt;redis&lt;/li&gt;
+&lt;li&gt;ruby19&lt;/li&gt;
+&lt;li&gt;sqlite3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;install-bundler&quot;&gt;Install bundler&lt;/h2&gt;
+&lt;p&gt;You need to install the Ruby &lt;code&gt;bundler&lt;/code&gt; utility for use with Diaspora:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;sudo&lt;/span&gt; gem install bundler
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;example-configurations&quot;&gt;Example Configurations&lt;/h2&gt;
+&lt;p&gt;Here are some examples and snippets based on the configuration files I use in my FreeBSD based setup. Please note that my setup is experimental and although it runs in production mode and is monitored, it supports limited users and runs on a server with modest resources. These examples are just that. YMMV, etc. ;)&lt;/p&gt;
+&lt;h3 id=&quot;-usr-local-etc-redis-conf&quot;&gt;/usr/local/etc/redis.conf&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;daemonize yes
+pidfile /var/run/redis/redis.pid
+bind 127.0.0.1
+port 6379
+timeout 300
+loglevel verbose
+logfile /path_to_log_dir/redis/redis.log
+databases 16
+save 900 1
+save 300 10
+save 60 10000
+rdbcompression yes
+dbfilename dump.rdb
+dir /home/db/redis/
+appendonly no
+appendfsync everysec
+vm-enabled no
+vm-swap-file /tmp/redis.swap
+vm-max-memory 0
+vm-page-size 32
+vm-pages 134217728
+vm-max-threads 4
+glueoutputbuf yes
+hash-max-zipmap-entries 64
+hash-max-zipmap-value 512
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;script_server-yml&quot;&gt;script_server.yml&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;script_server:
+  # Choose database. Currently supported: mysql, postgres
+  db: &amp;quot;mysql&amp;quot;
+
+  # Enable thin as application server
+  enable_thin: true
+
+  # Port on which thin should listen
+  thin_port: 3000
+
+  # We&amp;#39;re running our Thin instances on sockets instead of ports
+  default_thin_args: &amp;quot;--servers 3 --socket /tmp/thin.sock&amp;quot;
+
+  # Possibilities are development, production
+  rails_env: &amp;quot;production&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;nginx-conf&quot;&gt;nginx.conf&lt;/h3&gt;
+&lt;p&gt;Relevant snippet from the &lt;code&gt;nginx.conf&lt;/code&gt; showing sockets for Thin:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;upstream thin_cluster {
+    server   unix:/tmp/thin.0.sock;
+    server   unix:/tmp/thin.1.sock;
+    server   unix:/tmp/thin.2.sock;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+&lt;h3 id=&quot;bundle-install-phase&quot;&gt;Bundle Install Phase&lt;/h3&gt;
+&lt;p&gt;SQLite3 gem install will fail to find includes at build time without setting this prior to running &lt;code&gt;bundle install&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;export CONFIGURE_ARGS=&amp;quot;with-sqlite3-include=/usr/local/include&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>FreeBSD Xen HVM DomU</title>
+      <link>http://brianshumate.com/articles/freebsd-xen-hvm/</link>
+      <pubDate>Tue, 03 Jan 2012 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/freebsd-xen-hvm/</guid>
+      <author></author>
+      <description>&lt;p&gt;Notes on setting up a FreeBSD Xen HVM DomU&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;These notes are heavily influenced by &lt;a href=&quot;http://deadmemes.net/2011/02/26/howto-freebsd-8-2-release-hvm-guest-on-xen-4-debian-squeeze/&quot;&gt;another guide to FreeBSD Xen DomUs&lt;/a&gt; and they’ve been streamlined to fit my particular systems.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PLEASE NOTE: This content contains outdated and possibly irrelevant information.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You might draw some insight from this information and that’s great, but
+please be aware that it does not constitute a comprehensive guide and is
+more just a set of notes for my own reference.&lt;/p&gt;
+&lt;h2 id=&quot;lvm-storage&quot;&gt;LVM Storage&lt;/h2&gt;
+&lt;p&gt;It is a good practice to use LVM volumes for disk partitions in Xen
+environments when better alternatives are not available, so this is what I am
+using for new FreeBSD DomU instances.&lt;/p&gt;
+&lt;p&gt;Assuming available space on a volume group, create similar logical volumes:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;lvcreate -L &lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;G -n example-main vg1
+lvcreate -L &lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;G  -n example-swap vg1
+lvcreate -L &lt;span class=&quot;number&quot;&gt;200&lt;/span&gt;G -n example-data vg1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is a group of volumes representing an 8GB volume for  swap space, a 20GB
+volume to be used as the root partition, and a 200GB partition for user data.&lt;/p&gt;
+&lt;h2 id=&quot;loop-device-for-iso&quot;&gt;Loop Device for ISO&lt;/h2&gt;
+&lt;p&gt;These notes are applicable to the Xen 3.X series, which is able to use an ISO
+image as a boot device ala CDROM, but in the even that there are issues,
+a loop device can be arranges on the host machine to provide a bootable CDROM
+from ISO.&lt;/p&gt;
+&lt;p&gt;If you have problems specifying the ISO image directly for CDROM usage, then
+you can mount a loop device on the Xen Dom0:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;losetup &lt;span class=&quot;operator&quot;&gt;-f&lt;/span&gt; /root/FreeBSD-&lt;span class=&quot;number&quot;&gt;8.2&lt;/span&gt;-RELEASE-amd64-disc1.iso
+losetup /dev/loop0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once you’ve created a loop device, update the disk entry in your Xen
+configuration to include an entry for the “cdrom drive”:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;phy:/dev/loop0,ioemu:hdd:cdrom,r
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here is a complete example Xen DomU configuration:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Example FreeBSD 8.2 Xen DomU
+
+name = &amp;quot;example&amp;quot;
+kernel = &amp;quot;/usr/lib/xen/boot/hvmloader&amp;quot;
+builder = &amp;#39;hvm&amp;#39;
+
+memory = 2048
+shadow_memory = 8
+
+cpus = &amp;quot;1&amp;quot;
+vcpus = &amp;quot;0&amp;quot;
+
+vif = [ &amp;#39;mac=00:23:3e:55:73:78, ip=10.10.1.76, vifname=examplewan, bridge=xenbr0&amp;#39;,
+        &amp;#39;mac=00:23:3e:77:73:78, ip=192.168.1.76, vifname=examplelan, bridge=xenbr1&amp;#39; ]
+
+disk = [
+    # CDROM loop device
+    &amp;#39;phy:/dev/loop0,ioemu:hdd:cdrom,r&amp;#39;,
+    &amp;#39;phy:/dev/vg1/example-main,ioemu:hda,w&amp;#39;,
+    &amp;#39;phy:/dev/vg1/example-swap,ioemu:hdb,w&amp;#39;,
+    &amp;#39;phy:/dev/vg1/example-data,ioemu:hdb,w&amp;#39;]
+
+boot= &amp;#39;dc&amp;#39; # cdrom then disk
+# boot=&amp;#39;cd&amp;#39; # disk then cdrom
+
+serial = &amp;#39;pty&amp;#39;
+
+# VNC console for installation only
+sdl=0
+vnc=1
+vnclisten=&amp;#39;127.0.0.1&amp;#39;
+vncconsole=1
+vncpassword=&amp;#39;&amp;#39;
+stdvga=1
+
+on_poweroff = &amp;#39;destroy&amp;#39;
+on_reboot = &amp;#39;restart&amp;#39;
+on_crash = &amp;#39;restart&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You should obviously change certain values as appropriate to match your own
+system configuration before trying to use the example.&lt;/p&gt;
+&lt;p&gt;If you looked closely at the configuration details, you’ll notice some VNC
+specific directives in the example Xen DomU configuration above. This is
+required for initial console connections (e.g., to install FreeBSD) as they
+must be done via the VNC framebuffer until the system is aware of its actual
+virtual console device.&lt;/p&gt;
+&lt;p&gt;This is typically accomplished by enabling the appropriate configuration
+settings and then using an SSH tunnel to allow for remote VNC to localhost.&lt;/p&gt;
+&lt;p&gt;A typical ssh invocation looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-bash&quot;&gt;ssh &lt;span class=&quot;operator&quot;&gt;-l&lt;/span&gt; username -L &lt;span class=&quot;number&quot;&gt;5900&lt;/span&gt;:localhost:&lt;span class=&quot;number&quot;&gt;5900&lt;/span&gt; remote_hostname
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You’ll want to do the following basic steps to make this kind of connection
+work out:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Initiate a proper SSH tunnel as in the above example&lt;/li&gt;
+&lt;li&gt;Start the Xen DomU&lt;/li&gt;
+&lt;li&gt;Use VNC on your local machine to connect to localhost&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once you’ve established a console, you can complete with the installation.&lt;/p&gt;
+&lt;p&gt;You can remove the &lt;code&gt;loop0&lt;/code&gt; entry from your configuration when you complete
+installation and change the boot order (&lt;code&gt;boot=&lt;/code&gt; in the Xen config) to &lt;code&gt;cd&lt;/code&gt;
+to boot from the hard disk first. There is a commented version of the
+sequence in the above example DomU configuration.&lt;/p&gt;
+&lt;p&gt;FreeBSD now ships with a standard Xen HVM kernel configuration (XENHVM) that
+among other things, will build paravirtual drivers, which will increase
+network and disk performance in the DomU instance.&lt;/p&gt;
+&lt;p&gt;The Xen &lt;code&gt;xm&lt;/code&gt; console can also be enabled to work properly from this kernel
+with some configuration changes.&lt;/p&gt;
+&lt;p&gt;You should build a fully Xen HVM aware custom kernel to take full advantage
+of your particular hardware environment, desired performance characteristics,
+capabilities, and so on.&lt;/p&gt;
+&lt;p&gt;Here’s an example of an AMD-64 XENHVM kernel configuration:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ident   POTRZEBIE
+machine amd64
+cpu     HAMMER
+options VESA
+options SC_PIXEL_MODE
+options VGA_WIDTH90
+options SC_DISABLE_REBOOT
+options ATA_STATIC_ID
+options SMP
+options KDB_TRACE
+options KDB
+options INCLUDE_CONFIG_FILE
+options FLOWTABLE
+options MAC
+options AUDIT
+options HWPMC_HOOKS
+options KBD_INSTALL_CDEV
+options PRINTF_BUFR_SIZE=128
+options _KPOSIX_PRIORITY_SCHEDULING
+options P1003_1B_SEMAPHORES
+options SYSVSEM
+options SYSVMSG
+options SYSVSHM
+options STACK
+options KTRACE
+options SCSI_DELAY=5000
+options COMPAT_FREEBSD7
+options COMPAT_FREEBSD6
+options COMPAT_FREEBSD5
+options COMPAT_FREEBSD4
+options COMPAT_FREEBSD32
+options COMPAT_43TTY
+options GEOM_LABEL
+options GEOM_PART_GPT
+options PSEUDOFS
+options PROCFS
+options CD9660
+options MD_ROOT
+options UFS_GJOURNAL
+options UFS_DIRHASH
+options UFS_ACL
+options SOFTUPDATES
+options FFS
+options SCTP
+options INET6
+options INET
+options PREEMPTION
+options SCHED_ULE
+options XENHVM
+options NO_ADAPTIVE_RWLOCKS
+options NO_ADAPTIVE_MUTEXES
+options GEOM_PART_MBR
+options GEOM_PART_EBR_COMPAT
+options GEOM_PART_EBR
+options GEOM_PART_BSD
+device  isa
+device  mem
+device  io
+device  uart_ns8250
+device  xenpci
+device  cpufreq
+device  acpi
+device  pci
+device  ata
+device  atadisk
+device  ataraid
+device  atapicd
+device  atapifd
+device  atapist
+device  scbus
+device  da
+device  atkbdc
+device  atkbd
+device  psm
+device  kbdmux
+device  vga
+device  splash
+device  sc
+device  agp
+device  uart
+device  miibus
+device  re
+device  loop
+device  random
+device  ether
+device  vlan
+device  tun
+device  pty
+device  md
+device  gif
+device  faith
+device  firmware
+device  bpf
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To get the console working, edit &lt;code&gt;/boot/loader.conf&lt;/code&gt; and  add the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;boot_multicons=&amp;quot;YES&amp;quot;
+boot_serial=&amp;quot;YES&amp;quot;
+comconsole_speed=115200
+console=&amp;quot;comconsole,vidconsole&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then, edit &lt;code&gt;/etc/ttys&lt;/code&gt; and activate &lt;code&gt;ttyu0&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ttyu0    &amp;quot;/usr/libexec/getty std.115200&amp;quot;    dialup    on secure
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Restart and you’ll see output (and login terminals) via both xm console and vncviewer.&lt;/p&gt;
+&lt;p&gt;Now you’re ready to complete installation and configuration of the new DomU
+as you’d like, such as public network interface configuration, enabling SSH
+access, etc.&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Maps with Public Data</title>
-      <link>http://localhost:8080/articles/maps-public-data/</link>
+      <link>http://brianshumate.com/articles/maps-public-data/</link>
       <pubDate>Mon, 12 Sep 2011 09:28:00 -0400</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/maps-public-data/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/maps-public-data/</guid>
       <author></author>
       <description>&lt;p&gt;Lately, I’ve been having a great time working with public data and maps.
 The main reason that it has been so much fun revolves around the
@@ -632,10 +1081,219 @@ seeing where this solution goes.&lt;/p&gt;
 </description>
     </item>
     <item>
+      <title>Hold Fast</title>
+      <link>http://brianshumate.com/articles/hold-fast/</link>
+      <pubDate>Sun, 19 Sep 2010 18:09:00 -0400</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/hold-fast/</guid>
+      <author></author>
+      <description>&lt;p&gt;This is a personal review of the video zine &lt;a href=&quot;http://www.blueanarchy.org/holdfast/&quot;&gt;Hold
+Fast&lt;/a&gt;. These are stories of maniac sailors, anarchist castaways, and the voyage of the S/V Pestilence.&lt;/p&gt;
+&lt;p&gt;Fun fact: I keep a copy of &lt;em&gt;Hold Fast&lt;/em&gt; on my person at all times.&lt;/p&gt;
+&lt;div class=&quot;centered&quot;&gt;
+&lt;img src=&quot;/articles/hold-fast/holding_fast.jpg&quot; alt=&quot;&quot; title=&quot;Hold Fast&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;O Listen to the sounding sea &lt;br&gt;
+ That beats on the remorseless shore,  &lt;br&gt;
+ O listen! for that sound will be &lt;br&gt;
+ When our wild hearts shall beat no more.
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;George William Curtis &lt;br&gt;
+O Listen to the Sounding Sea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Without a doubt, one of my absolute favorite independently made
+&lt;del&gt;films&lt;/del&gt; &lt;em&gt;video zines&lt;/em&gt; of all time is &lt;a href=&quot;http://www.blueanarchy.org/holdfast/&quot;&gt;Hold
+Fast&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It is an exciting, endearing, and simply made record of sailing and love
+of the sea that has a genuinely intimate feel like a well-captured home
+movie. You can &lt;a href=&quot;http://www.blueanarchy.org/holdfast/download.html&quot;&gt;download the video&lt;/a&gt;
+from the Anarchist Yacht Clubb or &lt;a href=&quot;http://vimeo.com/15351476&quot;&gt;watch it on
+Vimeo&lt;/a&gt;, and feel like you’ve been invited to
+tag along for this totally punk rock seafaring adventure.&lt;/p&gt;
+&lt;p&gt;The film opens with a sensory storm of creaking, clanking, and thrashing
+sounds and sights of the sea serving as backdrop over which &lt;a href=&quot;http://thoughtcrime.org/&quot;&gt;Moxie
+Marlinspike&lt;/a&gt; recites verse from &lt;em&gt;O Listen to
+the Sounding Sea&lt;/em&gt; by &lt;a href=&quot;http://en.wikipedia.org/wiki/George_William_Curtis&quot;&gt;George William
+Curtis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Swiftly then, Marlinspike proceeds into an introduction to contemporary
+fiberglass yachts introduced to the middle class in the 1960s, with an
+emphasis on their affordable plenitude. &lt;a href=&quot;http://www.blueanarchy.org/&quot;&gt;The Anarchist Yacht
+Clubb&lt;/a&gt; is introduced - along with the
+notion of obtaining one’s own plastic boat.&lt;/p&gt;
+&lt;h3 id=&quot;be-ye-of-much-inspiration&quot;&gt;Be ye of much inspiration&lt;/h3&gt;
+&lt;p&gt;After the introduction to yachting possibilities made possible by the
+ubiquitous nature of fiberglass boats, we’re treated to some
+inspirational stories of long voyages, record setters, and truly amazing
+sailors.&lt;/p&gt;
+&lt;p&gt;A brief introduction to the concept of &lt;em&gt;citizen of the sea&lt;/em&gt; is most
+interesting; there are many deep contemplative connections to the ocean
+to consider here as the zen of this video zine thickens - in no time,
+we’re prepared for the journeys ahead.&lt;/p&gt;
+&lt;h3 id=&quot;the-s-v-pestilence&quot;&gt;The S/V Pestilence&lt;/h3&gt;
+&lt;p&gt;Marlinspike meets with friends in Ft. Lauderdale, Florida, where he’s
+found a suitable vessel for their sailing adventures ahead. The vessel
+is a Pearson 30, which is purchased for one thousand dollars.&lt;/p&gt;
+&lt;p&gt;Now that the complete crew has converged to begin working on the boat,
+we are introduced to: &lt;strong&gt;Lisa&lt;/strong&gt;, &lt;strong&gt;Allie&lt;/strong&gt;, &lt;strong&gt;Kirsten&lt;/strong&gt;, and &lt;strong&gt;Moxie&lt;/strong&gt;
+(the zine’s narrator protagonist).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/hold-fast/hold_fast_pestilence.jpg&quot; alt=&quot;&quot; title=&quot;S/V Pestilence&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Many fun anecdotes and interesting hijinks are recalled about the time
+spent working on the boat, named &lt;em&gt;Pestilence&lt;/em&gt;. When it is finally
+ready, the crew sail all summer in the Florida Keys, eventually leaving
+Pestilence on Grand Bahama at the conclusion of their summer’s sailing.&lt;/p&gt;
+&lt;h3 id=&quot;next-year&quot;&gt;Next year&lt;/h3&gt;
+&lt;p&gt;The next year, the crew once again rendezvous and aim to take to the
+seas aboard Pestilence. Before sailing again, the boat needs much
+refurbishing and mold eradication. In little time the work is done, and
+the gang are off again to fair winds and following seas.&lt;/p&gt;
+&lt;p&gt;This time around there is much more adventure, as the gang tour the
+Caribbean, and we’re educated with all kinds of sailing knowledge, from
+that of the most dubious sounding “direct deposit”, to rowing out
+anchors, and sailing without the aid of an iron sail (engine/prop).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/hold-fast/mahi-mahi.jpg&quot; alt=&quot;&quot; title=&quot;Mahi Mahi&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;fine-dining-as-a-citizen-of-the-sea&quot;&gt;Fine dining as a citizen of the sea&lt;/h3&gt;
+&lt;p&gt;In one particularly raw and shocking scene, sure to upset any with weak
+stomachs or an aversion to completely natural food gathering methods,
+Moxie catches a &lt;a href=&quot;http://en.wikipedia.org/wiki/Mahi-mahi&quot;&gt;Mahi Mahi&lt;/a&gt;
+while under sail, and the crew land, kill, and eventually decapitate it
+in a bloody mess aboard the Pestilence.&lt;/p&gt;
+&lt;p&gt;There’s grabbing narrative by Moxie accompanying this moment, about the
+difficulties in quickly killing fish, and how the Mahi Mahi
+(dolphin-fish) color fades out almost immediately upon dying. This
+particular Mahi Mahi feeds the gang for three days.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/hold-fast/nautical_chart.jpg&quot; alt=&quot;&quot; title=&quot;Nautical chart&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;finding-the-way&quot;&gt;Finding the way&lt;/h3&gt;
+&lt;p&gt;From food gathering to &lt;a href=&quot;http://en.wikipedia.org/wiki/Dead_reckoning&quot;&gt;dead
+reckoning&lt;/a&gt;, the
+information and anecdotes about navigation presented in Hold Fast is
+simultaneously fascinating and useful.&lt;/p&gt;
+&lt;p&gt;During this time however, the crew is actually sailing off course due to
+some errors in their dead reckoning navigation. They were literally on
+the verge of hitting all kinds of hazards and terrors without having any
+idea about it. This was enforcement of the reality that it is actually
+somewhat difficult to fully run aground or otherwise accidentally commit
+to a nautical nightmare.&lt;/p&gt;
+&lt;p&gt;There is then an interesting interlude into foul weather sailing, with
+some convincing examples. Things get quite rough, and of course very
+wet, as the little Pestilence chops through the rough seas during huge
+waterspouts.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You can scream, you can beg for mercy - you can stamp your feet or &lt;br&gt;
+even appeal to the sensibilities of the great Neptune himself, but in &lt;br&gt;
+the end, there’s nothing to do, but hold fast. &lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Moxie Marlinspike&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/hold-fast/hold_fast_sun_on_horizon.jpg&quot; alt=&quot;&quot; title=&quot;Hold Fast sun on horizon&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Finally, the storms are over and progress is made - the crew makes
+landfall at the Turks and Caicos, before heading on to the Dominican
+Republic.&lt;/p&gt;
+&lt;p&gt;The end of the zine is imminent as Moxie tours around Haiti and the
+Dominican Republic, before heading back to San Francisco. We’re told
+that the Pestilence is standing by in the Dominican Republic, while
+Kirsten is building a house, Allie is living in the woods, and Lisa is
+harvesting syrup.&lt;/p&gt;
+&lt;h2 id=&quot;until-next-time-&quot;&gt;Until next time…&lt;/h2&gt;
+&lt;p&gt;UPDATE: I wrote this based on numerous viewings of the original video
+zine - there’s since been an updated version released that is much more
+polished, but still the same awesome video zine! &lt;strong&gt;Great work!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This zine represents the finest in inspirational carefree jaunts over
+the seas, and is a complete joy to watch. If you’re seeking the most
+amazing sailing video zine (&lt;strong&gt;of all time&lt;/strong&gt;), you should check out
+&lt;a href=&quot;http://www.blueanarchy.org/holdfast/&quot;&gt;Hold Fast&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Noodling With Nodebox</title>
+      <link>http://brianshumate.com/articles/noodling-with-nodebox/</link>
+      <pubDate>Sat, 04 Sep 2010 09:12:00 -0400</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/noodling-with-nodebox/</guid>
+      <author></author>
+      <description>&lt;p&gt;I like to dabble with visually interesting stuff, and I’ve been a big
+fan of the &lt;a href=&quot;http://www.python.org/&quot;&gt;Python&lt;/a&gt; programming language for
+many years, so it’s nice to combine the two for fun and nerdly
+excitement with Nodebox. I can recapture the some of the thrill from
+trial and error programming with the infamous
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Logo_(programming_language&quot;&gt;LOGO&lt;/a&gt;) turtle
+I did as a child, but in a flashier manner with Nodebox.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/noodling-with-nodebox/nodebox_wl_example.jpg&quot; alt=&quot;&quot; title=&quot;Example Nodebox Visualization&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A range of neat Nodebox libraries allows for doing different, perhaps more
+contemporary things with it than the spirographs and such I used to make back
+in the day with LOGO.&lt;/p&gt;
+&lt;h2 id=&quot;edges-nodes-graphs-oh-my-&quot;&gt;Edges &amp;amp; Nodes &amp;amp; Graphs (oh my!)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://http/nodebox.net/&quot;&gt;Nodebox&lt;/a&gt; is a really neat project that
+combines the &lt;a href=&quot;http://python.org/&quot;&gt;Python programming language&lt;/a&gt; with cool
+highly visual libraries, and PDF image or QuickTime movie output options
+for generative art and visualization awesomeness.&lt;/p&gt;
+&lt;p&gt;Using the Nodebox &lt;a href=&quot;http://nodebox.net/code/index.php/Graph&quot;&gt;Graph
+library&lt;/a&gt;, one can construct
+cool network diagrams, complete with neat-o sounding terms, like &lt;em&gt;node&lt;/em&gt;,
+&lt;em&gt;edge&lt;/em&gt;, and &lt;em&gt;eigenvector&lt;/em&gt; &amp;mdash; how cool is that?!&lt;/p&gt;
+&lt;p&gt;Don’t let all that crazy math nerd talk scare you though. What this
+means is that &lt;strong&gt;Nodebox can make cool maps of Twitter networks&lt;/strong&gt;, or
+random bits of trivia on a controversial and/or timely topic such as in
+the above example.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/noodling-with-nodebox/nodebox_interface.jpg&quot; alt=&quot;&quot; title=&quot;Nodebox Screenshot&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The Nodebox interface is very simple. Code is input at top right, and
+the output appears at left. Logging output appears at bottom right.&lt;/p&gt;
+&lt;p&gt;In the above example, we can see use of the Nodebox &lt;a href=&quot;http://nodebox.net/code/index.php/Web&quot;&gt;Web
+library&lt;/a&gt; to grab the most popular
+colors searched for on &lt;a href=&quot;http://kuler.adobe.com/&quot;&gt;Kuler&lt;/a&gt;, and render
+randomly sized ovals in those colors.&lt;/p&gt;
+&lt;h2 id=&quot;visual-tomfoolery&quot;&gt;Visual tomfoolery&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/noodling-with-nodebox/sliding_example1.jpg&quot; alt=&quot;&quot; title=&quot;Nodebox Sliding&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The Nodebox website is full of cool examples of what can be done with it
+on the site’s &lt;a href=&quot;http://nodebox.net/code/index.php/Gallery&quot;&gt;gallery page&lt;/a&gt;,
+where I found examples using &lt;a href=&quot;http://nodebox.net/code/index.php/Core_Image&quot;&gt;Core
+Image&lt;/a&gt; that I tinkered
+with to produce the following images in a matter of seconds.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/noodling-with-nodebox/sliding_example2.jpg&quot; alt=&quot;&quot; title=&quot;Nodebox Sliding&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The images in this section are comprised of a set of 17 photographs of a
+longboarding sliding session. Iterating over the image set with a simple bit
+of code algorithmically produces hundreds of wild composited variations.&lt;/p&gt;
+&lt;p&gt;The variations which were most striking or unusual are shared here.
+Most of them have the same wild spiral starburst tendencies, which I found to
+be quite visually interesting.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/noodling-with-nodebox/sliding_example3.jpg&quot; alt=&quot;&quot; title=&quot;Nodebox Sliding&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Of course, combining other styles of images with adjustments in the code
+could produce and endless variety of striking compositions. One could
+even experiment with dynamic compositions based on external
+environmental inputs as well.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/noodling-with-nodebox/sliding_example4.jpg&quot; alt=&quot;&quot; title=&quot;Nodebox Sliding&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The Core Image library provides an unlimited amount of visual experimentation
+and can be used to programmatically create some pretty fantastic imagery.&lt;/p&gt;
+&lt;p&gt;People who are so-called &lt;em&gt;visual thinkers&lt;/em&gt; should delight in the
+possibilities Nodebox offers.&lt;/p&gt;
+&lt;h2 id=&quot;what-else-&quot;&gt;What else?&lt;/h2&gt;
+&lt;p&gt;There are numerous other Nodebox libraries for everything from
+databases, to devices so if you’re going to work with it do check those
+out. Also be sure to check out &lt;a href=&quot;http://nodebox.net/code/index.php/Tutorial&quot;&gt;the
+tutorials&lt;/a&gt; provided on the
+website as well.&lt;/p&gt;
+&lt;h3 id=&quot;nodebox-3-&quot;&gt;Nodebox 3?!&lt;/h3&gt;
+&lt;p&gt;The examples shown in this article all use Nodebox version 1, which is still
+available, but a gnarly thing such as Nodebox doesn’t rest on its laurels,
+and you’ll be delighted to know that a &lt;a href=&quot;http://nodebox.net/node/&quot;&gt;third version of
+Nodebox&lt;/a&gt; is now available!&lt;/p&gt;
+&lt;p&gt;Nodebox 3 features a refined interface, with drag and drop building of
+generative art and other Nodebox-y stuff, and looks to be extremely fun.&lt;/p&gt;
+&lt;p&gt;If you’re into visually interesting stuff and cool coding with Python,
+go check out the Nodebox projects today.&lt;/p&gt;
+&lt;p&gt;Have fun!&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Love and Longboards</title>
-      <link>http://localhost:8080/articles/love-and-longboards/</link>
+      <link>http://brianshumate.com/articles/love-and-longboards/</link>
       <pubDate>Sat, 10 Jul 2010 20:00:00 -0400</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/love-and-longboards/</guid>
+      <guid isPermaLink="true">http://brianshumate.com/articles/love-and-longboards/</guid>
       <author></author>
       <description>&lt;p&gt;Alternative rock band name + longboarding passion&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;

@@ -191,11 +191,11 @@ footer .copy, footer .copy a {
   text-align: center;
   font-size: 0.8em;
   margin-top: -0.8em;
-  color: #dadfe1;
+  color: #abb7b7;
 }
 
 .article header .date span {
-  background-color: #bdc3c7;
+  background-color: #dadfe1;
   padding: 0 0.7em;
   margin: 0 0 0.02em 0;
 }
