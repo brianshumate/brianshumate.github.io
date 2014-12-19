@@ -421,3 +421,10 @@ code.lang-markdown .bullet {
     margin-bottom: 1em;
   }
 }
+.at-sea {
+  text-align: center;
+}
+.fa.fa-anchor {
+  color: #22313f;
+  font-size: 74px;
+}
