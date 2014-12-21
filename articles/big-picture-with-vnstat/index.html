@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Big Picture with vnstat - J. Brian Shumate
+    </title>
+    <link rel="alternate" href="http://brianshumate.com/feed.xml" type="application/rss+xml" title="Personal journal of art &amp; nerdery">
+    <script src="//use.edgefonts.net/source-code-pro;bree-serif.js"></script>
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <script type="text/javascript" src="/js/highlight.pack.js"></script>
+    <script type="text/javascript" src="//static.getclicky.com/js"></script>
+    <script type="text/javascript">try{ clicky.init(100614799); }catch(e){}</script>
+    <body class="article-detail"></body>
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Big Picture with vnstat</h1>
+        <p class="author">by <span class="author">J. Brian Shumate</span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>A co-located box on fat pipes will put pounds on&nbsp;you.</p>
+<p><span class="more"></span></p>
+<p><img src="/articles/big-picture-with-vnstat/meter-face.jpg" alt=""></p>
+<p>If you manage servers and need to provide some degree of reporting on
+network usage by those servers in a fairly high level way (e.g. how many
+<span class="caps">GB</span> of traffic passed through interface <em>foo</em>? last month), then you should
+check out <a href="http://humdi.net/vnstat/"><code>vnstat</code></a>.</p>
+<p>For a Debian-ish Linux system, you might do something like this to get
+it&nbsp;installed:</p>
+<pre><code>sudo apt-get install vnstat
+</code></pre><p>This will install <code>vnstat</code> and place a <code>cron</code> script in <code>/etc/cron.d</code>
+setting up <code>vnstat</code> to be executed every five minutes for the majority
+of each&nbsp;hour.</p>
+<p>After <code>vnstat</code> has had some time to collect statistics, you can access
+them at the command line. Here are a few examples from the server that
+manages my collection of news trends on various&nbsp;topics:</p>
+<h2 id="show-usage-for-today-and-yesterday-on-all-interfaces">Show usage for today and yesterday on all&nbsp;interfaces</h2>
+<pre><code>vnstat
+
+                     rx      /     tx      /    total    /  estimated
+ eth0:
+     yesterday      9.46 MB  /  205.37 MB  /  214.83 MB
+         today      1.69 MB  /   62.77 MB  /   64.46 MB  /    1.12 GB
+
+ eth1:
+     yesterday     53.30 MB  /  459.31 MB  /  512.61 MB
+         today      2.59 MB  /   37.22 MB  /   39.80 MB  /     710 MB
+</code></pre><h2 id="show-usage-for-all-months-on-the-primary-interface">Show usage for all months on the primary&nbsp;interface</h2>
+<pre><code>vnstat -m
+
+eth0  /  monthly
+
+  month         rx      |      tx      |   total
+------------------------+--------------+------------------------------------
+ Jun &#39;10     358.13 MB  |     8.61 GB  |     8.96 GB   %::::::::::::::::
+ Jul &#39;10     294.29 MB  |     5.27 GB  |     5.56 GB   %:::::::::
+ Aug &#39;10     289.47 MB  |     6.31 GB  |     6.59 GB   %:::::::::::
+ Sep &#39;10     308.96 MB  |     6.25 GB  |     6.55 GB   %:::::::::::
+ Oct &#39;10      25.25 MB  |   697.73 MB  |   722.98 MB   :
+------------------------+--------------+------------------------------------
+estimated       379 MB  |    10.33 GB  |    10.71 GB
+</code></pre><h2 id="show-weekly-usage-on-the-primary-interface">Show weekly usage on the primary&nbsp;interface</h2>
+<pre><code>vnstat -w
+
+eth0  /  weekly
+
+                    rx      |       tx      |    total
+----------------------------+---------------+--------------
+  last 7 days     64.96 MB  |      1.49 GB  |      1.55 GB
+    last week     69.49 MB  |      1.43 GB  |      1.50 GB
+ current week     64.96 MB  |      1.49 GB  |      1.55 GB
+----------------------------+---------------+--------------
+    estimated        74 MB  |      1.72 GB  |      1.79 GB
+</code></pre><p>There is considerably more traffic being generated from people consuming the
+processed news trends from our front end web interface (tx) than there is
+coming in from user uploads (rx) which is to be expected for this particular&nbsp;application.</p>
+<p>You can use other command options to get top 10 days in a range, do <span class="caps">PNG</span>
+graphic output, and&nbsp;more.</p>
+<p>As always, read the fancy manual (<span class="caps">RTFM</span>) page for more possibilities.&nbsp;:)</p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Home</a></div>
+        <section class="about"><h4 id="by-day">By day</h4>
+<p>Fighting for the user by resolving issues in distributed NoSQL database
+environments and writing docs.<br><br></p>
+<h4 id="by-night">By night</h4>
+<p>Writing poetry, technical words, and making visual art while communing with
+Earth’s finest Lake.</p>
+<p>♥ <a href="/personal-projects.html">Personal projects</a></p>
+<h4 id="social">Social</h4>
+<ul>
+<li><a href="http://500px.com/brianshumate">500px</a></li>
+<li><a href="https://github.com/brianshumate">GitHub</a></li>
+<li><a href="https://chat.meatspac.es/">Meatspace Chat</a></li>
+<li><a href="https://twitter.com/brianshumate">Twitter</a></li>
+<li>IRC: <code>bshumate</code></li>
+</ul>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2014 J. Brian Shumate</p>
+        </section>
+      </div>
+    </footer>
+    <noscript>
+      <p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100614799ns.gif"></p>
+    </noscript>
+    <script>hljs.initHighlightingOnLoad()</script>
+  </head>
+</html>

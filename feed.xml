@@ -1065,6 +1065,96 @@ seeing where this solution goes.&lt;/p&gt;
 </description>
     </item>
     <item>
+      <title>Create-O-Plex</title>
+      <link>http://brianshumate.com/articles/create-o-plex/</link>
+      <pubDate>Tue, 02 Nov 2010 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/create-o-plex/</guid>
+      <author></author>
+      <description>&lt;p&gt;A mockup for a concept of a thing that is no more.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/create-o-plex/create-o-plex.png&quot; alt=&quot;Create-O-Plex concept&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;farewell&quot;&gt;Farewell&lt;/h2&gt;
+&lt;p&gt;The Create-O-Plex was just a name that I gave for a space and collection of
+great people with whom I once sort of belonged and worked.&lt;/p&gt;
+&lt;p&gt;I was probably the least creative of anyone there, but I definitely enjoyed
+the company of everyone when it was A Thing&amp;trade;.&lt;/p&gt;
+&lt;p&gt;I left the Create-O-Plex and things rapidly changed after that; it was
+eventually completely changed as people were moved around. The service I used
+to originally name the spot was acquired and shut down.&lt;/p&gt;
+&lt;p&gt;Trying to carry on with the name in a different way by myself was not
+a terribly successful endeavor either.&lt;/p&gt;
+&lt;p&gt;This image still makes me smile, though.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Big Picture with vnstat</title>
+      <link>http://brianshumate.com/articles/big-picture-with-vnstat/</link>
+      <pubDate>Fri, 01 Oct 2010 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/big-picture-with-vnstat/</guid>
+      <author></author>
+      <description>&lt;p&gt;A co-located box on fat pipes will put pounds on you.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/big-picture-with-vnstat/meter-face.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;If you manage servers and need to provide some degree of reporting on
+network usage by those servers in a fairly high level way (e.g. how many
+GB of traffic passed through interface &lt;em&gt;foo&lt;/em&gt;? last month), then you should
+check out &lt;a href=&quot;http://humdi.net/vnstat/&quot;&gt;&lt;code&gt;vnstat&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For a Debian-ish Linux system, you might do something like this to get
+it installed:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get install vnstat
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will install &lt;code&gt;vnstat&lt;/code&gt; and place a &lt;code&gt;cron&lt;/code&gt; script in &lt;code&gt;/etc/cron.d&lt;/code&gt;
+setting up &lt;code&gt;vnstat&lt;/code&gt; to be executed every five minutes for the majority
+of each hour.&lt;/p&gt;
+&lt;p&gt;After &lt;code&gt;vnstat&lt;/code&gt; has had some time to collect statistics, you can access
+them at the command line. Here are a few examples from the server that
+manages my collection of news trends on various topics:&lt;/p&gt;
+&lt;h2 id=&quot;show-usage-for-today-and-yesterday-on-all-interfaces&quot;&gt;Show usage for today and yesterday on all interfaces&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;vnstat
+
+                     rx      /     tx      /    total    /  estimated
+ eth0:
+     yesterday      9.46 MB  /  205.37 MB  /  214.83 MB
+         today      1.69 MB  /   62.77 MB  /   64.46 MB  /    1.12 GB
+
+ eth1:
+     yesterday     53.30 MB  /  459.31 MB  /  512.61 MB
+         today      2.59 MB  /   37.22 MB  /   39.80 MB  /     710 MB
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;show-usage-for-all-months-on-the-primary-interface&quot;&gt;Show usage for all months on the primary interface&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;vnstat -m
+
+eth0  /  monthly
+
+  month         rx      |      tx      |   total
+------------------------+--------------+------------------------------------
+ Jun &amp;#39;10     358.13 MB  |     8.61 GB  |     8.96 GB   %::::::::::::::::
+ Jul &amp;#39;10     294.29 MB  |     5.27 GB  |     5.56 GB   %:::::::::
+ Aug &amp;#39;10     289.47 MB  |     6.31 GB  |     6.59 GB   %:::::::::::
+ Sep &amp;#39;10     308.96 MB  |     6.25 GB  |     6.55 GB   %:::::::::::
+ Oct &amp;#39;10      25.25 MB  |   697.73 MB  |   722.98 MB   :
+------------------------+--------------+------------------------------------
+estimated       379 MB  |    10.33 GB  |    10.71 GB
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;show-weekly-usage-on-the-primary-interface&quot;&gt;Show weekly usage on the primary interface&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;vnstat -w
+
+eth0  /  weekly
+
+                    rx      |       tx      |    total
+----------------------------+---------------+--------------
+  last 7 days     64.96 MB  |      1.49 GB  |      1.55 GB
+    last week     69.49 MB  |      1.43 GB  |      1.50 GB
+ current week     64.96 MB  |      1.49 GB  |      1.55 GB
+----------------------------+---------------+--------------
+    estimated        74 MB  |      1.72 GB  |      1.79 GB
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;There is considerably more traffic being generated from people consuming the
+processed news trends from our front end web interface (tx) than there is
+coming in from user uploads (rx) which is to be expected for this particular
+application.&lt;/p&gt;
+&lt;p&gt;You can use other command options to get top 10 days in a range, do PNG
+graphic output, and more.&lt;/p&gt;
+&lt;p&gt;As always, read the fancy manual (RTFM) page for more possibilities. :)&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Hold Fast</title>
       <link>http://brianshumate.com/articles/hold-fast/</link>
       <pubDate>Sun, 19 Sep 2010 18:09:00 -0400</pubDate>
@@ -1083,11 +1173,9 @@ Fast&lt;/a&gt;. These are stories of maniac sailors, anarchist castaways, and th
  That beats on the remorseless shore,  &lt;br&gt;
  O listen! for that sound will be &lt;br&gt;
  When our wild hearts shall beat no more.
-&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;George William Curtis &lt;br&gt;
-O Listen to the Sounding Sea&lt;/li&gt;
-&lt;/ul&gt;
+&lt;br&gt;&lt;br&gt;
+— George William Curtis &lt;br&gt;
+O Listen to the Sounding Sea&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Without a doubt, one of my absolute favorite independently made
 &lt;del&gt;films&lt;/del&gt; &lt;em&gt;video zines&lt;/em&gt; of all time is &lt;a href=&quot;http://www.blueanarchy.org/holdfast/&quot;&gt;Hold
@@ -1284,6 +1372,20 @@ go check out the Nodebox projects today.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/love-and-longboards/love-and-longboards.jpg&quot; alt=&quot;Love and Longboards&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Here’s my take on a mashup of the band Love and Rockets logo with a longboard
 obviously replacing the rocket part of the equation.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Buddhist Oats</title>
+      <link>http://brianshumate.com/articles/buddhist-oats/</link>
+      <pubDate>Mon, 08 Mar 2010 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/buddhist-oats/</guid>
+      <author></author>
+      <description>&lt;p&gt;Every day provides the possibility to be enlightened.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/buddhist-oats/buddhist-oats.jpg&quot; alt=&quot;Buddhist Oats&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;some-might-wonder-are-you-a-buddhist-or-something-&quot;&gt;Some might wonder, ‘Are you a Buddhist or something?’&lt;/h2&gt;
+&lt;p&gt;This question is actually irrelevant because why should the Quakers have
+all the fun (and oats)?&lt;/p&gt;
 </description>
     </item>
   </channel>
