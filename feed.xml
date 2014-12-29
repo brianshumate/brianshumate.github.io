@@ -5,9 +5,29 @@
     <atom:link href="http://brianshumate.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://brianshumate.com</link>
     <description>Personal journal of art &amp; nerdery</description>
-    <pubDate>Sat, 13 Dec 2014 19:00:00 -0500</pubDate>
+    <pubDate>Sun, 28 Dec 2014 19:00:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Have You Tried PostgreSQL?</title>
+      <link>http://brianshumate.com/articles/have-you-tried-postgresql/</link>
+      <pubDate>Sun, 28 Dec 2014 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/have-you-tried-postgresql/</guid>
+      <author></author>
+      <description>&lt;p&gt;Asking the tough questions since 1995…&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/have-you-tried-postgresql/HYTP_white.png&quot; alt=&quot;Have You Tried PostgreSQL example t-shirt&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The above is both a genuine question-mark-less question and a sort of method
+of introspection and reflection on the state of databases, and in particular
+a personal favorite from the SQL variety.&lt;/p&gt;
+&lt;p&gt;It quite possibly also represents a rejected design attempt; the original
+intention was to actually run a TeeSpring (or similar) campaign with a design
+like the one shown above to raise awareness and funds for PostgreSQL, but that
+went nowhere fast.&lt;/p&gt;
+&lt;p&gt;The question will still remain valid however, and shall be asked with a grin
+whenever complaints and loathing about other database solutions arise.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Playing with Fire</title>
       <link>http://brianshumate.com/articles/playing-with-fire/</link>
