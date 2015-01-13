@@ -9,62 +9,6 @@
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>Twitter Bots</title>
-      <link>http://brianshumate.com/articles/twitter-bots/</link>
-      <pubDate>Sun, 11 Jan 2015 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://brianshumate.com/articles/twitter-bots/</guid>
-      <author></author>
-      <description>&lt;p&gt;On the subject of twitter bots…&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Bots are amazing and artistic expressions and
-can be fun (FOR THE WHOLE FAMILY).&lt;/p&gt;
-&lt;h2 id=&quot;use-twitter-bots-for&quot;&gt;Use Twitter bots for&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Learning to program; in different languages, with different concepts, to solve different challenges, to learn new algorithms and patterns&lt;/li&gt;
-&lt;li&gt;Expressing a side of yourself that you would rather not associate to your true name self including for example, peaceful protest&lt;/li&gt;
-&lt;li&gt;Raising awareness of specific events or issues&lt;/li&gt;
-&lt;li&gt;Purely practical and general useful behaviors&lt;/li&gt;
-&lt;li&gt;SHARING ART&lt;/li&gt;
-&lt;li&gt;HAVING FUN!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;rules-of-thumb&quot;&gt;Rules of thumb&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Label your bot as such: try to make it evident to all that the account is not under the control of a human being&lt;/li&gt;
-&lt;li&gt;Always punch up and never down; if your bot uses parody, satire, or is somewhat annoying, focus it on those who can easily bear it&lt;/li&gt;
-&lt;li&gt;Do not bully, spam, or violate TOS with your bot&lt;/li&gt;
-&lt;li&gt;Moderation is key, don’t update a thousand times a day; remember your bot will be interacting a lot with &lt;em&gt;people&lt;/em&gt; and they cannot and will not deal with high frequency updates&lt;/li&gt;
-&lt;li&gt;ARE YOU HAVING FUN YET?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Twitter bots can be deeply artistic and wildly intriguing (see @HORSE_EBOOKS), but they can also become a nuisance if poorly executed.&lt;/p&gt;
-&lt;p&gt;This author has personally written dozens of bots over the span of half a dozen years, and is always delighted to see the human-bot interactions which result.&lt;/p&gt;
-&lt;p&gt;Sometimes as the author of a bot, it is easy to feel guilty when people seem to be wasting their time in replying to your bot since your bot essentially has no lifespan to waste in its own day to day “life”. Do not worry about this; if you’ve labeled your bot as a bot, there is not much more you can do, and if your bot is considered harmful, Twitter will let you know by suspending its account.&lt;/p&gt;
-&lt;p&gt;Tools of the trade:&lt;/p&gt;
-&lt;p&gt;You mainly need Twitter libraries for your preferred programming language,
-and perhaps interfaces to useful resources like words and various corpora.
-Here are some quick resources that might help you to get started:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/ryanmcgrath/twython&quot;&gt;Twython Twitter library for Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/twitter&quot;&gt;node-twitter library for JavaScript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/wordnik/wordnik-python&quot;&gt;Wordnik Python public library&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/ChimeraCoder/anaconda&quot;&gt;Anaconda Twitter library for Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://dev.twitter.com/overview/documentation&quot;&gt;Twitter developer docs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;masters-of-the-bots&quot;&gt;Masters of the bots&lt;/h2&gt;
-&lt;p&gt;Some of the more noteworthy bot artists out there who should be looked to for
-inspiration and previous knowledge include the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/beaugunderson&quot;&gt;@beaugunderson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/katierosepipkin&quot;&gt;@katierosepipkin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/thricedotted&quot;&gt;@thricedotted&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/tinysubversions&quot;&gt;@tinysubversions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The above mentioned fine folks recently held a four hour
-&lt;a href=&quot;http://tinysubversions.com/botsummit/2014/&quot;&gt;Bot Summit&lt;/a&gt; back in
-November, 2014. It’s filled with useful information and highly recommended.&lt;/p&gt;
-&lt;p&gt;Go make your dream bot and have fun!&lt;/p&gt;
-</description>
-    </item>
-    <item>
       <title>Revenge of the Nerds</title>
       <link>http://brianshumate.com/articles/revenge-of-the-nerds/</link>
       <pubDate>Sun, 11 Jan 2015 19:00:00 -0500</pubDate>
@@ -101,6 +45,67 @@ our data, store them, classify them, mine them, and use them against us.&lt;/p&g
 &lt;p&gt;Gone are the days of worrying about jocks — alas, all nerds
 (and the rest of the world) have to worry about now are other nerds.&lt;/p&gt;
 &lt;p&gt;Nerds have taken their revenge on the whole world.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Twitter Bots</title>
+      <link>http://brianshumate.com/articles/twitter-bots/</link>
+      <pubDate>Sun, 11 Jan 2015 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://brianshumate.com/articles/twitter-bots/</guid>
+      <author></author>
+      <description>&lt;p&gt;On the subject of twitter bots…&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Bots are amazing and artistic expressions and
+can be fun (FOR THE WHOLE FAMILY).&lt;/p&gt;
+&lt;h2 id=&quot;use-twitter-bots-for&quot;&gt;Use Twitter bots for&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning to program; in different languages, with different concepts, to solve different challenges, to learn new algorithms and patterns&lt;/li&gt;
+&lt;li&gt;Expressing a side of yourself that you would rather not associate to your true name self including for example, peaceful protest&lt;/li&gt;
+&lt;li&gt;Raising awareness of specific events or issues&lt;/li&gt;
+&lt;li&gt;Other purely practical, beneficial, and generally useful behaviors&lt;/li&gt;
+&lt;li&gt;SHARING ART&lt;/li&gt;
+&lt;li&gt;HAVING FUN!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;rules-of-thumb&quot;&gt;Rules of thumb&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Label your bot as such: try to make it evident to all that the account is not under the control of a human being&lt;/li&gt;
+&lt;li&gt;Always punch up and never down; if your bot uses parody, satire, or is somewhat annoying, focus it on those who can easily bear it&lt;/li&gt;
+&lt;li&gt;Do not bully, spam, or violate TOS with your bot&lt;/li&gt;
+&lt;li&gt;Moderation is key, don’t update a thousand times a day; remember your bot will be interacting a lot with &lt;em&gt;people&lt;/em&gt; and they cannot and will not deal with high frequency updates&lt;/li&gt;
+&lt;li&gt;ARE YOU HAVING FUN YET?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Twitter bots can be deeply artistic and wildly intriguing (see @HORSE_EBOOKS), but they can also become a nuisance if poorly executed.&lt;/p&gt;
+&lt;p&gt;This author has personally written dozens of bots over the span of half a dozen years, and is always delighted to see the human-bot interactions which result.&lt;/p&gt;
+&lt;p&gt;Sometimes as the author of a bot, it is easy to feel guilty when people seem to be wasting their time in replying to your bot since your bot essentially has no lifespan to waste in its own day to day “life”. Do not worry about this; if you’ve labeled your bot as a bot, there is not much more you can do, and if your bot is considered harmful, Twitter will let you know by suspending its account.&lt;/p&gt;
+&lt;p&gt;Tools of the trade:&lt;/p&gt;
+&lt;p&gt;You mainly need Twitter libraries for your preferred programming language,
+and perhaps interfaces to useful resources like words and various corpora.
+Here are some quick resources that might help you to get started:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ryanmcgrath/twython&quot;&gt;Twython Twitter library for Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npmjs.com/package/twitter&quot;&gt;node-twitter library for JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/wordnik/wordnik-python&quot;&gt;Wordnik Python public library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ChimeraCoder/anaconda&quot;&gt;Anaconda Twitter library for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.twitter.com/overview/documentation&quot;&gt;Twitter developer docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mispy/twitter_ebooks&quot;&gt;twitter_ebooks framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;masters-of-the-bots&quot;&gt;Masters of the bots&lt;/h2&gt;
+&lt;p&gt;Some of the more noteworthy bot artists out there who should be looked to for
+inspiration and previous knowledge include the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/beaugunderson&quot;&gt;@beaugunderson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/deathmtn&quot;&gt;@deathmtn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/katierosepipkin&quot;&gt;@katierosepipkin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/lalanl&quot;&gt;@lalanl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/LightAesthetic&quot;&gt;@LightAesthetic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/negatendo&quot;&gt;@negatendo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/thricedotted&quot;&gt;@thricedotted&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/tinysubversions&quot;&gt;@tinysubversions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The above mentioned fine folks recently held a four hour
+&lt;a href=&quot;http://tinysubversions.com/botsummit/2014/&quot;&gt;Bot Summit&lt;/a&gt; back in
+November, 2014. It’s filled with useful information and highly recommended.&lt;/p&gt;
+&lt;p&gt;Go make your dream bot and have fun!&lt;/p&gt;
 </description>
     </item>
     <item>
