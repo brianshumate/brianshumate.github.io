@@ -24,9 +24,9 @@ To claim this, I am signing this object:
             "username": "brianshumate"
         },
         "merkle_root": {
-            "ctime": 1414448962,
-            "hash": "c2a83521f25c7727c58a98098fd1e17b465668fa11046e3800b90ad99833e3b8d6c4b82e3c683ad8635f344234cee54165e4ff07d571eb6571f6ae0a2f8fd694",
-            "seqno": 87659
+            "ctime": 1411999803,
+            "hash": "4344a5cb48410cc9b237ffeaed0ec6cb64dc4bc30ed32ab76b69c78940c552ec7a187a5734ee8b41909ae02b915291da9e78b3d2c82d35c501463c15b75df3c7",
+            "seqno": 64816
         },
         "service": {
             "hostname": "brianshumate.com",
@@ -35,10 +35,10 @@ To claim this, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1414449027,
+    "ctime": 1411999931,
     "expire_in": 157680000,
-    "prev": "790c4397b746213ede1e377f4902d9438017ea8157707ff0e94c7ac9d3f181c1",
-    "seqno": 20,
+    "prev": "d40e39703e3b11e41ea5b0b05688aeedc58dc6ad34281c05d67d42fb7b1c5ac0",
+    "seqno": 7,
     "tag": "signature"
 }
 
@@ -47,25 +47,25 @@ with the aforementioned key, yielding the PGP signature:
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
 
-owFtUn1oVlUYf7eW4WrNghJygV5cII6X83XPx0sfbDOTURJqBCW+nHPuudtt73vv
-6733XVvy0pdZpuEHWAkismSZmJQfuTRyfWmi9DHSscpIkWJBf0RJSI06dyxK6J/D
-Oc/z+/2e5/c8Z3PTNbn6upH3hmfW9h86U3d6QuVWLD357BpHRd6AU1jj6FJgwjS7
-hbJsnILTawaUTEw+iOaGkWfyjyVzpzFtTp+JkyAKLQrkWR45tbYMnpH9IOw2cSUO
-Mi1HUupJwrlSFGviE6Z87UNMjRJMUiSp4JpoSa1kT5SkV1V1pjSLgWej93YI1k5R
-u8V3ks72DF+dSkggqesBpBFQUkCEKRYMQY9ozAwHIAMmJp62pOJAhklPtSxTk/Vc
-NnFvyRTjKJoyrtMgg0ECCSFcUGS7kkmPJWokOXYR9JGrGUNMu1wKDgT3PWggU4S6
-lHJfQggINdgWVgJITwiOscGKe1QTxZHBmnIsPU6x62NCECbaGJdA6hri+4B5LoNG
-UXv6VBogkW8rUEGsjcSsDiOnwBl1RS17xn2BNlnb2eT+x2BeR2XLq8RRGumoZLM9
-aVopZL7TgYo5bAOPG1WcFiqqIPTs7v67XGihV81EAMTaHNNfCWJTDDKEy6g1C0BW
-x/RZSSaAJnYHihGKIDaegQYz5mdcTxA7GsiM5JbIALOWjSCaSS087EMONfzXKbKi
-qey2mknQHcq0Gtudra9racjV1edmXFuffd9c48xZ//zpi5PX/VXron/Cs7Pzi978
-runSbR9e3rp13+6B0ZYn177YvH3lYu+PI98Ot175vKToWOGJnSPz0ZaugwdWTy5/
-pP/Xvfesa3jr+IobXli1rLPp5zmdP5199IP+xvHt/Y0LWz95o+P213/fUtn76pWN
-Yw92DS4nd7G78zfteZ/dOAx++f6rRc+AjvF5T4Xrti3Yd+up0dzNX4xtmnP/xDsb
-7xxf9duFI4uPFsd++Lh2345blpxfeXJGYs6fa96/Yffo+gdcUd006W/oeGn0s48G
-f/xyDzvnlb9e9m7vhXmzh5LolckFpeLhtZtbJuiJpcdP3DG4bWSo/vrnwNOvfXPp
-4vPHWh9++1S179CuM5cbPm1+OQ7S00MP/Q0=
-=c/fX
+owFtkn9oVlUYx9/NUmZTluSIUTSuNFjOl3PuOfece6f9sd7SKMqZpdGM1/Pjue97
+5/bed/fevTl1JZGlRRJCJVK2P8JMcoNtRqh/VJApJgYamPWSyISMLP9YTVKkc8ei
+hP475zmf53ue7/M8b82blamt+fzoZ3WDw+Pf1Jy8LDNPtxaPbLZkqAes9s2W6gmg
+lKSnkugFq93aAANSxJANwuZSqCHbHTfPMG1WBaI4CEuGQlmeta3BthRPk/2gVICo
+HAWpliUY04K6rpSMKOpTLn3lY8JAelwwWzDPVVQJZiSLYZzc8qs1rZkPtIk+8pDH
+O5jdYfgczXWkfP/0g0CCORrZykZSeNgmjHjcxpoqwsFFKAVjiGYsySgQpbjY3ysS
+SGvuhWhDD+SjMJw2rpIgxTDF2PM8FxFTlYiLJpESSoWjJHUpRkp50ibc90GARqCY
+koxqRaUiCDSxheRMMk9x16NIOY4NigvscuFwQgFcSbGHPAHIlh52bA9r4QF3JdG2
+cm1NHOUgTE3DsCO5o32iuLERQ18ptNoZdTEbTK9RJVCQlp127n8MZlXYa/LKUZiE
+Kuwxr8UkKbenvpOBMoybwAsg8zNCeRmUtJndf4eLDXprTzyC2yzYWA4iyAcp4XBm
+uoxQ+g9UjKSmCMwIEAEiMQaKQTgSSeQw1xUAWjmuVkxoQm0XK+RoxjW1fcklVo5Q
+6F+n3NQpCkYyDgolkfRHZmQ7au65LVNTm5l9e226vZm5dQ3/rHTrr3Nu1J+hy8aa
+7t821Hd0y+T+hZUv7MZzYyeqs3e/uWb+zZ/XT57etLa7ybn6cddPV24OXei/MTX8
+0rHcJ9UFhb2Nqxvu2vk6X7zUeXd05Hjnvtbjp8arc6v3Vl5pWbSn/uvzXcs2LTp5
+cT3dMnpp287MoeF4YuW8ydMNXzYuePXwtbV/6Kd+6Zs1Mv/Zr852vvPEqq3ff3t9
+72PyxKWmU7899wF8h3e0vDw+snLX1de2HsiN3vme//zE+esPWEfObD9w9snmB/fv
+7r72+MTUi3dfKfxVly9XH/6wJbfqx7aLlxf23EeHlqxb/sO6kU/fHzx08NE7Puoa
+XnFhxfLFU9th156N0dtLDxfeOPbnM/VjDbH6vfPc3w==
+=nVQT
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -74,4 +74,5 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/brianshumate
 
 ==================================================================
+
 
