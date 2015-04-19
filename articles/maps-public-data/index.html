@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Maps with Public Data - J. Brian Shumate
+    </title>
+    <link rel="alternate" href="http://brianshumate.com/feed.xml" type="application/rss+xml" title="Personal journal of art &amp; nerdery">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="//use.edgefonts.net/source-code-pro;bree-serif.js"></script>
+    <script type="text/javascript" src="/js/highlight.pack.js"></script>
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Maps with Public Data</h1>
+        <p class="author">by <span class="author">Brian Shumate</span><br><span class="date">September 12 2011</span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>Lately, I’ve been having a great time working with public data and maps.
+The main reason that it has been so much fun revolves around the
+specific technology stack I am using to design and present&nbsp;them.</p>
+<p><span class="more"></span></p>
+<p><img src="/articles/maps-public-data/Zodiac_research.jpg" alt=""></p>
+<p><strong><span class="caps">NOTE</span>: This information is out of date and the embedded maps which used
+to exist here are now static&nbsp;screenshots.</strong></p>
+<p>The above screenshot shows one example of a San Francisco Bay Area map that
+I’ve been gradually working on as part of some map related research into
+providing a geographical context into a specific set of past events which
+occurred in that area (sorry for the&nbsp;vagueness).</p>
+<p>I’ve been able to quickly create and present some visually interesting
+maps which convey useful data on a range of subjects using technologies
+from <a href="http://mapbox.com" title="MapBox">MapBox</a> such as
+<a href="http://mapbox.com/#/tilemill" title="TileMill">TileMill</a>,
+<a href="http://mapbox.com/#/tilestream" title="TileStream">TileStream</a>, and
+<a href="http://mapbox.github.com/wax/" title="Wax">Wax</a>.</p>
+<p>Here is a brief overview of the MapBox solution, and some of the maps I
+have recently created with&nbsp;it.</p>
+<h2 id="think-globally-map-locally">Think globally, map&nbsp;locally</h2>
+<p>As you’ll see, the following maps all center around my local area, and since
+I’m mostly experimenting with the technology right now, these maps are on
+random subjects, though I do strive to ensure they are accurate. Please
+tweet <a href="http://twitter.com/brianshumate">@brianshumate</a> if
+you find any serious flaw, and I’ll do my best to fix&nbsp;it.</p>
+<h2 id="longboarding-spots-in-boone-north-carolina">Longboarding spots in Boone, North&nbsp;Carolina</h2>
+<p><img src="/articles/maps-public-data/Boone_longboarding_spots.jpg" alt=""></p>
+<p>I’d previously made some nice maps with longboarding
+spots I frequent in Boone, <span class="caps">NC</span> based on
+<a href="http://www.openstreetmap.org/" title="OpenStreetMap">OpenStreetMap</a>, so I
+thought I’d do something like that with the MapBox tools&nbsp;first.</p>
+<p>It’s worth noting that what you see in the above map is not just a
+service that I am pointing to and dropping markers on. This map was
+designed using <a href="http://www.census.gov/geo/www/tiger/tgrshp2009/tgrshp2009.html" title="2009 TIGER/Line&reg; Shapefiles"><span class="caps">U.S.</span> Census
+Bureau</a>
+data combined with my own <a href="http://geojson.org/" title="GeoJSON">GeoJSON</a> data
+and styling rules using TileMill to arrive at the look and feel it has,
+including the styling of land areas, roadways, water bodies, marker
+data, and&nbsp;legends.</p>
+<p>The TileMill application is available for <span class="caps">OS</span> X or Linux. It has a most excellent and intuitive user interface and will quickly feel familiar to web&nbsp;folks.</p>
+<p><img src="/articles/maps-public-data/TileMill_user_interface.jpg" alt=""></p>
+<p>The TileMill app (<em>shown in screen shot above</em>) has an excellent browser
+based user interface where you use the <span class="caps">CSS</span>-like language
+<a href="https://github.com/mapbox/carto" title="carto styling language">carto</a> to
+define the styles for your map’s layers and data. There’s also a very
+handy carto reference built right into&nbsp;TileMill.</p>
+<p><strong>Carto</strong> is an advanced <span class="caps">CSS</span> like language with nesting, variables, and
+other cool features similar to CSS meta languages like LESS and&nbsp;SASS.</p>
+<p>The <strong>MBTiles</strong> specification is an interesting new way to store map
+tilesets and their associated metadata in an SQLite&nbsp;database.</p>
+<p>After designing the map in TileMill, I use its export features to
+generate a set of image tiles in a format
+(<a href="http://mbtiles.org/">MBTiles</a> that the
+TileStream tile server can serve up to any kind of web application or
+site imaginable. TileMill can also export your map creations as <span class="caps">PNG</span> or
+PDF images,&nbsp;too.</p>
+<p>Finally, I use the <a href="http://modestmaps.com/" title="Modest Maps">Modest Maps</a>
+and
+<a href="https://github.com/mapbox/wax" title="Wax open source web mapping tools">Wax</a>
+libraries to stream the map tilesets from my TileStream server, and
+display them here as embedded interactive&nbsp;maps!</p>
+<p>That’s also putting it quite modestly, indeed; you can do some seriously
+amazing things with this trio of technologies, and some solid JavaScript&nbsp;chops.</p>
+<p>The <a href="http://developmentseed.org/" title="Development Seed">Development Seed home
+page</a> is a perfect
+example of the kinds of amazing map visualizations one can create with
+these&nbsp;tools.</p>
+<h2 id="terrain-visualization">Terrain&nbsp;visualization</h2>
+<p><img src="/articles/maps-public-data/Boone_shaded_map.jpg" alt=""></p>
+<p>For creating the terrain visualization in the above map screenshot,
+I consulted MapBox documentation on using <span class="caps">GDAL</span> DEM utilities and STRM image
+data: <a href="http://support.mapbox.com/kb/tilemill/terrain-visualization-with-digital-elevation-models-and-gdal" title="Terrain visualization with digital elevation models and GDAL">Terrain visualization with digital elevation models and
+<span class="caps">GDAL</span></a>.</p>
+<p>This simple map is a proof of concept, and uses only one interactive
+layer, the names of Watauga county communities, which are displayed on
+mouse&nbsp;over.</p>
+<p>I learned quickly from making maps like this one, that it is a very
+serious craft requiring one work with a blend of design concerns like
+color theory along with more nerdy pursuits, such as command line&nbsp;wrangling.</p>
+<p>Note that I am not a Cartographer and I have a lot to learn about map
+making, but I’m looking forward to making even better and more visually
+interesting maps with these tools in the&nbsp;future.</p>
+<p>Here are all of the Github repositories for the MapBox projects mentined
+in this post: <a href="https://github.com/mapbox/carto" title="Carto">Carto</a>,
+<a href="https://github.com/mapbox/tilemill" title="TileMill">TileMill</a>,
+<a href="https://github.com/mapbox/tilestream" title="TileStream">TileStream</a>,
+<a href="https://github.com/mapbox/wax" title="Wax">Wax</a></p>
+<p>As I previously mentioned, the documentation for all of Mapbox’s tools
+is great; it’s well written, and uses good examples. Further, the
+projects are all open source and accessible on
+<a href="https://github.com/mapbox" title="MapBox Github">Github</a>.</p>
+<h2 id="watauga-county-food-service-ratings">Watauga County food service&nbsp;ratings</h2>
+<p><img src="/articles/maps-public-data/Wautaga_food_service_ratings.jpg" alt=""></p>
+<p>This map combines public health inspection data which is scraped and
+converted to GeoJSON for restaurants and other food service services
+with the restaurant locations color coded by&nbsp;rating.</p>
+<p>You can hover over each point for the name of the location and the
+rating, and you can click to get a bit more information for a given&nbsp;location.</p>
+<h2 id="in-summary">In&nbsp;summary</h2>
+<p>The data used for these maps comes from the following sources: <a href="http://www.census.gov/geo/www/tiger/tgrshp2009/tgrshp2009.html">2009
+<span class="caps">TIGER</span>/Line&reg;
+Shapefiles</a>,
+<a href="http://watauga.nc.gegov.com/index.cfm" title="Watauga County Health Department">Watauga County Health
+Department</a>,
+<a href="http://www2.jpl.nasa.gov/srtm/" title="Shuttle Radar Topography Mission">Shuttle Radar Topography
+Mission</a>,
+and my phone’s <span class="caps">GPS</span>.&nbsp;:)</p>
+<p>The MapBox stack is very well made open source software with great
+attention to detail, and the folks behind it are responsive, helpful,
+and friendly. I’m looking forward to making more awesome maps, and
+seeing where this solution&nbsp;goes.</p>
+<p>Up next: <strong>fancy maps in mobile apps</strong>!</p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/"><i class="class fa fa-cube"></i></a></div>
+        <section class="about"><h4 id="by-day">By day</h4>
+<p>Fighting for the user by resolving issues in distributed NoSQL database
+environments and writing decent documentation.<br><br></p>
+<h4 id="by-night">By night</h4>
+<p>Writing poetry, technical words, and making visual art while communing with
+Earth’s finest Lake.</p>
+<p>♥ <a href="/personal-projects.html">Personal projects</a></p>
+<h4 id="social">Social</h4>
+<ul>
+<li><a href="http://500px.com/brianshumate">500px</a></li>
+<li><a href="https://github.com/brianshumate">GitHub</a></li>
+<li><a href="https://chat.meatspac.es/">Meatspace Chat</a></li>
+<li><a href="https://twitter.com/brianshumate">Twitter</a></li>
+<li>IRC: <code>bshumate</code></li>
+</ul>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2015 J. Brian Shumate</p>
+        </section>
+      </div>
+    </footer>
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-47374715-2', 'auto');ga('send', 'pageview');</script>
+  </body>
+</html>
