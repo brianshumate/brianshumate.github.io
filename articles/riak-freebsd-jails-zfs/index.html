@@ -72,22 +72,22 @@ but without any unique&nbsp;configuration.</p>
 <span class="built_in">cd</span> /usr/ports/ftp/curl &amp;&amp; make install distclean
 <span class="built_in">cd</span> /usr/ports/devel/git &amp;&amp; make install distclean
 <span class="built_in">cd</span> /usr/ports/sysutils/screen &amp;&amp; make install distclean
-<span class="built_in">cd</span> /usr/ports/security/<span class="built_in">sudo</span> &amp;&amp; make install distclean
+<span class="built_in">cd</span> /usr/ports/security/sudo &amp;&amp; make install distclean
 <span class="built_in">cd</span> /usr/ports/editors/vim-lite &amp;&amp; make install distclean
 </code></pre>
 <p>Alternatively, you can install package versions of the above like&nbsp;so:</p>
-<pre><code class="lang-bash">pkg_add -r curl erlang git screen <span class="built_in">sudo</span> vim-lite
+<pre><code class="lang-bash">pkg_add -r curl erlang git screen sudo vim-lite
 </code></pre>
 <h4 id="notes-for-building-riak-on-freebsd-8-3-release">Notes for Building Riak on FreeBSD&nbsp;8.3-<span class="caps">RELEASE</span></h4>
 <p><em>The <span class="caps">BSD</span> make(1) dance</em>: <span class="caps">BSD</span> has its own build toolchain in addition to some
 GNU build tools, such as <code>gmake</code>. This  can pose an issue when building Riak,
 so we can perform a small, rather inelegant, but temporary&nbsp;workaround:</p>
 <p>From within the jail&nbsp;host:</p>
-<pre><code class="lang-bash"><span class="built_in">cd</span> /usr/local/jails/basejail/usr/bin
+<pre><code class="lang-bash"><span class="built_in">cd</span> /usr/<span class="built_in">local</span>/jails/basejail/usr/bin
 mv make bsd-make
 </code></pre>
 <p>From within the jail being used to build the Riak&nbsp;flavor:</p>
-<pre><code class="lang-bash">ln -sf /usr/local/bin/gmake /usr/local/bin/make
+<pre><code class="lang-bash">ln -sf /usr/<span class="built_in">local</span>/bin/gmake /usr/<span class="built_in">local</span>/bin/make
 </code></pre>
 <p>Now we can download the Riak 1.1.2 source, and compile a <code>rel</code> release on the initial&nbsp;node:</p>
 <pre><code class="lang-bash">curl -O downloads.basho.com.s3-website-us-east-<span class="number">1</span>.amazonaws.com/riak/<span class="number">1.1</span>/<span class="number">1.1</span>.<span class="number">2</span>/riak-<span class="number">1.1</span>.<span class="number">2</span>.tar.gz
@@ -138,8 +138,8 @@ message&nbsp;instead.</p>
 request, you can verify that the cluster is ready with a command like this
 executed from any of the&nbsp;nodes:</p>
 <pre><code class="lang-bash">ssh riak1.example.com riak-admin ringready
-Attempting to restart script through <span class="built_in">sudo</span> -H -u riak
-<span class="caps">TRUE</span> All nodes agree on the ring [<span class="string">'riak@riak1.example.com'</span>,
+Attempting to restart script through sudo -H -u riak
+TRUE All nodes agree on the ring [<span class="string">'riak@riak1.example.com'</span>,
                                   <span class="string">'riak@riak2.example.com'</span>,
                                   <span class="string">'riak@riak3.example.com'</span>,
                                   <span class="string">'riak@riak4.example.com'</span>,
@@ -148,8 +148,8 @@ Attempting to restart script through <span class="built_in">sudo</span> -H -u ri
 <p>Some other initial checks of the cluster you can try are <code>riak-admin test</code>
 and gathering status through <code>riak-admin status</code> and the <span class="caps">HTTP</span>&nbsp;interface.</p>
 <h3 id="riak-admin-test">riak-admin&nbsp;test</h3>
-<pre><code class="lang-bash">ssh riak1.example.com riak-admin test
-Attempting to restart script through <span class="built_in">sudo</span> -H -u riak
+<pre><code class="lang-bash">ssh riak1.example.com riak-admin <span class="built_in">test</span>
+Attempting to restart script through sudo -H -u riak
 Successfully completed <span class="number">1</span> <span class="built_in">read</span>/write cycle to <span class="string">'riak@riak1.example.com'</span>
 </code></pre>
 <h3 id="riak-admin-status">riak-admin&nbsp;status</h3>
