@@ -9,3 +9,7 @@
 ## v1.0.2
 
 - Gulpification in a quasi useful style
+
+## v1.03
+
+- Add analytics
