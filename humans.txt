@@ -7,12 +7,16 @@ Brian /// Dude /// @briansumate
 
 # THANKS
 
+Danika
+Breandon
 Stephanie
 Cognac
+Longboarding
 Meatspace
 Tacos
+Андрей Уханёв (longboard icon)
+Scott Lewis (umbrella icon)
 
 # TECHNOLOGY COLOPHON
 
 HTML5, CSS3
-Modernizr
