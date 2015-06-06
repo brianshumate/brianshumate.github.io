@@ -30,3 +30,7 @@
 ## v1.0.7
 
 - The optimization will continue until morale improves
+
+## v1.0.8
+
+- keys and codes > .txt

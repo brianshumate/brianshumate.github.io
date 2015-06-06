@@ -1,37 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width">
-    <title>GPG Public Key - Brian Shumate
-    </title>
-    <link rel="alternate" href="http://brianshumate.com/feed.xml" type="application/rss+xml" title="Art &amp; Nerdery">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <script src="//use.edgefonts.net/source-code-pro;bree-serif.js"></script>
-    <script type="text/javascript" src="/js/highlight.pack.js"></script>
-    <script type="text/javascript" src="/js/woopra.js"></script>
-    <body class="page-detail"></body>
-    <header class="header">
-      <div class="content-wrap">
-        <h1>GPG Public Key</h1>
-      </div>
-    </header>
-    <div id="content">
-      <div class="content-wrap">
-        <article class="article">
-          <section class="content"><pre><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
 
 mQINBFQo52ABEADdt/eD1+1Qgt9Vn2iEO1q9FOqGKOlSEBDaimJXZ3um1wxU+l+V
 3VqEzAKli5r1WoovdgdIRIt0Uyk5LY7Se7xXaIXQeg7eVKDxDHhQwChDlkqtR1Sd
-omcsH4rapbqswop77ERSYkz1LrGCZ+xmjC7sv3oJhcUx+UtVr4<span class="ord">st</span>7yrHJ0t6L6gJ
+omcsH4rapbqswop77ERSYkz1LrGCZ+xmjC7sv3oJhcUx+UtVr4st7yrHJ0t6L6gJ
 R5PmSTShGp9XAD8fu0lr+pIat9oQOq/lcJ2+u5PzbzsQo82/v7yDj1axz3D8n2mr
 Wx8Aw1Cdh+SOPAne0AViRBnLcWdfwXlDRnojninGu9r7LlC+t32TOY94PFbJWpVP
 S7fjKhwHSOrWWiu31Z9DDOC501AXjwyNE3lCAPtBEU0rJf7IZfA6aWUs1VxVzSwS
 2bnU7minL+nVee4X1tSACTPk+zVQCFGXcZZd6xHR9gvMbw+zpejqoumKhdsZcpiJ
-s2<span class="ord">rd</span>CNzbbgHICNcT/NoSprcS9KecNY4uUSXVE1br2jpLl4N1wW/oXEOoqyTHIfzc
+s2rdCNzbbgHICNcT/NoSprcS9KecNY4uUSXVE1br2jpLl4N1wW/oXEOoqyTHIfzc
 9W0dgjRCWQ+A+FncRcjF6IBnXcX6ObLXu16gvzgZiuNukE6PYx4so6yAeYJ3SqFi
 ztOb8QxJhi0G1e92khmvPoEKpo2/OBsmZX/3pId4j5x8v2cyr79slJG7KBvDeWnK
 eVjnvopWsam63zE93gWTIw6N4MEFivlh6BB9fgZb4Y2asxvj9mpAyhLI+QARAQAB
@@ -97,32 +74,3 @@ BOxcNCghTKKMkeGsNlMv9iLwCWmstrMiKvBDsbGNQ+lkBWkm/sCMIAzd0++3JfBe
 gw==
 =wvx9
 -----END PGP PUBLIC KEY BLOCK-----
-</code></pre></section>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="content-wrap">
-        <div class="nav"><a href="/"><i class="class fa fa-cube"></i></a></div>
-        <section class="about"><h4 id="by-day">By day</h4>
-<p>Fighting for the user by resolving complex issues in distributed database
-environments and writing useful documentation<br><br></p>
-<h4 id="by-night">By night</h4>
-<p>Writing poetry, creating web stuff, bots, and visual art — The Lake</p>
-<p>♥ <a href="/personal-projects.html">Personal projects</a></p>
-<h4 id="elswhere">Elswhere</h4>
-<ul>
-<li><a href="http://500px.com/brianshumate">500px</a></li>
-<li><a href="https://github.com/brianshumate">GitHub</a></li>
-<li><a href="https://twitter.com/brianshumate">Twitter</a></li>
-<li>IRC: <code>bshumate</code><br><br></li>
-</ul>
-
-        </section>
-        <section class="copy">
-          <p>&copy; 2015 Brian Shumate</p>
-        </section>
-      </div>
-    </footer>
-  </head>
-</html>
