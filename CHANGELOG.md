@@ -26,3 +26,7 @@
 
 - Longboard
 - Image dimensions
+
+## v1.0.7
+
+- The optimization will continue until morale improves
