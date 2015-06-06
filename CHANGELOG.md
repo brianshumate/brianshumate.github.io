@@ -13,3 +13,7 @@
 ## v1.03
 
 - Add analytics
+
+## v1.0.4
+
+- Less verbosity in the greeting
