@@ -22,16 +22,15 @@ gulp.task('process-preloader-css', function() {
         .pipe(gulp.dest('./css/'));
 });
 
-/*
-gulp.task('cp-bootstrap', function() {
+
+gulp.task('copy-bootstrap', function() {
     return gulp.src('./src/css/bootstrap.min.css')
         .pipe(gulp.dest('./css/'));
 });
-*/
+
 
 gulp.task('process-css', function() {
-    return gulp.src(['./src/css/bootstrap.min.css',
-                     './src/css/style.css',
+    return gulp.src(['./src/css/style.css',
                      './src/css/responsive.css',
                      './src/css/animate.css',
                      './src/css/simple-line-icons.css'])
@@ -44,9 +43,10 @@ gulp.task('process-css', function() {
 });
 
 gulp.task('process-js', function () {
-    return gulp.src(['./src/lib/jquery.nicescroll.min.js',
-                     './src/lib/main.js',
-                     './src/lib/wow.min.js'])
+    return gulp.src(['./src/js/jquery.easing.min.js',
+                     './src/js/jquery.nicescroll.min.js',
+                     './src/js/main.js',
+                     './src/js/wow.min.js'])
             .pipe(concat('main.js'))
             .pipe(gulp.dest('./js/'))
             .pipe(uglify({ outSourceMap: true }))
@@ -59,8 +59,8 @@ gulp.task('process-js', function () {
 });
 
 gulp.task('copy-lib', function () {
-    return gulp.src(['./src/lib/bootstrap.min.js',
-                     './src/lib/jquery-latest.min.js'])
+    return gulp.src(['./src/js/bootstrap.min.js',
+                     './src/js/jquery-latest.min.js'])
             .pipe(gulp.dest('./js/'));
 });
 
@@ -78,6 +78,7 @@ gulp.task('package', ['process-js',
                       'copy-lib',
                       'process-preloader-css', 
                       'process-css',
+                      'copy-bootstrap',
                       'process-images']);
 
 gulp.task('default', ['package', 'clean']);

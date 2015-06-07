@@ -42,3 +42,7 @@
 ## v1.0.10
 
 - Split out Bootstrap CSS
+
+## v1.0.11
+
+- Debugging menu issues
