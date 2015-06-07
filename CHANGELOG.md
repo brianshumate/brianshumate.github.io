@@ -38,3 +38,7 @@
 ## v1.0.9
 
 - Image tweak
+
+## v1.0.10
+
+- Split out Bootstrap CSS

@@ -22,6 +22,11 @@ gulp.task('process-preloader-css', function() {
         .pipe(gulp.dest('./css/'));
 });
 
+gulp.task('cp-bootstrap', function() {
+    return gulp.src('./src/css/bootstrap.min.css')
+        .pipe(gulp.dest('./css/'));
+});
+
 gulp.task('process-css', function() {
     return gulp.src(['./src/css/bootstrap.min.css',
                      './src/css/style.css',
@@ -63,6 +68,7 @@ gulp.task('process-images', function () {
 });
 
 gulp.task('package', ['process-js',
+                      'cp-bootstrap',
                       'process-preloader-css', 
                       'process-css',
                       'process-images']);
