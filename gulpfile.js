@@ -22,10 +22,12 @@ gulp.task('process-preloader-css', function() {
         .pipe(gulp.dest('./css/'));
 });
 
+/*
 gulp.task('cp-bootstrap', function() {
     return gulp.src('./src/css/bootstrap.min.css')
         .pipe(gulp.dest('./css/'));
 });
+*/
 
 gulp.task('process-css', function() {
     return gulp.src(['./src/css/bootstrap.min.css',
@@ -43,9 +45,8 @@ gulp.task('process-css', function() {
 
 gulp.task('process-js', function () {
     return gulp.src(['./src/lib/jquery.nicescroll.min.js',
-                     './src/lib/main.min.js',
-                     './src/lib/wow.min.js',
-                     './src/js/main.js'])
+                     './src/lib/main.js',
+                     './src/lib/wow.min.js'])
             .pipe(concat('main.js'))
             .pipe(gulp.dest('./js/'))
             .pipe(uglify({ outSourceMap: true }))
@@ -54,6 +55,12 @@ gulp.task('process-js', function () {
                     path.basename += '.min';
                 }
             }))
+            .pipe(gulp.dest('./js/'));
+});
+
+gulp.task('copy-lib', function () {
+    return gulp.src(['./src/lib/bootstrap.min.js',
+                     './src/lib/jquery-latest.min.js'])
             .pipe(gulp.dest('./js/'));
 });
 
@@ -68,7 +75,7 @@ gulp.task('process-images', function () {
 });
 
 gulp.task('package', ['process-js',
-                      'cp-bootstrap',
+                      'copy-lib',
                       'process-preloader-css', 
                       'process-css',
                       'process-images']);
