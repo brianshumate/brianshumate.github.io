@@ -22,15 +22,9 @@ gulp.task('process-preloader-css', function() {
         .pipe(gulp.dest('./css/'));
 });
 
-
-gulp.task('copy-bootstrap', function() {
-    return gulp.src('./src/css/bootstrap.min.css')
-        .pipe(gulp.dest('./css/'));
-});
-
-
 gulp.task('process-css', function() {
-    return gulp.src(['./src/css/style.css',
+    return gulp.src(['./src/css/bootstrap.min.css',
+                     './src/css/style.css',
                      './src/css/responsive.css',
                      './src/css/animate.css',
                      './src/css/simple-line-icons.css'])
@@ -78,7 +72,6 @@ gulp.task('package', ['process-js',
                       'copy-lib',
                       'process-preloader-css', 
                       'process-css',
-                      'copy-bootstrap',
                       'process-images']);
 
 gulp.task('default', ['package', 'clean']);

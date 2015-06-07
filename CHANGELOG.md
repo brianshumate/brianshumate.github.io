@@ -46,3 +46,8 @@
 ## v1.0.11
 
 - Debugging menu issues
+
+## v1.0.11
+
+- Debugging mobile menu
+- Remove unused Bootstrap CSS rules again
