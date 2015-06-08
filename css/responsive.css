@@ -1,5 +1,6 @@
 @media only screen and (max-width : 1024px) {
-    #hero{max-height: 660px;}
+    #hero{max-height: 420px;}
+    #projectObjects li{width: 97%;}
     #clients img{height: 50px;}
 }
 
@@ -13,16 +14,6 @@
     #projectObjects li{width: 49%;}
     #projectObjects li:first-child{width: 97%;}
     .myphoto{text-align: center;}
-    .navbar-header {float: none;}
-    .navbar-left,.navbar-right {float: none !important;}
-    .navbar-toggle {display: block;}
-    .navbar-collapse.collapse {display: none!important;}
-	.navbar-nav>li {
-        float: none;
-        padding-left: 30px;
-        overflow: hidden;
-    }
-    .collapse.in{display:block !important;}
 }
 
 @media only screen and (max-width : 640px) {
