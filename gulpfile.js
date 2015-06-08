@@ -19,7 +19,7 @@ gulp.task('clean', function (cb) {
 gulp.task('process-twitchy-css', function() {
     return gulp.src(['./src/css/preloader.css',
                      './src/css/responsive.css'])
-        //.pipe(csso())
+        .pipe(csso())
         .pipe(gulp.dest('./css/'));
 });
 
