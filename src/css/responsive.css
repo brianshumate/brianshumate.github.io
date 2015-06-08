@@ -1,9 +1,7 @@
-/* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {
     #hero{max-height: 660px;}
 }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width : 980px) {
 
     #hero{height: 540px;}
