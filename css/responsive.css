@@ -4,16 +4,14 @@
 }
 
 @media only screen and (max-width : 980px) {
-    #hero{height: 540px;}
+    #hero{height: 420px;}
     #about{padding-top: 40px;}
     #clients {text-align: center;}
     #clients img{height: 40px;}
     #clients ul{float: none;}
     #clients h4 {display: none;}
-    #projectObjects li{width: 97%;}
-    /*
+    #projectObjects li{width: 49%;}
     #projectObjects li:first-child{width: 97%;}
-    */
     .myphoto{text-align: center;}
     .navbar-header {float: none;}
     .navbar-left,.navbar-right {float: none !important;}
