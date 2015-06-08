@@ -43,10 +43,10 @@ gulp.task('copy-css', function() {
                      './src/css/animate.css',
                      './src/css/simple-line-icons.css'])
         .pipe(concat('main.css'))
-        .pipe(uncss({
-          html: ['http://brianshumate.com', 'index.html']
-        }))
-        //.pipe(csso())
+        //.pipe(uncss({
+        //  html: ['http://brianshumate.com', 'index.html']
+        //}))
+        .pipe(csso())
         .pipe(gulp.dest('./css/'));
 });
 
