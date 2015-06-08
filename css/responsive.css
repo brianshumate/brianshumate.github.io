@@ -11,7 +11,9 @@
     #clients ul{float: none;}
     #clients h4 {display: none;}
     #projectObjects li{width: 97%;}
+    /*
     #projectObjects li:first-child{width: 97%;}
+    */
     .myphoto{text-align: center;}
     .navbar-header {float: none;}
     .navbar-left,.navbar-right {float: none !important;}
@@ -34,16 +36,18 @@
     #hero{height: 420px;}
     .herocontent{padding-top: 30px;}
     #about{text-align: center;}
-    #projectObjects li {width: 96%;}
+    #projectObjects li {width: 97%;}
     .footerlinks li{display: none;}
 }
 
 @media only screen and (max-width : 420px) {
     #hero{height: 420px;}
+    #projectObjects li {width: 97%;}
     .footersocial li{font-size: 1.5em}
 }
 
 @media only screen and (max-width : 320px) {
     #hero{height: 420px;}
+    #projectObjects li {width: 97%;}
     .herocontent{padding-top: 100px; padding-bottom: 30px;}
 }
