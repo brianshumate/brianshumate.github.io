@@ -1,11 +1,11 @@
 @media only screen and (max-width : 1024px) {
-    #hero{max-height: 420px;}
+    #hero{max-height: 440px;}
     #projectObjects li{width: 97%;}
     #clients img{height: 50px;}
 }
 
 @media only screen and (max-width : 980px) {
-    #hero{height: 420px;}
+    #hero{height: 440px;}
     #about{padding-top: 40px;}
     #clients {text-align: center;}
     #clients img{height: 40px;}
@@ -14,6 +14,7 @@
     #projectObjects li{width: 49%;}
     #projectObjects li:first-child{width: 97%;}
     .myphoto{text-align: center;}
+    .navbar-toggle {display: none;}
 }
 
 @media only screen and (max-width : 640px) {
@@ -22,7 +23,7 @@
     h3{font-size: 1.5em}
     h4{font-size: 1.1em;}
     .myphoto{display: none;}
-    #hero{height: 420px;}
+    #hero{height: 440px;}
     .herocontent{padding-top: 30px;}
     #about{text-align: center;}
     #projectObjects li {width: 97%;}
@@ -30,13 +31,13 @@
 }
 
 @media only screen and (max-width : 420px) {
-    #hero{height: 420px;}
+    #hero{height: 440px;}
     #projectObjects li {width: 97%;}
     .footersocial li{font-size: 1.5em}
 }
 
 @media only screen and (max-width : 320px) {
-    #hero{height: 420px;}
+    #hero{height: 440px;}
     #projectObjects li {width: 97%;}
     .herocontent{padding-top: 100px; padding-bottom: 30px;}
 }
