@@ -16,10 +16,9 @@ gulp.task('clean', function (cb) {
   del(['./css/**/*', './js/**/*', '/img/**/*'], cb);
 });
 
-gulp.task('process-twitchy-css', function() {
-    return gulp.src(['./src/css/preloader.css',
-                     './src/css/responsive.css'])
-        //.pipe(csso())
+gulp.task('process-preloader-css', function() {
+    return gulp.src(['./src/css/preloader.css'])
+        .pipe(csso())
         .pipe(gulp.dest('./css/'));
 });
 
@@ -27,7 +26,8 @@ gulp.task('process-css', function() {
     return gulp.src(['./src/css/bootstrap.min.css',
                      './src/css/style.css',
                      './src/css/animate.css',
-                     './src/css/simple-line-icons.css'])
+                     './src/css/simple-line-icons.css',
+                     './src/css/responsive.css'])
         .pipe(concat('main.css'))
         .pipe(uncss({
           html: ['http://brianshumate.com', 'index.html']
@@ -71,7 +71,7 @@ gulp.task('process-images', function () {
 gulp.task('package', ['process-js',
                       'copy-lib',
                       'process-css',
-                      'process-twitchy-css',
+                      'process-preloader-css',
                       'process-images']);
 
 gulp.task('default', ['package', 'clean']);
