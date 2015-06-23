@@ -59,3 +59,8 @@
 ## v1.0.14
 
 - Reorder a blergh
+
+## v1.0.17
+
+- Minify HTML and so forth
+
