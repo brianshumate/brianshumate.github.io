@@ -66,8 +66,8 @@
 
 ## v1.0.16
 
-- Mumble
+- Minify HTML and so forth
 
 ## v1.0.17
 
-- Updated GPG key
+- Updated GPG public key

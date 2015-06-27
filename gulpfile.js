@@ -5,6 +5,7 @@ var del = require('del');
 var gifsicle = require('imagemin-gifsicle');
 var imagemin = require('gulp-imagemin');
 var jpegtran = require('imagemin-jpegtran');
+var minifyHTML = require('gulp-minify-html');
 var optipng = require('imagemin-optipng');
 var rename = require('gulp-rename');
 var svgo = require('imagemin-svgo');
@@ -68,10 +69,22 @@ gulp.task('process-images', function () {
 		.pipe(gulp.dest('./img/'));
 });
 
+gulp.task('minify-html', function() {
+  var opts = {
+    conditionals: true,
+    spare:true
+  };
+ 
+  return gulp.src('./src/html/*.html')
+    .pipe(minifyHTML(opts))
+    .pipe(gulp.dest('./'));
+});
+
 gulp.task('package', ['process-js',
                       'copy-lib',
                       'process-css',
                       'process-preloader-css',
-                      'process-images']);
+                      'process-images',
+                      'minify-html']);
 
 gulp.task('default', ['package', 'clean']);
