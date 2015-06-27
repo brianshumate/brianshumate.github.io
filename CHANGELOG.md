@@ -59,3 +59,15 @@
 ## v1.0.14
 
 - Reorder a blergh
+
+## v1.0.15
+
+- Mumble
+
+## v1.0.16
+
+- Mumble
+
+## v1.0.17
+
+- Updated GPG key
