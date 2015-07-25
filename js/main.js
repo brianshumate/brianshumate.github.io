@@ -119,10 +119,10 @@ function(k){return"undefined"==typeof k?new C(this):this[k]&&f.data(this[k],"__n
 d=new R(c,f(this)),f(this).data("__nicescroll",d));h.push(d)});return 1==h.length?h[0]:h};window.NiceScroll={getjQuery:function(){return f}};f.nicescroll||(f.nicescroll=new C,f.nicescroll.options=I)});
 
 $(window).load(function() { // makes sure the whole site is loaded
-	$('#status').fadeOut(); // will first fade out the loading animation
-	$('#preloader').delay(350).fadeOut('slow');
+    $('#status').fadeOut(); // will first fade out the loading animation
+    $('#preloader').delay(350).fadeOut('slow');
     // will fade out the white DIV that covers the website.
-	$('body').delay(350).css({'overflow':'visible'});
+    $('body').delay(350).css({'overflow':'visible'});
 })
 
 $("html").niceScroll({
@@ -164,7 +164,7 @@ $(function() {
                 .removeClass('animated fadeOutUp')
                 .addClass('animated fadeInDown')
                 .fadeIn();
-                
+
             } else {
                 $('.navbar')
                 .removeClass('animated fadeInDown')
