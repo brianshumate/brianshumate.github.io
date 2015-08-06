@@ -5,6 +5,7 @@ $(window).load(function() { // makes sure the whole site is loaded
     $('body').delay(350).css({'overflow':'visible'});
 })
 
+/*
 $("html").niceScroll({
     mousescrollstep: 70,
     cursorcolor: "#f5ab35",
@@ -12,6 +13,7 @@ $("html").niceScroll({
     cursorborderradius: "10px",
     cursorborder: "none",
 });
+*/
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {

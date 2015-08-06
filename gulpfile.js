@@ -38,7 +38,6 @@ gulp.task('process-css', function () {
 
 gulp.task('process-js', function () {
   return gulp.src(['./src/js/jquery.easing.min.js',
-    './src/js/jquery.nicescroll.min.js',
     './src/js/main.js',
     './src/js/wow.min.js'])
     .pipe(concat('main.js'))
