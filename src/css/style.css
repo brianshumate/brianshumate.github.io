@@ -62,7 +62,7 @@ hr.separator{
 #hero{
     color: #fff;
     text-align: center;
-    background: url(../img/waves256.png)no-repeat;
+    background: url(../img/waves128.png)no-repeat;
     max-height: 440px;
     overflow: hidden;
 }
