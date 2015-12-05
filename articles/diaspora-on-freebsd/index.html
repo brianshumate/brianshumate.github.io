@@ -1,0 +1,82 @@
+<!DOCTYPE html><html><head><title>Diaspora on FreeBSD | Brian Shumate</title><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png"><link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png"><link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png"><link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png"><link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196"><link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16"><link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128"><meta name="application-name" content="Brian Shumate"><meta name="msapplication-TileColor" content="#F5AB35"><meta name="msapplication-TileImage" content="/img/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="/img/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="/img/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="/img/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="/img/mstile-310x310.png"><link rel="stylesheet" href="/css/site.css"><script src="//use.edgefonts.net/orbitron.js"></script></head><body><header><div class="top-bar"><div class="top-bar-left"><ul class="menu"><li class="menu-text"><a href="/"><img src="/img/brand.svg" width="24" height="24" class="svg-inject brand-all"><span>Brian </span><span>Shumate</span></a></li></ul></div><div class="top-bar-right"><ul class="menu"><li><a href="/about/">About</a></li><li><a href="/articles/">Articles</a></li><li><a href="/now/">Now</a></li><li><a href="/projects/">Projects</a></li></ul></div></div></header><div id="article-layout-main"><div class="row medium-8 large-7 columns"><article id="article"><br><div class="secondary callout"><h5 id="article-meta"><a class="heading-anchor" href="#article-meta"><span></span></a>Article Meta</h5><span class="byline"><i class="fi-calendar">&#xA0;&#xA0;Published on January 4th, 2012</i></span><br><span class="article-stats"><i class="fi-page">&#xA0;&#xA0;317 words</i></span><br><span class="article-stats"> <i class="fi-clock">&#xA0;&#xA0;Reading time 2 min</i></span></div><hr><h1 id="diaspora-on-freebsd"><a class="heading-anchor" href="#diaspora-on-freebsd"><span></span></a>Diaspora on FreeBSD</h1><div><p>This is a small collection of brief notes and specs for installing a <a href="http://github.com/diaspora/diaspora">Diaspora*</a> project pod instance on
+FreeBSD 8.2, which is the setup I <del>am</del> was using at the create-o-plex pod before I stopped operating it.</p>
+<!--more-->
+<p>I refer to these notes along with the Diaspora* <a href="https://github.com/diaspora/diaspora/wiki/Installing-and-Running-Diaspora">installation instructions</a> to get set up and running.</p>
+<div class="callout"><strong>PLEASE NOTE</strong>: This content contains outdated and possibly irrelevant information.</div>
+
+<h2 id="install-prerequisite-ports"><a class="heading-anchor" href="#install-prerequisite-ports"><span></span></a>Install prerequisite ports</h2>
+<p>These are the ports which you should update and install prior to cloning the Diaspora Github repository:</p>
+<ul>
+<li>git</li>
+<li>ImageMagick</li>
+<li>libxml2</li>
+<li>mysql51-server</li>
+<li>www/nginx</li>
+<li>redis</li>
+<li>ruby19</li>
+<li>sqlite3</li>
+</ul>
+<h2 id="install-bundler"><a class="heading-anchor" href="#install-bundler"><span></span></a>Install bundler</h2>
+<p>You need to install the Ruby <code>bundler</code> utility for use with Diaspora:</p>
+<pre><code class="lang-bash">sudo gem install bundler
+</code></pre>
+<h2 id="example-configurations"><a class="heading-anchor" href="#example-configurations"><span></span></a>Example Configurations</h2>
+<p>Here are some examples and snippets based on the configuration files I use in my FreeBSD based setup. Please note that my setup is experimental and although it runs in production mode and is monitored, it supports limited users and runs on a server with modest resources. These examples are just that. YMMV, etc. ;)</p>
+<h3 id="-usr-local-etc-redis-conf"><a class="heading-anchor" href="#-usr-local-etc-redis-conf"><span></span></a>/usr/local/etc/redis.conf</h3>
+<pre><code class="lang-config">daemonize yes
+pidfile /var/run/redis/redis.pid
+bind 127.0.0.1
+port 6379
+timeout 300
+loglevel verbose
+logfile /path_to_log_dir/redis/redis.log
+databases 16
+save 900 1
+save 300 10
+save 60 10000
+rdbcompression yes
+dbfilename dump.rdb
+dir /home/db/redis/
+appendonly no
+appendfsync everysec
+vm-enabled no
+vm-swap-file /tmp/redis.swap
+vm-max-memory 0
+vm-page-size 32
+vm-pages 134217728
+vm-max-threads 4
+glueoutputbuf yes
+hash-max-zipmap-entries 64
+hash-max-zipmap-value 512
+</code></pre>
+<h3 id="script_server-yml"><a class="heading-anchor" href="#script_server-yml"><span></span></a>script_server.yml</h3>
+<pre><code class="lang-yaml">script_server:
+  # Choose database. Currently supported: mysql, postgres
+  db: &quot;mysql&quot;
+
+  # Enable thin as application server
+  enable_thin: true
+
+  # Port on which thin should listen
+  thin_port: 3000
+
+  # We&apos;re running our Thin instances on sockets instead of ports
+  default_thin_args: &quot;--servers 3 --socket /tmp/thin.sock&quot;
+
+  # Possibilities are development, production
+  rails_env: &quot;production&quot;
+</code></pre>
+<h3 id="nginx-conf"><a class="heading-anchor" href="#nginx-conf"><span></span></a>nginx.conf</h3>
+<p>Relevant snippet from the <code>nginx.conf</code> showing sockets for Thin:</p>
+<pre><code class="lang-config">upstream thin_cluster {
+    server   unix:/tmp/thin.0.sock;
+    server   unix:/tmp/thin.1.sock;
+    server   unix:/tmp/thin.2.sock;
+}
+</code></pre>
+<h2 id="notes"><a class="heading-anchor" href="#notes"><span></span></a>Notes</h2>
+<h3 id="bundle-install-phase"><a class="heading-anchor" href="#bundle-install-phase"><span></span></a>Bundle Install Phase</h3>
+<p>SQLite3 gem install will fail to find includes at build time without setting this prior to running <code>bundle install</code>:</p>
+<pre><code class="lang-shell">export CONFIGURE_ARGS=&quot;with-sqlite3-include=/usr/local/include&quot;
+</code></pre>
+</div><hr></article></div></div></body><footer><div class="row expanded callout secondary"><div class="large-4 columns"><h5 id="-photographie"><a class="heading-anchor" href="#-photographie"><span></span></a><i class="fi-camera"> </i>PHOTOGRAPHIE</h5><div class="row small-up-4"><div class="column"><a href="https://500px.com/photo/128380667/the-mist-by-brian-shumate"><img src="/img/500px/stock-photo-128380667.jpg" alt="500px thumbnail" class="thumbnail"></a></div><div class="column"><a href="https://500px.com/photo/92822883/orb-by-brian-shumate"><img src="/img/500px/stock-photo-128380669.jpg" alt="500px thumbnail" class="thumbnail"></a></div><div class="column"><a href="https://500px.com/photo/128380671/bee-by-brian-shumate"><img src="/img/500px/stock-photo-128380671.jpg" alt="500px thumbnail" class="thumbnail"></a></div><div class="column"><a href="https://500px.com/photo/128380673/cicada-by-brian-shumate"><img src="/img/500px/stock-photo-128380673.jpg" alt="500px thumbnail" class="thumbnail"></a></div><div class="column"><a href="https://500px.com/photo/128380675/butterfly-by-brian-shumate"><img src="/img/500px/stock-photo-128380675.jpg" alt="500px thumbnail" class="thumbnail"></a></div><div class="column"><a href="https://500px.com/photo/128380677/foggy-fall-by-brian-shumate"><img src="/img/500px/stock-photo-128380677.jpg" alt="500px thumbnail" class="thumbnail"></a></div><div class="column"><a href="https://500px.com/photo/128380679/old-homestead-by-brian-shumate"><img src="/img/500px/stock-photo-128380679.jpg" alt="500px thumbnail" class="thumbnail"></a></div><div class="column"><a href="https://500px.com/photo/128380695/foggy-morning-by-brian-shumate"><img src="/img/500px/stock-photo-128380695.jpg" alt="500px thumbnail" class="thumbnail"></a></div></div></div><div class="large-4 columns"><h5 id="-choses-sociales-"><a class="heading-anchor" href="#-choses-sociales-"><span></span></a><i class="fi-at-sign"> </i>CHOSES SOCIALES<br><a href="https://twitter.com/brianshumate" title="Brian Shumate on Twitter"><i class="fi-social-twitter size-60"> </i></a><a href="https://github.com/brianshumate" title="Brian Shumate on GitHub"><i class="fi-social-github size-60"> </i></a><a href="https://500px.com/brianshumate" title="Brian Shumate on 500px"><i class="fi-social-500px size-60"> </i></a><a href="https://keybase.io/brianshumate" title="Brian Shumate on Keybase.io"><i class="fi-key size-60"> </i></a></h5></div><div class="large-4 columns"><h5 id="-de-la-fort"><a class="heading-anchor" href="#-de-la-fort"><span></span></a><i class="fi-trees"> </i>DE LA FOR&#xCA;T</h5><div id="hdt-quote" class="callout"><bloqckquote class="jsgood"><p>&#x201C;We must walk consciously only part way toward our goal, and then leap in the dark to our success.&#x201D;<br><br>&#x2014;Henry David Thoreau</p></bloqckquote><noscript><bloqckquote><p>&#x201C;We must walk consciously only part way toward our goal, and then leap in the dark to our success.&#x201D;<br><br>&#x2014;Henry David Thoreau</p></bloqckquote></noscript><p></p></div></div></div><div class="row expanded"><div class="medium-6 columns"><ul class="menu"><li><a href="/about/">About</a></li><li><a data-open="disclaimerModal">Disclaimer</a></li><li><a href="/license/">License</a></li></ul></div><div class="medium-6 columns"><ul class="menu align-right"><li class="menu-text">Copyright &#xA9; 2015 Brian Shumate</li></ul></div></div></footer><div id="disclaimerModal" data-reveal="" class="large reveal"><h1 id="disclaimer"><a class="heading-anchor" href="#disclaimer"><span></span></a>DISCLAIMER</h1><p class="lead">This is a personal website comprised of personally held opinions. All content provided on this website is for informational purposes only. Brian Shumate makes no representations as to accuracy, completeness, suitability, or validity of any information on this website and will not be liable for any errors, omissions, or delays in this information or any losses, injuries, or damages arising from its display or use. All information is provided on an as-is basis. Terms are subject to change at any time and without notice.</p><button data-close="" aria-label="Close reveal" type="button" class="close-button"><span aria-hidden="true">&#xD7;</span></button></div><script src="/js/jquery-2.1.4.min.js"></script><script src="/js/foundation.min.js"></script><script src="/js/prism.js"></script><script src="/js/app.js"></script></html>

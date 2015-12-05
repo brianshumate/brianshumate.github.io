@@ -1,22 +1,25 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* TEAM */
+Guilty Party: Brian Shumate
+Site: http://brianshumate.com/
+Twitter: @brianshumate
+Location: On a boat
+                            
+/* THANKS */
+Name: Fred Benenson for https://www.flickr.com/photos/creativecommons/3111021669/
+Name: Peretz Partensky for https://commons.wikimedia.org/wiki/File:Aaron_Swartz_-_Freedom_to_Connect_conference.jpg
+Name: Raysonho for https://en.wikipedia.org/wiki/Cisco_Systems#/media/File:CiscoUCS.JPG
+Name: mwibawa for https://www.flickr.com/photos/9189911@N02/3664068977/
+Name: Willtron https://sco.wikipedia.org/wiki/Capacitor#/media/File:Condensador_electrolitico_150_microF_400V.jpg
+Name: Sevan Janiyan for https://www.flickr.com/photos/sevanjan/9583044413
+Name: Giuseppe Costantino for https://www.flickr.com/photos/69730904@N03/8813574238
+Name: Tommy Lau for https://thenounproject.com/search/?q=umbrella&i=32525
+Name: Nick Abrams for https://thenounproject.com/term/face/84199/
+Name: Keoni Cabral for https://www.flickr.com/photos/keoni101/5378177339
+Name: Barbetorte for https://en.wikipedia.org/wiki/J-class_yacht#/media/File:J_Class_sail_plan.svg
+Name: William Scot for https://en.wikipedia.org/wiki/La_Rochelle#/media/File:Blason_de_La_Rochelle.png
 
-# TEAM
-
-Brian /// Dude /// @briansumate
-
-# THANKS
-
-Danika
-Breandon
-Stephanie
-Cognac
-Longboarding
-Meatspace
-Tacos
-Carol Ourivio (wave image)
-Scott Lewis (umbrella icon)
-
-# TECHNOLOGY COLOPHON
-
-HTML5, CSS3
+/* SITE */
+Last update: 2015-12-05T16:56:30
+Standards: HTML5, CSS3, JS
+Components: jQuery, Zurb Foundation
+Software: Metalsmith, Pixelmator, Sublime Text 3

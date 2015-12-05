@@ -1,3 +1,4 @@
-# robotstxt.org/
+# www.robotstxt.org
 
 User-agent: *
+Disallow: /SECRET_DOCUMENTS.rar
