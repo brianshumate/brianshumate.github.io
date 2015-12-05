@@ -19,7 +19,7 @@ Name: Barbetorte for https://en.wikipedia.org/wiki/J-class_yacht#/media/File:J_C
 Name: William Scot for https://en.wikipedia.org/wiki/La_Rochelle#/media/File:Blason_de_La_Rochelle.png
 
 /* SITE */
-Last update: 2015-12-05T17:04:30
+Last update: 2015-12-05T17:26:08
 Standards: HTML5, CSS3, JS
 Components: jQuery, Zurb Foundation
 Software: Metalsmith, Pixelmator, Sublime Text 3
