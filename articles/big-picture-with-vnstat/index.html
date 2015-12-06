@@ -7,7 +7,7 @@ passed through interface <em>foo</em>? last month), then you should
 check out <a href="http://humdi.net/vnstat/"><code>vnstat</code></a>.</p>
 <p>For a Debian-ish Linux system, you might do something like this to get
 it installed:</p>
-<pre><code class="lang-shell">sudo apt-get install vnstat
+<pre><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> vnstat
 </code></pre>
 <p>This will install <code>vnstat</code> and place a <code>cron</code> script in <code>/etc/cron.d</code>
 setting up <code>vnstat</code> that&apos;s executed every five minutes for the majority
@@ -16,7 +16,7 @@ of each hour.</p>
 them at the command line. Here are a some examples from the server that
 manages my collection of news trends on a multitude of topics:</p>
 <h4 id="show-usage-for-today-and-yesterday-on-all-interfaces"><a class="heading-anchor" href="#show-usage-for-today-and-yesterday-on-all-interfaces"><span></span></a>Show usage for today and yesterday on all interfaces</h4>
-<pre><code class="lang-shell">vnstat
+<pre><code class="language-bash">vnstat
 
                      rx      /     tx      /    total    /  estimated
  eth0:
@@ -28,32 +28,32 @@ manages my collection of news trends on a multitude of topics:</p>
          today      2.59 MB  /   37.22 MB  /   39.80 MB  /     710 MB
 </code></pre>
 <h4 id="show-usage-for-all-months-on-the-primary-interface"><a class="heading-anchor" href="#show-usage-for-all-months-on-the-primary-interface"><span></span></a>Show usage for all months on the primary interface</h4>
-<pre><code class="lang-shell">vnstat -m
+<pre><code class="language-bash">vnstat -m
 
 eth0  /  monthly
 
-  month         rx      |      tx      |   total
+  month         rx      <span class="token operator">|</span>      tx      <span class="token operator">|</span>   total
 ------------------------+--------------+------------------------------------
- Jun &apos;10     358.13 MB  |     8.61 GB  |     8.96 GB   %::::::::::::::::
- Jul &apos;10     294.29 MB  |     5.27 GB  |     5.56 GB   %:::::::::
- Aug &apos;10     289.47 MB  |     6.31 GB  |     6.59 GB   %:::::::::::
- Sep &apos;10     308.96 MB  |     6.25 GB  |     6.55 GB   %:::::::::::
- Oct &apos;10      25.25 MB  |   697.73 MB  |   722.98 MB   :
+ Jun <span class="token string">&apos;10     358.13 MB  |     8.61 GB  |     8.96 GB   %::::::::::::::::
+ Jul &apos;</span>10     294.29 MB  <span class="token operator">|</span>     5.27 GB  <span class="token operator">|</span>     5.56 GB   %:::::::::
+ Aug <span class="token string">&apos;10     289.47 MB  |     6.31 GB  |     6.59 GB   %:::::::::::
+ Sep &apos;</span>10     308.96 MB  <span class="token operator">|</span>     6.25 GB  <span class="token operator">|</span>     6.55 GB   %:::::::::::
+ Oct &apos;10      25.25 MB  <span class="token operator">|</span>   697.73 MB  <span class="token operator">|</span>   722.98 MB   <span class="token keyword">:</span>
 ------------------------+--------------+------------------------------------
-estimated       379 MB  |    10.33 GB  |    10.71 GB
+estimated       379 MB  <span class="token operator">|</span>    10.33 GB  <span class="token operator">|</span>    10.71 GB
 </code></pre>
 <h4 id="show-weekly-usage-on-the-primary-interface"><a class="heading-anchor" href="#show-weekly-usage-on-the-primary-interface"><span></span></a>Show weekly usage on the primary interface</h4>
-<pre><code class="lang-shell">vnstat -w
+<pre><code class="language-bash">vnstat -w
 
 eth0  /  weekly
 
-                    rx      |       tx      |    total
+                    rx      <span class="token operator">|</span>       tx      <span class="token operator">|</span>    total
 ----------------------------+---------------+--------------
-  last 7 days     64.96 MB  |      1.49 GB  |      1.55 GB
-    last week     69.49 MB  |      1.43 GB  |      1.50 GB
- current week     64.96 MB  |      1.49 GB  |      1.55 GB
+  last 7 days     64.96 MB  <span class="token operator">|</span>      1.49 GB  <span class="token operator">|</span>      1.55 GB
+    last week     69.49 MB  <span class="token operator">|</span>      1.43 GB  <span class="token operator">|</span>      1.50 GB
+ current week     64.96 MB  <span class="token operator">|</span>      1.49 GB  <span class="token operator">|</span>      1.55 GB
 ----------------------------+---------------+--------------
-    estimated        74 MB  |      1.72 GB  |      1.79 GB
+    estimated        74 MB  <span class="token operator">|</span>      1.72 GB  <span class="token operator">|</span>      1.79 GB
 </code></pre>
 <p>There is considerably more traffic generated from people consuming the
 processed news trends from our front end web interface (tx) than there is

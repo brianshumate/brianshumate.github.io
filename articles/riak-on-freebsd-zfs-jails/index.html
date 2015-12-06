@@ -44,32 +44,32 @@ but without any unique configuration.</p>
 </ul>
 <p>After the jail is booted, we can install Riak dependencies and supporting software. As of this writing and with FreeBSD 8.3-RELEASE, the ports tree offers Erlang R14B04, which is compatible with the Riak version 1.1.2 we&apos;ll be using.</p>
 <p>Use your preferred options/discretion for particular builds of the software ports listed below:</p>
-<pre><code class="lang-bash">
-cd /usr/ports/lang/erlang &amp;&amp; make install distclean
-cd /usr/ports/ftp/curl &amp;&amp; make install distclean
-cd /usr/ports/devel/git &amp;&amp; make install distclean
-cd /usr/ports/sysutils/screen &amp;&amp; make install distclean
-cd /usr/ports/security/sudo &amp;&amp; make install distclean
-cd /usr/ports/editors/vim-lite &amp;&amp; make install distclean
+<pre><code class="language-bash">
+<span class="token function">cd</span> /usr/ports/lang/erlang <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> <span class="token function">install</span> distclean
+<span class="token function">cd</span> /usr/ports/ftp/curl <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> <span class="token function">install</span> distclean
+<span class="token function">cd</span> /usr/ports/devel/git <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> <span class="token function">install</span> distclean
+<span class="token function">cd</span> /usr/ports/sysutils/screen <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> <span class="token function">install</span> distclean
+<span class="token function">cd</span> /usr/ports/security/sudo <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> <span class="token function">install</span> distclean
+<span class="token function">cd</span> /usr/ports/editors/vim-lite <span class="token operator">&amp;&amp;</span> <span class="token function">make</span> <span class="token function">install</span> distclean
 </code></pre>
 <p>Alternatively, you can install package versions of the above like so:</p>
-<pre><code class="lang-bash">pkg_add -r curl erlang git screen sudo vim-lite
+<pre><code class="language-bash">pkg_add -r curl erlang <span class="token function">git</span> <span class="token function">screen</span> <span class="token function">sudo</span> vim-lite
 </code></pre>
 <h4 id="notes-for-building-riak-on-freebsd-8-3-release"><a class="heading-anchor" href="#notes-for-building-riak-on-freebsd-8-3-release"><span></span></a>Notes for Building Riak on FreeBSD 8.3-RELEASE</h4>
 <p><em>The BSD make(1) dance</em>: BSD has its own build toolchain in addition to some
 GNU build tools, such as <code>gmake</code>. This  can pose an issue when building Riak,
 so we can perform a small, rather inelegant, but temporary workaround:</p>
 <p>From within the jail host:</p>
-<pre><code class="lang-bash">cd /usr/local/jails/basejail/usr/bin
-mv make bsd-make
+<pre><code class="language-bash"><span class="token function">cd</span> /usr/local/jails/basejail/usr/bin
+<span class="token function">mv</span> <span class="token function">make</span> bsd-make
 </code></pre>
 <p>From within the jail being used to build the Riak flavor:</p>
-<pre><code class="lang-bash">ln -sf /usr/local/bin/gmake /usr/local/bin/make
+<pre><code class="language-bash"><span class="token function">ln</span> -sf /usr/local/bin/gmake /usr/local/bin/make
 </code></pre>
 <p>Now we can download the Riak 1.1.2 source, and compile a <code>rel</code> release on the initial node:</p>
-<pre><code class="lang-bash">curl -O downloads.basho.com.s3-website-us-east-1.amazonaws.com/riak/1.1/1.1.2/riak-1.1.2.tar.gz
-tar zxf riak-1.1.2.tar.gz
-cd riak-1.1.2
+<pre><code class="language-bash">curl -O downloads.basho.com.s3-website-us-east-1.amazonaws.com/riak/1.1/1.1.2/riak-1.1.2.tar.gz
+<span class="token function">tar</span> zxf riak-1.1.2.tar.gz
+<span class="token function">cd</span> riak-1.1.2
 gmake rel
 </code></pre>
 <p>Provided the build was successful, you now have a complete Riak node
@@ -98,14 +98,14 @@ documentation <a href="http://docs.basho.com/riak/latest/cookbooks/Basic-Cluster
 <p>The simplest process for joining the nodes to form a cluster is to issue the
 <code>riak-admin join</code> command from N-1 nodes instructing them to join the first
 node, like so:</p>
-<pre><code class="lang-bash">ssh riak2.example.com riak-admin join riak@riak1.example.com
-Success: sent join request to &apos;riak@riak1.example.com&apos;
-ssh riak3.example.com riak-admin join riak@riak1.example.com
-Success: sent join request to &apos;riak@riak1.example.com&apos;
-ssh riak4.example.com riak-admin join riak@riak1.example.com
-Success: sent join request to &apos;riak@riak1.example.com&apos;
-ssh riak5.example.com riak-admin join riak@riak1.example.com
-Success: sent join request to &apos;riak@riak1.example.com&apos;
+<pre><code class="language-bash"><span class="token function">ssh</span> riak2.example.com riak-admin <span class="token function">join</span> riak@riak1.example.com
+Success: sent <span class="token function">join</span> request to <span class="token string">&apos;riak@riak1.example.com&apos;</span>
+<span class="token function">ssh</span> riak3.example.com riak-admin <span class="token function">join</span> riak@riak1.example.com
+Success: sent <span class="token function">join</span> request to <span class="token string">&apos;riak@riak1.example.com&apos;</span>
+<span class="token function">ssh</span> riak4.example.com riak-admin <span class="token function">join</span> riak@riak1.example.com
+Success: sent <span class="token function">join</span> request to <span class="token string">&apos;riak@riak1.example.com&apos;</span>
+<span class="token function">ssh</span> riak5.example.com riak-admin <span class="token function">join</span> riak@riak1.example.com
+Success: sent <span class="token function">join</span> request to <span class="token string">&apos;riak@riak1.example.com&apos;</span>
 </code></pre>
 <p>As shown in the above example, you should expect to see a success message for
 each node&apos;s join attempt. If there are problems, you could see an error
@@ -114,25 +114,25 @@ message instead.</p>
 <p>After a bit of time and provided you saw success messages for each join
 request, you can verify that the cluster is ready with a command like this
 executed from any of the nodes:</p>
-<pre><code class="lang-bash">ssh riak1.example.com riak-admin ringready
-Attempting to restart script through sudo -H -u riak
-TRUE All nodes agree on the ring [&apos;riak@riak1.example.com&apos;,
-                                  &apos;riak@riak2.example.com&apos;,
-                                  &apos;riak@riak3.example.com&apos;,
-                                  &apos;riak@riak4.example.com&apos;,
-                                  &apos;riak@riak5.example.com&apos;]
+<pre><code class="language-bash"><span class="token function">ssh</span> riak1.example.com riak-admin ringready
+Attempting to restart script through <span class="token function">sudo</span> -H -u riak
+TRUE All nodes agree on the ring <span class="token punctuation">[</span><span class="token string">&apos;riak@riak1.example.com&apos;</span>,
+                                  <span class="token string">&apos;riak@riak2.example.com&apos;</span>,
+                                  <span class="token string">&apos;riak@riak3.example.com&apos;</span>,
+                                  <span class="token string">&apos;riak@riak4.example.com&apos;</span>,
+                                  <span class="token string">&apos;riak@riak5.example.com&apos;</span><span class="token punctuation">]</span>
 </code></pre>
 <p>Some other initial checks of the cluster you can try are <code>riak-admin test</code>
 and gathering status through <code>riak-admin status</code> and the HTTP interface.</p>
 <h3 id="riak-admin-test"><a class="heading-anchor" href="#riak-admin-test"><span></span></a>riak-admin test</h3>
-<pre><code class="lang-bash">ssh riak1.example.com riak-admin test
-Attempting to restart script through sudo -H -u riak
-Successfully completed 1 read/write cycle to &apos;riak@riak1.example.com&apos;
+<pre><code class="language-bash"><span class="token function">ssh</span> riak1.example.com riak-admin <span class="token function">test</span>
+Attempting to restart script through <span class="token function">sudo</span> -H -u riak
+Successfully completed 1 read/write cycle to <span class="token string">&apos;riak@riak1.example.com&apos;</span>
 </code></pre>
 <h3 id="riak-admin-status"><a class="heading-anchor" href="#riak-admin-status"><span></span></a>riak-admin status</h3>
 <h3 id="http-stats"><a class="heading-anchor" href="#http-stats"><span></span></a>HTTP stats</h3>
 <p>Use curl to get stats from the HTTP interface like so:</p>
-<pre><code class="lang-bash">curl loadbalancer.example.com/stats
+<pre><code class="language-bash">curl loadbalancer.example.com/stats
 </code></pre>
 <p>You can run <code>curl</code> directly against your load balancer IP as in the
 example above or against something like <code>localhost:8098</code> when on

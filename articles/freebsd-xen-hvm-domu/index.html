@@ -12,7 +12,8 @@ more just a set of notes for my own reference.</p>
 environments when better alternatives are not available, so this is what I am
 using for new FreeBSD DomU instances.</p>
 <p>Assuming available space on a volume group, create similar logical volumes:</p>
-<pre><code class="lang-bash">lvcreate -L 20G -n example-main vg1
+<pre><code class="language-bash">
+lvcreate -L 20G -n example-main vg1
 lvcreate -L 8G  -n example-swap vg1
 lvcreate -L 200G -n example-data vg1
 </code></pre>
@@ -25,52 +26,52 @@ a loop device can be arranges on the host machine to provide a bootable CDROM
 from ISO.</p>
 <p>If you have problems specifying the ISO image directly for CDROM usage, then
 you can mount a loop device on the Xen Dom0:</p>
-<pre><code class="lang-bash">losetup -f /root/FreeBSD-8.2-RELEASE-amd64-disc1.iso
+<pre><code class="language-bash">losetup -f /root/FreeBSD-8.2-RELEASE-amd64-disc1.iso
 losetup /dev/loop0
 </code></pre>
 <p>Once you&apos;ve created a loop device, update the disk entry in your Xen
 configuration to include an entry for the &quot;cdrom drive&quot;:</p>
-<pre><code class="lang-configuration">phy:/dev/loop0,ioemu:hdd:cdrom,r
+<pre><code class="language-config">phy:/dev/loop0,ioemu:hdd:cdrom,r
 </code></pre>
 <p>Here is a complete example Xen DomU configuration:</p>
-<pre><code class="lang-configuration"># Example FreeBSD 8.2 Xen DomU
+<pre><code class="language-config"># Example FreeBSD 8.2 Xen DomU
 
-name = &quot;example&quot;
-kernel = &quot;/usr/lib/xen/boot/hvmloader&quot;
-builder = &apos;hvm&apos;
+<span class="token constant">name</span> <span class="token attr-value"><span class="token punctuation">=</span> &quot;example&quot;</span>
+<span class="token constant">kernel</span> <span class="token attr-value"><span class="token punctuation">=</span> &quot;/usr/lib/xen/boot/hvmloader&quot;</span>
+<span class="token constant">builder</span> <span class="token attr-value"><span class="token punctuation">=</span> &apos;hvm&apos;</span>
 
-memory = 2048
-shadow_memory = 8
+<span class="token constant">memory</span> <span class="token attr-value"><span class="token punctuation">=</span> 2048</span>
+<span class="token constant">shadow_memory</span> <span class="token attr-value"><span class="token punctuation">=</span> 8</span>
 
-cpus = &quot;1&quot;
-vcpus = &quot;0&quot;
+<span class="token constant">cpus</span> <span class="token attr-value"><span class="token punctuation">=</span> &quot;1&quot;</span>
+<span class="token constant">vcpus</span> <span class="token attr-value"><span class="token punctuation">=</span> &quot;0&quot;</span>
 
-vif = [ &apos;mac=00:23:3e:55:73:78, ip=10.10.1.76, vifname=examplewan, bridge=xenbr0&apos;,
-        &apos;mac=00:23:3e:77:73:78, ip=192.168.1.76, vifname=examplelan, bridge=xenbr1&apos; ]
+<span class="token constant">vif</span> <span class="token attr-value"><span class="token punctuation">=</span> [ &apos;mac=00:23:3e:55:73:78, ip=10.10.1.76, vifname=examplewan, bridge=xenbr0&apos;,</span>
+<span class="token constant">        &apos;mac</span><span class="token attr-value"><span class="token punctuation">=</span>00:23:3e:77:73:78, ip=192.168.1.76, vifname=examplelan, bridge=xenbr1&apos; ]</span>
 
-disk = [
+<span class="token constant">disk</span> <span class="token attr-value"><span class="token punctuation">=</span> [</span>
     # CDROM loop device
     &apos;phy:/dev/loop0,ioemu:hdd:cdrom,r&apos;,
     &apos;phy:/dev/vg1/example-main,ioemu:hda,w&apos;,
     &apos;phy:/dev/vg1/example-swap,ioemu:hdb,w&apos;,
     &apos;phy:/dev/vg1/example-data,ioemu:hdb,w&apos;]
 
-boot= &apos;dc&apos; # cdrom then disk
-# boot=&apos;cd&apos; # disk then cdrom
+<span class="token constant">boot</span><span class="token attr-value"><span class="token punctuation">=</span> &apos;dc&apos; # cdrom then disk</span>
+# boot<span class="token attr-value"><span class="token punctuation">=</span>&apos;cd&apos; # disk then cdrom</span>
 
-serial = &apos;pty&apos;
+<span class="token constant">serial</span> <span class="token attr-value"><span class="token punctuation">=</span> &apos;pty&apos;</span>
 
 # VNC console for installation only
-sdl=0
-vnc=1
-vnclisten=&apos;127.0.0.1&apos;
-vncconsole=1
-vncpassword=&apos;&apos;
-stdvga=1
+<span class="token constant">sdl</span><span class="token attr-value"><span class="token punctuation">=</span>0</span>
+<span class="token constant">vnc</span><span class="token attr-value"><span class="token punctuation">=</span>1</span>
+<span class="token constant">vnclisten</span><span class="token attr-value"><span class="token punctuation">=</span>&apos;127.0.0.1&apos;</span>
+<span class="token constant">vncconsole</span><span class="token attr-value"><span class="token punctuation">=</span>1</span>
+<span class="token constant">vncpassword</span><span class="token attr-value"><span class="token punctuation">=</span>&apos;&apos;</span>
+<span class="token constant">stdvga</span><span class="token attr-value"><span class="token punctuation">=</span>1</span>
 
-on_poweroff = &apos;destroy&apos;
-on_reboot = &apos;restart&apos;
-on_crash = &apos;restart&apos;
+<span class="token constant">on_poweroff</span> <span class="token attr-value"><span class="token punctuation">=</span> &apos;destroy&apos;</span>
+<span class="token constant">on_reboot</span> <span class="token attr-value"><span class="token punctuation">=</span> &apos;restart&apos;</span>
+<span class="token constant">on_crash</span> <span class="token attr-value"><span class="token punctuation">=</span> &apos;restart&apos;</span>
 </code></pre>
 <p>You should change certain values as appropriate to match your own system
 configuration before trying to use the example.</p>
@@ -82,7 +83,7 @@ virtual console device.</p>
 <p>This is typically accomplished by enabling the appropriate configuration
 settings and then using an SSH tunnel to allow for remote VNC to localhost.</p>
 <p>A typical ssh invocation looks like this:</p>
-<pre><code class="lang-bash">ssh -l username -L 5900:localhost:5900 remote_hostname
+<pre><code class="language-bash"><span class="token function">ssh</span> -l username -L 5900:localhost:5900 remote_hostname
 </code></pre>
 <p>You&apos;ll want to do the following basic steps to make this kind of connection
 work out:</p>
@@ -105,7 +106,7 @@ some configuration changes.</p>
 of your particular hardware environment, desired performance characteristics,
 capabilities, and so on.</p>
 <p>Here&apos;s an example of an AMD-64 XENHVM kernel configuration:</p>
-<pre><code class="lang-configuration">ident   POTRZEBIE
+<pre><code class="language-config">ident   POTRZEBIE
 machine amd64
 cpu     HAMMER
 options VESA
@@ -122,7 +123,7 @@ options MAC
 options AUDIT
 options HWPMC_HOOKS
 options KBD_INSTALL_CDEV
-options PRINTF_BUFR_SIZE=128
+options PRINTF_BUFR_SIZE<span class="token attr-value"><span class="token punctuation">=</span>128</span>
 options _KPOSIX_PRIORITY_SCHEDULING
 options P1003_1B_SEMAPHORES
 options SYSVSEM
@@ -130,7 +131,7 @@ options SYSVMSG
 options SYSVSHM
 options STACK
 options KTRACE
-options SCSI_DELAY=5000
+options SCSI_DELAY<span class="token attr-value"><span class="token punctuation">=</span>5000</span>
 options COMPAT_FREEBSD7
 options COMPAT_FREEBSD6
 options COMPAT_FREEBSD5
@@ -200,13 +201,13 @@ device  firmware
 device  bpf
 </code></pre>
 <p>To get the console working, edit <code>/boot/loader.conf</code> and  add the following:</p>
-<pre><code class="lang-configuration">boot_multicons=&quot;YES&quot;
-boot_serial=&quot;YES&quot;
-comconsole_speed=115200
-console=&quot;comconsole,vidconsole&quot;
+<pre><code class="language-config"><span class="token constant">boot_multicons</span><span class="token attr-value"><span class="token punctuation">=</span>&quot;YES&quot;</span>
+<span class="token constant">boot_serial</span><span class="token attr-value"><span class="token punctuation">=</span>&quot;YES&quot;</span>
+<span class="token constant">comconsole_speed</span><span class="token attr-value"><span class="token punctuation">=</span>115200</span>
+<span class="token constant">console</span><span class="token attr-value"><span class="token punctuation">=</span>&quot;comconsole,vidconsole&quot;</span>
 </code></pre>
 <p>Then, edit <code>/etc/ttys</code> and activate <code>ttyu0</code>:</p>
-<pre><code class="lang-configuration">ttyu0    &quot;/usr/libexec/getty std.115200&quot;    dialup    on secure
+<pre><code class="language-config">ttyu0    &quot;/usr/libexec/getty std.115200&quot;    dialup    on secure
 </code></pre>
 <p>Restart and you&apos;ll see output (and login terminals) via both xm console and vncviewer.</p>
 <p>Now you&apos;re ready to complete installation and configuration of the new DomU
