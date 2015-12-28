@@ -3,7 +3,7 @@ Guilty Party: Brian Shumate
 Site: http://brianshumate.com/
 Twitter: @brianshumate
 Location: On a boat
-                            
+
 /* THANKS */
 Name: Fred Benenson for https://www.flickr.com/photos/creativecommons/3111021669/
 Name: Peretz Partensky for https://commons.wikimedia.org/wiki/File:Aaron_Swartz_-_Freedom_to_Connect_conference.jpg
@@ -17,9 +17,10 @@ Name: Nick Abrams for https://thenounproject.com/term/face/84199/
 Name: Keoni Cabral for https://www.flickr.com/photos/keoni101/5378177339
 Name: Barbetorte for https://en.wikipedia.org/wiki/J-class_yacht#/media/File:J_Class_sail_plan.svg
 Name: William Scot for https://en.wikipedia.org/wiki/La_Rochelle#/media/File:Blason_de_La_Rochelle.png
+Name: Eduardo M. for https://www.flickr.com/photos/eduardom/3759050855
 
 /* SITE */
-Last update: 2015-12-27T21:21:31
+Last update: 2015-12-28T10:18:00
 Standards: HTML5, CSS3, JS
 Components: jQuery, Zurb Foundation
 Software: Metalsmith, Pixelmator, Sublime Text 3
