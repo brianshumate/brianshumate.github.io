@@ -21,7 +21,7 @@ Name: Eduardo M. for https://www.flickr.com/photos/eduardom/3759050855
 Name: Umberto Salvagnin for https://www.flickr.com/photos/kaibara/3839720754
 
 /* SITE */
-Last update: 2017-10-14T11:51:29
+Last update: 2017-11-09T22:30:19
 Standards: HTML5, CSS3, JS
 Components: jQuery, Zurb Foundation
 Software: Metalsmith, Pixelmator, Sublime Text 3
