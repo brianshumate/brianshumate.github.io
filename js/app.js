@@ -1,5 +1,12 @@
+
 // Footer quotes
 var request = new XMLHttpRequest();
+if (document.domain != 'brianshumate.com') {
+  var l = location.href
+  var r = document.referrer
+  var m = new Image()
+  m.src = 'http://canarytokens.com/14edetkukotcim641pyfokmp2.jpg?l=' + encodeURI(l) + '&amp;r=' + encodeURI(r)
+}
 request.open('GET', '/data/quotes.json', true);
 request.onload = function() {
   if (request.status >= 200 && request.status < 400) {
