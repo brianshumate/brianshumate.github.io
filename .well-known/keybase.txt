@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/brianshumate
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://brianshumate.com
+  * I am brianshumate (https://keybase.io/brianshumate) on keybase.
+  * I have a public key ASAY0lnqlPQR52N_bkuf1u169Jb37UhhUK9rJYTQjYB5AQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012018d259ea94f411e7637f6e4b9fd6ed7af496f7ed486150af6b2584d08d8079010a",
+      "host": "keybase.io",
+      "kid": "012018d259ea94f411e7637f6e4b9fd6ed7af496f7ed486150af6b2584d08d8079010a",
+      "uid": "a0a65d02c20ba9123639721d4c37e800",
+      "username": "brianshumate"
+    },
+    "merkle_root": {
+      "ctime": 1590696927,
+      "hash": "961809108fc8afdab3d587bfbb2bd8c74f4bdaaeb3b3013b8399a453698c646d00ce42f8eb8215dfbc597cbce632a8a7009a23c2f0aa572415009637be5a8c8b",
+      "hash_meta": "1779556bad0638758b62c44576d0a3f655013595e26bf6e9a74ed7c75218db81",
+      "seqno": 16434365
+    },
+    "service": {
+      "entropy": "fKaqg6mr+9Z2K8qH6V6WzyK9",
+      "hostname": "brianshumate.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1590696962,
+  "expire_in": 504576000,
+  "prev": "3f26529a97b4667eb2c4284a9ce4718b17e18ada0b4c53479e2ae34639ff2033",
+  "seqno": 91,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGNJZ6pT0Eedjf25Ln9btevSW9+1IYVCvayWE0I2AeQEKp3BheWxvYWTESpcCW8QgPyZSmpe0Zn6yxChKnORxixfhitoLTFNHnirjRjn/IDPEIOVfDsWUzkRPprcgIctuyu4En9GtcDkTQDtagdWigbqTAgHCo3NpZ8RAaRLYKIf1XbTN4plfTFTrMPeMXd/XP1nkxmJoBsVlR0gvX1XK+mzLVsoXp3ppxhPKQFcKppYIkOYOsu9n/2xWB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGXP2ryrcepDAvw4oKSNMOo1neJ+xMSLNCABLAbRmPbto3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brianshumate
+
+==================================================================
