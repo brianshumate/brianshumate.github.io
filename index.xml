@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brian Shumate</title>
+    <link>https://brianshumate.com/</link>
+    <description>Recent content on Brian Shumate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Jan 2019 00:07:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://brianshumate.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command Line Snippets</title>
+      <link>https://brianshumate.com/articles/command-line-snippets/</link>
+      <pubDate>Fri, 04 Jan 2019 00:07:26 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/command-line-snippets/</guid>
+      <description>&lt;h2 id=&#34;the-fine-art-of-snippet-curation&#34;&gt;The Fine Art of Snippet Curation&lt;/h2&gt;
+&lt;p&gt;Wherein I ramble on a bit about a command line tool that I enjoy using to curate my collection of complex and seldom used but powerful CLI one-liners/snippets, and share some that I&amp;rsquo;ve made for certain command line tools.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>rover</title>
+      <link>https://brianshumate.com/projects/rover/</link>
+      <pubDate>Fri, 27 Oct 2017 15:22:32 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/rover/</guid>
+      <description>I built rover as a prototype CLI project to continue learning the Go programming language.
+The purpose of rover is to gather system and application data from an environment for diagnostics and troubleshooting in a vein similar to Apple&amp;rsquo;s sysdiagnose; it can then also package up the data and ship it off to an S3 bucket as well.
+It is not yet nearly feature complete, but is actually somewhat usable.</description>
+    </item>
+    
+    <item>
+      <title>hashipets</title>
+      <link>https://brianshumate.com/projects/hashipets/</link>
+      <pubDate>Fri, 20 Oct 2017 11:41:39 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/hashipets/</guid>
+      <description>The delicate art of snippet curation with pet and peco My hashipets project is a TOML formatted file full of awesome HashiCorp tool command line snippets for the CLI snippet curation tool pet + peco.
+Be sure to also check out my Command Line Snippets article for a brief dive into the project!</description>
+    </item>
+    
+    <item>
+      <title>Vault Ansible Role</title>
+      <link>https://brianshumate.com/projects/vault-ansible-role/</link>
+      <pubDate>Thu, 13 Oct 2016 11:32:33 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/vault-ansible-role/</guid>
+      <description>HashiCorp&amp;rsquo;s Vault is a significant part of my complete breakfast, so I created a Vault Ansible role to deploy it for all of my morning meditations.</description>
+    </item>
+    
+    <item>
+      <title>Just Burning Down My Twttr</title>
+      <link>https://brianshumate.com/articles/just-burning-down-my-twttr/</link>
+      <pubDate>Sat, 06 Feb 2016 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/just-burning-down-my-twttr/</guid>
+      <description>&lt;h2 id=&#34;why-on-earth-do-we-keep-putting-all-our-egg-avatars-into-one-centralized-profit-driven-social-networking-basket&#34;&gt;Why on Earth do we keep putting all our egg avatars into one centralized profit-driven social networking basket?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Seeing Screens Differently</title>
+      <link>https://brianshumate.com/articles/seeing-screens-differently/</link>
+      <pubDate>Wed, 02 Dec 2015 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/seeing-screens-differently/</guid>
+      <description>&lt;p&gt;An interesting thing happened this weekend that allowed me to fully appreciate what it must be like to use a computer without
+the benefit of sight.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nerdherder</title>
+      <link>https://brianshumate.com/projects/nerdherder/</link>
+      <pubDate>Sun, 22 Nov 2015 11:57:37 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/nerdherder/</guid>
+      <description>Herd nerds with Node.js, the GitHub API and Metalsmith Quick and dirty hack to herd nerds from a given location into a static website.
+Example: Boone, North Carolina nerds
+ NOTE: This project is wildly out of date and contains Node.js modules with critical security issues; it is here for historical purposes only.
+ </description>
+    </item>
+    
+    <item>
+      <title>Consul Ansible Role</title>
+      <link>https://brianshumate.com/projects/consul-ansible-role/</link>
+      <pubDate>Tue, 07 Jul 2015 11:57:05 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/consul-ansible-role/</guid>
+      <description>Deploy the best in service mesh technology! Consul has the best service discovery story of all time, so I created an Consul Ansibe role that builds Consul clusters.</description>
+    </item>
+    
+    <item>
+      <title>Revenge of the Nerds</title>
+      <link>https://brianshumate.com/articles/revenge-of-the-nerds/</link>
+      <pubDate>Mon, 12 Jan 2015 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/revenge-of-the-nerds/</guid>
+      <description>&lt;p&gt;Being a nerd in the 1980s was an arduous existence.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Twitter Bots</title>
+      <link>https://brianshumate.com/articles/twitter-bots/</link>
+      <pubDate>Mon, 12 Jan 2015 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/twitter-bots/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://brianshumate.com/articles/twitter-bots/featured.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;On the subject of twitter bots&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Great Loss</title>
+      <link>https://brianshumate.com/articles/a-great-loss/</link>
+      <pubDate>Sun, 11 Jan 2015 12:27:11 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/a-great-loss/</guid>
+      <description>&lt;p&gt;The technology community and whole world lost an amazing person two years ago today&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Little Coffee Guidebook</title>
+      <link>https://brianshumate.com/projects/a-little-coffee-guidebook/</link>
+      <pubDate>Sat, 06 Dec 2014 12:00:58 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/a-little-coffee-guidebook/</guid>
+      <description>Coffee tips on GitHub because why not? Coffee is my preferred fuel of creativity and nerdliness.
+  A Little Coffee Guidebook   
+A good friend once remarked that I should formally document my daily coffee rituals, coffee making gear, and so on. Here it is:
+A Little Coffee Guidebook I hope you enjoy the notes and photos!</description>
+    </item>
+    
+    <item>
+      <title>Ninjas and Rockstars</title>
+      <link>https://brianshumate.com/projects/ninjas-and-rockstars/</link>
+      <pubDate>Wed, 26 Nov 2014 12:07:16 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/ninjas-and-rockstars/</guid>
+      <description>Nothing like a headcount full of resources to program your unicorn! Whether we&amp;rsquo;re in a tech bulge or bubble, there is no doubt that computering for money sure inspires strange haiku&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Apologies in Advance</title>
+      <link>https://brianshumate.com/projects/apologies-in-advance/</link>
+      <pubDate>Mon, 29 Sep 2014 12:05:00 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/apologies-in-advance/</guid>
+      <description>Similar to concatenating random output to a printer Some bits of older long form poetry I&amp;rsquo;ve written over the last decade or so on no central theme in particular.</description>
+    </item>
+    
+    <item>
+      <title>Happiness Tryouts</title>
+      <link>https://brianshumate.com/projects/happiness-tryouts/</link>
+      <pubDate>Thu, 08 May 2014 12:05:46 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/happiness-tryouts/</guid>
+      <description>A favorite literary pastime and element of mindfulness No mind all the time — the challenge of storytelling with limited means encourages precise recall and being careful with words.
+Happiness Tryouts is a series of Haiku about love, loss, loneliness, and lifetimes.</description>
+    </item>
+    
+    <item>
+      <title>Hubot Ansible Role</title>
+      <link>https://brianshumate.com/projects/hubot-ansible-role/</link>
+      <pubDate>Wed, 19 Feb 2014 12:06:56 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/hubot-ansible-role/</guid>
+      <description>DevOps a chatting robot for various values of great justice! I am a huge fan of automation and while wary of robots in general, I do appreciate helpful ones which lack physical form. I used to work on teams that would make use of Hubot, so I created this Hubot Ansible Role to help deploy one!
+I don&amp;rsquo;t really use Hubot much or maintain this role anymore for that matter, however.</description>
+    </item>
+    
+    <item>
+      <title>Couchbase Server Ansible Role</title>
+      <link>https://brianshumate.com/projects/couchbase-server-ansible-role/</link>
+      <pubDate>Wed, 19 Feb 2014 12:06:15 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/couchbase-server-ansible-role/</guid>
+      <description>Automagically assemble a NoSQL database for big data stuff! Whether you are close to the metal or in the cloud, I built an Couchbase Server Ansible role to help spin up Couchbase Server clusters.
+ NOTE: I do not maintain this project any longer
+ </description>
+    </item>
+    
+    <item>
+      <title>MUG</title>
+      <link>https://brianshumate.com/articles/mug/</link>
+      <pubDate>Mon, 10 Jun 2013 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/mug/</guid>
+      <description>&lt;p&gt;A sunshine perma-mug!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Computer</title>
+      <link>https://brianshumate.com/articles/the-computer/</link>
+      <pubDate>Tue, 07 May 2013 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/the-computer/</guid>
+      <description>&lt;h2 id=&#34;how-in-the-hell-does-it-work&#34;&gt;How in the hell does it work?&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vegan Life</title>
+      <link>https://brianshumate.com/articles/vegan-life/</link>
+      <pubDate>Mon, 22 Apr 2013 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/vegan-life/</guid>
+      <description>&lt;h2 id=&#34;stay-stacking-that-produce-playa&#34;&gt;Stay stacking that produce, playa!&lt;/h2&gt;
+&lt;p&gt;I was made aware of a fun website called &lt;a href=&#34;http://thugkitchen.com/&#34;&gt;Thug Kitchen&lt;/a&gt; full of great recipes and knowledge aimed
+at helping one &lt;!-- raw HTML omitted --&gt;Eat like you give a fuck.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Surviving San Francisco</title>
+      <link>https://brianshumate.com/articles/surviving-san-francisco/</link>
+      <pubDate>Sat, 23 Mar 2013 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/surviving-san-francisco/</guid>
+      <description>&lt;p&gt;I just got back from San Francisco.&lt;/p&gt;
+&lt;p&gt;It was great to see and meet some of the
+folks I&amp;rsquo;d not seen in a long time or even met yet, and for that I am thankful
+to have been to the conference I attended there.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Google Glass Grievances</title>
+      <link>https://brianshumate.com/articles/google-glass-grievances/</link>
+      <pubDate>Thu, 28 Feb 2013 18:08:30 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/google-glass-grievances/</guid>
+      <description>&lt;p&gt;This is a list of potential problems that I&amp;rsquo;ve thought about with respect Google Glass.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ALPACAWHAL</title>
+      <link>https://brianshumate.com/articles/alpacawhal/</link>
+      <pubDate>Wed, 27 Feb 2013 19:34:02 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/alpacawhal/</guid>
+      <description>&lt;h2 id=&#34;the-mighty-alpacawhal&#34;&gt;The Mighty ALPACAWHAL&lt;/h2&gt;
+&lt;p&gt;A mythical beast of supremely pointy compassion and danger&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Capacitor Cowgirl</title>
+      <link>https://brianshumate.com/articles/capacitor-cowgirl/</link>
+      <pubDate>Sun, 24 Feb 2013 17:58:41 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/capacitor-cowgirl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Evolution of Mang</title>
+      <link>https://brianshumate.com/articles/the-evolution-of-mang/</link>
+      <pubDate>Sun, 24 Feb 2013 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/the-evolution-of-mang/</guid>
+      <description>&lt;p&gt;This is where mang has arrived; stooped over and walking into hazards
+while actively communicating via technologies to people in ways they might
+not necessarily even do face-to-face on a daily basis any longer.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Heart Headed</title>
+      <link>https://brianshumate.com/articles/heart-headed/</link>
+      <pubDate>Sun, 24 Feb 2013 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/heart-headed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is It Raining in Portland?</title>
+      <link>https://brianshumate.com/projects/is-it-raining-in-portland/</link>
+      <pubDate>Mon, 01 Oct 2012 12:06:35 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/is-it-raining-in-portland/</guid>
+      <description>isitraininginportland.com I ♥ Portland, Oregon, USA and the weather there is almost as well known as its weirdness.
+So why not amuse the world by accurately predicting it with a tiny Portland weather website that answers the question:
+Is it raining in Portland?</description>
+    </item>
+    
+    <item>
+      <title>Riak on Freebsd ZFS Jails</title>
+      <link>https://brianshumate.com/articles/riak-on-freebsd-zfs-jails/</link>
+      <pubDate>Wed, 23 May 2012 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/riak-on-freebsd-zfs-jails/</guid>
+      <description>&lt;p&gt;This is a ramshackle and slipshod introduction to establishing a specific
+flavor of FreeBSD environment under which to &lt;em&gt;evaluate&lt;/em&gt;, &lt;em&gt;test&lt;/em&gt;, or &lt;em&gt;play&lt;/em&gt;
+with &lt;a href=&#34;http://basho.com/products/riak-overview/&#34;&gt;Riak&lt;/a&gt;, the fantastic
+distributed database by Basho Technologies, Inc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Questlonger</title>
+      <link>https://brianshumate.com/articles/questlonger/</link>
+      <pubDate>Tue, 17 Jan 2012 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/questlonger/</guid>
+      <description>&lt;h2 id=&#34;my-humble-attempt-at-english-language-punctuation-character-invention&#34;&gt;My humble attempt at English language punctuation character invention&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Diaspora on FreeBSD</title>
+      <link>https://brianshumate.com/articles/diaspora-on-freebsd/</link>
+      <pubDate>Wed, 04 Jan 2012 19:52:27 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/diaspora-on-freebsd/</guid>
+      <description>&lt;p&gt;This is a small collection of brief notes and specs for installing a &lt;a href=&#34;http://github.com/diaspora/diaspora&#34;&gt;Diaspora&lt;/a&gt; project pod instance on
+FreeBSD 8.2, which is the setup I &lt;del&gt;am&lt;/del&gt; was using at the create-o-plex pod before I stopped operating it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FreeBSD Xen HVM DomU</title>
+      <link>https://brianshumate.com/articles/freebsd-xen-hvm-domu/</link>
+      <pubDate>Wed, 04 Jan 2012 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/freebsd-xen-hvm-domu/</guid>
+      <description>&lt;h2 id=&#34;notes-on-setting-up-a-freebsd-xen-hvm-domu&#34;&gt;Notes on setting up a FreeBSD Xen HVM DomU&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Graphvik</title>
+      <link>https://brianshumate.com/projects/graphvik/</link>
+      <pubDate>Sun, 25 Sep 2011 12:04:42 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/graphvik/</guid>
+      <description>828 tiles extracted from a photograph of artist Vik Muniz I really dig Vik Muniz&amp;rsquo; style — his great portraits beautifully composed of thoughtful object arrangement are most inspiring.
+Experimenting with force directed graphs led to a microsite based on the simple result.</description>
+    </item>
+    
+    <item>
+      <title>NaN Cat</title>
+      <link>https://brianshumate.com/projects/nan-cat/</link>
+      <pubDate>Sun, 18 Sep 2011 12:05:13 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/nan-cat/</guid>
+      <description>A feline based informal JavaScript mascot with meme appeal For some time I was making parody logo images and designing silly concepts for mascots.
+This one is my alternative mascot for JavaScript: NaN Cat!</description>
+    </item>
+    
+    <item>
+      <title>NaN Cat</title>
+      <link>https://brianshumate.com/articles/nan-cat/</link>
+      <pubDate>Sun, 18 Sep 2011 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/nan-cat/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Not a Number Cat&lt;/strong&gt; is my proposed tongue-in-cheek feline-based unofficial
+JavaScript mascot&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Maps With Public Data</title>
+      <link>https://brianshumate.com/articles/maps-with-public-data/</link>
+      <pubDate>Mon, 12 Sep 2011 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/maps-with-public-data/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been having a great time working with public data and maps lately.
+The main reason that it has been so much fun revolves around the
+specific technology stack I am using to design and present them.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Recursive QR Code</title>
+      <link>https://brianshumate.com/articles/recursive-qr-code/</link>
+      <pubDate>Sat, 23 Jul 2011 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/recursive-qr-code/</guid>
+      <description>&lt;h2 id=&#34;heres-a-recursive-qr-code-just-because-circular-nature-recursion-and-self-referential-things-are-things-nerds-tend-to-think-about-a-lot&#34;&gt;Here&amp;rsquo;s a recursive QR Code, just because circular nature, recursion, and self-referential things are things nerds tend to think about a lot.&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Pet_Rock&#34;&gt;pet rock&lt;/a&gt; of early Web 2.0 — a recursive QR code is a strange little thing that some weirdos just have to possess.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Create-O-Plex</title>
+      <link>https://brianshumate.com/articles/create-o-plex/</link>
+      <pubDate>Wed, 03 Nov 2010 13:22:34 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/create-o-plex/</guid>
+      <description>&lt;h2 id=&#34;mockup-concept-for-an-idea-that-is-no-more&#34;&gt;Mockup concept for an idea that is no more.&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Big Picture with vnstat</title>
+      <link>https://brianshumate.com/articles/big-picture-with-vnstat/</link>
+      <pubDate>Sat, 02 Oct 2010 19:59:47 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/big-picture-with-vnstat/</guid>
+      <description>&lt;p&gt;A co-located box on fat pipes will put pounds on you.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hold Fast</title>
+      <link>https://brianshumate.com/articles/hold-fast/</link>
+      <pubDate>Sun, 19 Sep 2010 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/hold-fast/</guid>
+      <description>&lt;p&gt;This is a personal review of the video zine &lt;a href=&#34;http://www.blueanarchy.org/holdfast/&#34;&gt;Hold
+Fast&lt;/a&gt;. These are stories of maniac sailors, anarchist castaways, and the voyage of the S/V Pestilence.&lt;/p&gt;
+&lt;p&gt;Fun fact: I keep a copy of &lt;em&gt;Hold Fast&lt;/em&gt; on my person at all times.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://brianshumate.com/articles/hold-fast/holding_fast.jpg&#34;
+         alt=&#34;An image depicting a closeup of a person sailing in rough seas&#34;/&gt; &lt;figcaption&gt;
+            &lt;h4&gt;Hold Fast&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Noodling With NodeBox</title>
+      <link>https://brianshumate.com/articles/noodling-with-nodebox/</link>
+      <pubDate>Sat, 04 Sep 2010 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/noodling-with-nodebox/</guid>
+      <description>&lt;p&gt;I like to dabble with visually interesting stuff, and I&amp;rsquo;ve been a big
+fan of the &lt;a href=&#34;http://www.python.org/&#34;&gt;Python&lt;/a&gt; programming language for
+many years, so it&amp;rsquo;s nice to combine the two for fun and nerdly
+excitement with Nodebox. I can recapture the some of the thrill from
+trial and error programming with the infamous
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Logo_(programming_language)&#34;&gt;LOGO&lt;/a&gt; turtle
+I did as a child, but in a flashier manner with Nodebox.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://brianshumate.com/articles/noodling-with-nodebox/nodebox_wl_example.jpg&#34;&gt;&lt;img src=&#34;https://brianshumate.com/articles/noodling-with-nodebox/nodebox_wl_example.jpg&#34; alt=&#34;&#34; title=&#34;Example Nodebox Visualization&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gefingerpoken Cursor Campus</title>
+      <link>https://brianshumate.com/articles/gefingerpoken-cursor-campus/</link>
+      <pubDate>Fri, 16 Jul 2010 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/gefingerpoken-cursor-campus/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://brianshumate.com/articles/gefingerpoken-cursor-campus/featured.jpg&#34; alt=&#34;Gefingerpoken cursorcampus&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Intermodal Steel Building Units (ISBU/shipping containers) can be
+arranged to fashion a small campus where web technologies could be
+taught.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Love and Longboards</title>
+      <link>https://brianshumate.com/articles/love-and-longboards/</link>
+      <pubDate>Sun, 11 Jul 2010 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/love-and-longboards/</guid>
+      <description>&lt;h2 id=&#34;alternative-band-name--longboarding-passion&#34;&gt;Alternative band name + longboarding passion&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Nutshell in a Nutshell</title>
+      <link>https://brianshumate.com/articles/nutshell-in-a-nutshell/</link>
+      <pubDate>Thu, 08 Jul 2010 13:22:35 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/nutshell-in-a-nutshell/</guid>
+      <description>&lt;h2 id=&#34;a-paradoxically-insightful-guide-indeed&#34;&gt;A paradoxically insightful guide, indeed!&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Buddhist Oats</title>
+      <link>https://brianshumate.com/articles/buddhist-oats/</link>
+      <pubDate>Tue, 09 Mar 2010 13:05:38 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/buddhist-oats/</guid>
+      <description>&lt;h2 id=&#34;every-day-provides-the-possibility-of-an-enlightening-breakfast&#34;&gt;Every day provides the possibility of an enlightening breakfast.&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roboto Linux</title>
+      <link>https://brianshumate.com/articles/roboto-linux/</link>
+      <pubDate>Sun, 16 Jul 2006 13:22:36 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/articles/roboto-linux/</guid>
+      <description>&lt;p&gt;Linux for robots.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://brianshumate.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/about/</guid>
+      <description>Slacklining: a favorite outdoor activity   I&amp;rsquo;m an art-making, boardsporting, and slacklining technobilly from the mountains of North Carolina who works with amazing people and super powerful cloud automation and security technologies.
+By day- I help people use awesome cloud infrastructure software like Vault, Consul, and Terraform. I also build, maintain, and contribute useful features and documentation to a variety of Open Source Software projects.
+By night- I cook, make visual art, write books, build projects, and plan treasure hunts.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://brianshumate.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/contact/</guid>
+      <description>You can contact me in the following ways:
+Prearranged method PGP encrypted email   PGP key  FTS Slack GitHub (when related to open source software projects) Plaintext email Amateur Radio: K4APP  </description>
+    </item>
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>https://brianshumate.com/disclaimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/disclaimer/</guid>
+      <description>Notice This is a personal website comprised in part of personally held views.
+All content provided on this website is for informational purposes only. Brian Shumate makes no representations as to accuracy, completeness, suitability, or validity of any information on this website and will not be liable for any errors, omissions, or delays in this information or any losses, injuries, or damages arising from its use. All information is provided on an as-is basis.</description>
+    </item>
+    
+    <item>
+      <title>Editing and Proofreading Work</title>
+      <link>https://brianshumate.com/editing-work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/editing-work/</guid>
+      <description>I enjoy writing (especially technical writing), but I also like to proofread and edit others&amp;rsquo; writing. Providing these services gratis for projects I&amp;rsquo;m interested in is just one way that I like to give back.
+These are some of the projects I&amp;rsquo;ve helped out in this way.
+Learn Python The Hard Way I provided proofreading and editing feedback to Zed Shaw while he authored the first edition of this great beginner&amp;rsquo;s Python programming book.</description>
+    </item>
+    
+    <item>
+      <title>Guides</title>
+      <link>https://brianshumate.com/categories/guides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/categories/guides/</guid>
+      <description>Nothing to see here&amp;hellip; Move along!</description>
+    </item>
+    
+    <item>
+      <title>PGP Key</title>
+      <link>https://brianshumate.com/pgp-key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/pgp-key/</guid>
+      <description>-----BEGIN PGP PUBLIC KEY BLOCK----- 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 =7BgA -----END PGP PUBLIC KEY BLOCK----- </description>
+    </item>
+    
+    <item>
+      <title>What I am doing right now</title>
+      <link>https://brianshumate.com/now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brianshumate.com/now/</guid>
+      <description>What I am doing right now, inspired by nownownow.com&amp;hellip;
+DadOps I&amp;rsquo;m a dad.
+Outdoor activities Biking, boating, camping, paddleboarding, slacklining, surfing, hiking, longboarding, and generally hanging out in nature as much as possible
+Writing Informal essay collections, documentation, poetry, small illustrated guidebooks, like A Little Coffee Guidebook along with occasional editing and proofreading projects
+Reading Lately lots of reading related to art, auto maintenance, machine learning, philosophy, and always academic papers related to computing, cryptography and security, plus occasional poetry</description>
+    </item>
+    
+  </channel>
+</rss>

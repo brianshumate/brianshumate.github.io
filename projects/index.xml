@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Brian Shumate</title>
+    <link>https://brianshumate.com/projects/</link>
+    <description>Recent content in Projects on Brian Shumate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Oct 2017 15:22:32 -0400</lastBuildDate>
+    
+	<atom:link href="https://brianshumate.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>rover</title>
+      <link>https://brianshumate.com/projects/rover/</link>
+      <pubDate>Fri, 27 Oct 2017 15:22:32 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/rover/</guid>
+      <description>I built rover as a prototype CLI project to continue learning the Go programming language.
+The purpose of rover is to gather system and application data from an environment for diagnostics and troubleshooting in a vein similar to Apple&amp;rsquo;s sysdiagnose; it can then also package up the data and ship it off to an S3 bucket as well.
+It is not yet nearly feature complete, but is actually somewhat usable.</description>
+    </item>
+    
+    <item>
+      <title>hashipets</title>
+      <link>https://brianshumate.com/projects/hashipets/</link>
+      <pubDate>Fri, 20 Oct 2017 11:41:39 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/hashipets/</guid>
+      <description>The delicate art of snippet curation with pet and peco My hashipets project is a TOML formatted file full of awesome HashiCorp tool command line snippets for the CLI snippet curation tool pet + peco.
+Be sure to also check out my Command Line Snippets article for a brief dive into the project!</description>
+    </item>
+    
+    <item>
+      <title>Vault Ansible Role</title>
+      <link>https://brianshumate.com/projects/vault-ansible-role/</link>
+      <pubDate>Thu, 13 Oct 2016 11:32:33 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/vault-ansible-role/</guid>
+      <description>HashiCorp&amp;rsquo;s Vault is a significant part of my complete breakfast, so I created a Vault Ansible role to deploy it for all of my morning meditations.</description>
+    </item>
+    
+    <item>
+      <title>Nerdherder</title>
+      <link>https://brianshumate.com/projects/nerdherder/</link>
+      <pubDate>Sun, 22 Nov 2015 11:57:37 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/nerdherder/</guid>
+      <description>Herd nerds with Node.js, the GitHub API and Metalsmith Quick and dirty hack to herd nerds from a given location into a static website.
+Example: Boone, North Carolina nerds
+ NOTE: This project is wildly out of date and contains Node.js modules with critical security issues; it is here for historical purposes only.
+ </description>
+    </item>
+    
+    <item>
+      <title>Consul Ansible Role</title>
+      <link>https://brianshumate.com/projects/consul-ansible-role/</link>
+      <pubDate>Tue, 07 Jul 2015 11:57:05 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/consul-ansible-role/</guid>
+      <description>Deploy the best in service mesh technology! Consul has the best service discovery story of all time, so I created an Consul Ansibe role that builds Consul clusters.</description>
+    </item>
+    
+    <item>
+      <title>A Little Coffee Guidebook</title>
+      <link>https://brianshumate.com/projects/a-little-coffee-guidebook/</link>
+      <pubDate>Sat, 06 Dec 2014 12:00:58 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/a-little-coffee-guidebook/</guid>
+      <description>Coffee tips on GitHub because why not? Coffee is my preferred fuel of creativity and nerdliness.
+  A Little Coffee Guidebook   
+A good friend once remarked that I should formally document my daily coffee rituals, coffee making gear, and so on. Here it is:
+A Little Coffee Guidebook I hope you enjoy the notes and photos!</description>
+    </item>
+    
+    <item>
+      <title>Ninjas and Rockstars</title>
+      <link>https://brianshumate.com/projects/ninjas-and-rockstars/</link>
+      <pubDate>Wed, 26 Nov 2014 12:07:16 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/ninjas-and-rockstars/</guid>
+      <description>Nothing like a headcount full of resources to program your unicorn! Whether we&amp;rsquo;re in a tech bulge or bubble, there is no doubt that computering for money sure inspires strange haiku&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Apologies in Advance</title>
+      <link>https://brianshumate.com/projects/apologies-in-advance/</link>
+      <pubDate>Mon, 29 Sep 2014 12:05:00 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/apologies-in-advance/</guid>
+      <description>Similar to concatenating random output to a printer Some bits of older long form poetry I&amp;rsquo;ve written over the last decade or so on no central theme in particular.</description>
+    </item>
+    
+    <item>
+      <title>Happiness Tryouts</title>
+      <link>https://brianshumate.com/projects/happiness-tryouts/</link>
+      <pubDate>Thu, 08 May 2014 12:05:46 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/happiness-tryouts/</guid>
+      <description>A favorite literary pastime and element of mindfulness No mind all the time — the challenge of storytelling with limited means encourages precise recall and being careful with words.
+Happiness Tryouts is a series of Haiku about love, loss, loneliness, and lifetimes.</description>
+    </item>
+    
+    <item>
+      <title>Hubot Ansible Role</title>
+      <link>https://brianshumate.com/projects/hubot-ansible-role/</link>
+      <pubDate>Wed, 19 Feb 2014 12:06:56 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/hubot-ansible-role/</guid>
+      <description>DevOps a chatting robot for various values of great justice! I am a huge fan of automation and while wary of robots in general, I do appreciate helpful ones which lack physical form. I used to work on teams that would make use of Hubot, so I created this Hubot Ansible Role to help deploy one!
+I don&amp;rsquo;t really use Hubot much or maintain this role anymore for that matter, however.</description>
+    </item>
+    
+    <item>
+      <title>Couchbase Server Ansible Role</title>
+      <link>https://brianshumate.com/projects/couchbase-server-ansible-role/</link>
+      <pubDate>Wed, 19 Feb 2014 12:06:15 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/couchbase-server-ansible-role/</guid>
+      <description>Automagically assemble a NoSQL database for big data stuff! Whether you are close to the metal or in the cloud, I built an Couchbase Server Ansible role to help spin up Couchbase Server clusters.
+ NOTE: I do not maintain this project any longer
+ </description>
+    </item>
+    
+    <item>
+      <title>Is It Raining in Portland?</title>
+      <link>https://brianshumate.com/projects/is-it-raining-in-portland/</link>
+      <pubDate>Mon, 01 Oct 2012 12:06:35 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/is-it-raining-in-portland/</guid>
+      <description>isitraininginportland.com I ♥ Portland, Oregon, USA and the weather there is almost as well known as its weirdness.
+So why not amuse the world by accurately predicting it with a tiny Portland weather website that answers the question:
+Is it raining in Portland?</description>
+    </item>
+    
+    <item>
+      <title>Graphvik</title>
+      <link>https://brianshumate.com/projects/graphvik/</link>
+      <pubDate>Sun, 25 Sep 2011 12:04:42 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/graphvik/</guid>
+      <description>828 tiles extracted from a photograph of artist Vik Muniz I really dig Vik Muniz&amp;rsquo; style — his great portraits beautifully composed of thoughtful object arrangement are most inspiring.
+Experimenting with force directed graphs led to a microsite based on the simple result.</description>
+    </item>
+    
+    <item>
+      <title>NaN Cat</title>
+      <link>https://brianshumate.com/projects/nan-cat/</link>
+      <pubDate>Sun, 18 Sep 2011 12:05:13 -0400</pubDate>
+      
+      <guid>https://brianshumate.com/projects/nan-cat/</guid>
+      <description>A feline based informal JavaScript mascot with meme appeal For some time I was making parody logo images and designing silly concepts for mascots.
+This one is my alternative mascot for JavaScript: NaN Cat!</description>
+    </item>
+    
+  </channel>
+</rss>
